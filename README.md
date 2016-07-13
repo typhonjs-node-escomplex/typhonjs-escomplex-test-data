@@ -15,13 +15,15 @@ The following files are available:
 An examples follows on how to load and parse files for use:
 ```
 import fs               from 'fs';
-import path             from 'path';
 
-import ProjectFormatter from 'typhonjs-escomplex-commons/src/project/result/ProjectFormatter';
 import ProjectResult    from 'typhonjs-escomplex-commons/src/project/result/ProjectResult';
 
-const largeProjectJSON = JSON.parse(fs.readFileSync(path.resolve(process.cwd(),
- './node_modules/typhonjs-escomplex-test-data/files/large_project.json'), 'utf8'));
+// You can either use `fs`.
+// const largeProjectJSON = 
+//  JSON.parse(fs.readFileSync('./node_modules/typhonjs-escomplex-test-data/files/large_project.json', 'utf8'));
+
+// Or for JSON files simply `require` it.
+const largeProjectJSON = require('typhonjs-escomplex-test-data/files/large_project');
 
 const projectResult = ProjectResult.parse(largeProjectJSON);
 
