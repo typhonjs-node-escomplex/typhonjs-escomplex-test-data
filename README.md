@@ -10,20 +10,19 @@ This repo is included in devDependencies linked directly to GitHub such as:
 
 The following files are available:
 
-`./files/large_project.json`: A serialized ProjectResult of typhonjs-escomplex-project and dependencies. 
+`./files/large-project/results.json`: A serialized ProjectResult of typhonjs-escomplex-project and dependencies. 
+`./files/large-project/results-no-reports.json`: A serialized ProjectResult of typhonjs-escomplex-project and dependencies without ModuleReports serialized. 
 
 An examples follows on how to load and parse files for use:
 ```
-import fs               from 'fs';
-
 import ProjectResult    from 'typhonjs-escomplex-commons/src/project/result/ProjectResult';
 
 // You can either use `fs`.
 // const largeProjectJSON = 
-//  JSON.parse(fs.readFileSync('./node_modules/typhonjs-escomplex-test-data/files/large_project.json', 'utf8'));
+//  JSON.parse(fs.readFileSync('./node_modules/typhonjs-escomplex-test-data/files/large-project/results.json', 'utf8'));
 
 // Or for JSON files simply `require` it.
-const largeProjectJSON = require('typhonjs-escomplex-test-data/files/large_project');
+const largeProjectJSON = require('typhonjs-escomplex-test-data/files/large-project/results');
 
 const projectResult = ProjectResult.parse(largeProjectJSON);
 
