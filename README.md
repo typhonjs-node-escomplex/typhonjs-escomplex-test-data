@@ -16,7 +16,7 @@ The following files are available:
 
 `./files/large-module/report/report.json`: A serialized ModuleReport of `backbone-es6`-> `Collection.js`. 
 
-`./files/large-module/report/src/Collection.js`: The JS source that generated large-module `report.json`. 
+`./files/large-module/src/Collection.js`: The JS source that generated large-module `report.json`. 
 
 An examples follows on how to load and parse files for use:
 ```
