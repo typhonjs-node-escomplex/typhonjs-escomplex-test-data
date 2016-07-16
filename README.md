@@ -24,10 +24,10 @@ import ProjectResult    from 'typhonjs-escomplex-commons/src/project/result/Proj
 
 // You can either use `fs`.
 // const largeProjectJSON = 
-//  JSON.parse(fs.readFileSync('./node_modules/typhonjs-escomplex-test-data/files/large-project/results.json', 'utf8'));
+//  JSON.parse(fs.readFileSync('./node_modules/typhonjs-escomplex-test-data/files/large-project/results/results.json', 'utf8'));
 
 // Or for JSON files simply `require` it.
-const largeProjectJSON = require('typhonjs-escomplex-test-data/files/large-project/results');
+const largeProjectJSON = require('typhonjs-escomplex-test-data/files/large-project/results/results');
 
 const projectResult = ProjectResult.parse(largeProjectJSON);
 
