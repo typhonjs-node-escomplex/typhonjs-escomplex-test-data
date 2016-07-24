@@ -55,11 +55,11 @@
                "reset",
                "extend",
                "silent",
-               true,
+               "true",
                "add",
                "set",
                "merge",
-               false,
+               "false",
                "s_ADD_OPTIONS",
                "at",
                "index",
@@ -354,11 +354,11 @@
                      "reset",
                      "extend",
                      "silent",
-                     true,
+                     "true",
                      "add",
                      "set",
                      "merge",
-                     false,
+                     "false",
                      "s_ADD_OPTIONS",
                      "at",
                      "index",
@@ -572,7 +572,7 @@
                         "reset",
                         "extend",
                         "silent",
-                        true
+                        "true"
                      ]
                   },
                   "operators": {
@@ -627,7 +627,7 @@
                         "_",
                         "extend",
                         "merge",
-                        false,
+                        "false",
                         "s_ADD_OPTIONS"
                      ]
                   },
@@ -761,7 +761,7 @@
                         "model",
                         "this",
                         "_prepareModel",
-                        false,
+                        "false",
                         "add",
                         "collection",
                         "success",
@@ -859,7 +859,7 @@
                         "_",
                         "extend",
                         "parse",
-                        true,
+                        "true",
                         "success",
                         "Utils",
                         "wrapError",
@@ -916,7 +916,7 @@
                         "Debug",
                         "log",
                         "Collection - fetch - success callback - method: ",
-                        true,
+                        "true",
                         "this",
                         "success",
                         "call",
@@ -965,7 +965,7 @@
                         "attrs",
                         "this",
                         "where",
-                        true
+                        "true"
                      ]
                   },
                   "operators": {
@@ -1086,7 +1086,7 @@
             },
             {
                "cyclomatic": 1,
-               "cyclomaticDensity": null,
+               "cyclomaticDensity": 0,
                "halstead": {
                   "bugs": 0,
                   "difficulty": 0,
@@ -1138,7 +1138,7 @@
                         "prototype",
                         "idAttribute",
                         "Collection - modelId - 0 - this.model.prototype.idAttribute: ",
-                        true,
+                        "true",
                         "JSON",
                         "stringify",
                         "Collection - modelId - 1 - attrs: ",
@@ -1308,7 +1308,7 @@
                         "Debug",
                         "log",
                         "Collection - _prepareModel - 0",
-                        true,
+                        "true",
                         "collection",
                         "this",
                         "_",
@@ -1319,7 +1319,7 @@
                         "validationError",
                         "trigger",
                         "\"invalid\"",
-                        false
+                        "false"
                      ]
                   },
                   "operators": {
@@ -1528,7 +1528,7 @@
                         "add",
                         "extend",
                         "silent",
-                        true,
+                        "true",
                         "trigger",
                         "\"reset\""
                      ]
@@ -1582,7 +1582,7 @@
                         "Debug",
                         "log",
                         "Collection - set - 0",
-                        true,
+                        "true",
                         "Utils",
                         "isNullOrUndef",
                         "_",
@@ -1609,7 +1609,7 @@
                         "merge",
                         "remove",
                         "sort",
-                        false,
+                        "false",
                         "sortable",
                         "comparator",
                         "sortAttr",
@@ -1903,7 +1903,7 @@
                         "Debug",
                         "log",
                         "\"Collection - sync\"",
-                        true,
+                        "true",
                         "BackboneProxy",
                         "backbone",
                         "sync",
@@ -2099,15 +2099,36 @@
                }
             }
          ],
+         "methodAverage": {
+            "cyclomatic": 3.742,
+            "cyclomaticDensity": 66.639,
+            "halstead": {
+               "bugs": 0.088,
+               "difficulty": 7.108,
+               "effort": 8875.587,
+               "length": 49.903,
+               "time": 493.088,
+               "vocabulary": 17.452,
+               "volume": 264.965,
+               "operands": {
+                  "distinct": 11.065,
+                  "total": 27.387
+               },
+               "operators": {
+                  "distinct": 6.387,
+                  "total": 22.516
+               }
+            },
+            "params": 1.29,
+            "sloc": {
+               "logical": 7.613,
+               "physical": 14.613
+            }
+         },
          "name": "Collection",
-         "maintainability": 106.722,
-         "cyclomatic": 3.742,
-         "effort": 8875.587,
-         "loc": 7.613,
-         "params": 1.29
+         "maintainability": 106.722
       }
    ],
-   "cyclomatic": 3.889,
    "dependencies": [
       {
          "line": 3,
@@ -2140,10 +2161,8 @@
          "type": "esm"
       }
    ],
-   "effort": 8658.36,
    "lineEnd": 1120,
    "lineStart": 1,
-   "loc": 8.333,
    "maintainability": 105.333,
    "methods": [
       {
@@ -2172,7 +2191,7 @@
                   "log",
                   "Collection - s_ADD_REFERENCE - id: ",
                   "; model.cid: ",
-                  true,
+                  "true",
                   "Utils",
                   "isNullOrUndef",
                   "on",
@@ -2224,7 +2243,7 @@
                   "Debug",
                   "log",
                   "Collection - s_ON_MODEL_EVENT - 0 - event: ",
-                  true,
+                  "true",
                   "\"add\"",
                   "\"remove\"",
                   "this",
@@ -2301,7 +2320,7 @@
                   "Debug",
                   "log",
                   "Collection - s_REMOVE_MODELS - 0 - model: ",
-                  true,
+                  "true",
                   "toJSON",
                   "Collection - s_REMOVE_MODELS - 1 - model: ",
                   "index",
@@ -2467,5 +2486,30 @@
          }
       }
    ],
-   "params": 1.5
+   "methodAverage": {
+      "cyclomatic": 3.889,
+      "cyclomaticDensity": 62.645,
+      "halstead": {
+         "bugs": 0.097,
+         "difficulty": 8.141,
+         "effort": 8658.36,
+         "length": 55.528,
+         "time": 481.02,
+         "vocabulary": 19.333,
+         "volume": 291.028,
+         "operands": {
+            "distinct": 12.361,
+            "total": 30.583
+         },
+         "operators": {
+            "distinct": 6.972,
+            "total": 24.944
+         }
+      },
+      "params": 1.5,
+      "sloc": {
+         "logical": 8.333,
+         "physical": 15.194
+      }
+   }
 }

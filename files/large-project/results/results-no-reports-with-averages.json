@@ -1,0 +1,2306 @@
+{
+   "settings": {
+      "serializeReports": false,
+      "serializeAverages": true,
+      "skipCalculation": false,
+      "noCoreSize": false
+   },
+   "adjacencyList": [
+      {
+         "row": 0,
+         "cols": [
+            2,
+            13,
+            20,
+            41
+         ]
+      },
+      {
+         "row": 1,
+         "cols": [
+            0
+         ]
+      },
+      {
+         "row": 3,
+         "cols": [
+            42
+         ]
+      },
+      {
+         "row": 4,
+         "cols": [
+            42
+         ]
+      },
+      {
+         "row": 8,
+         "cols": [
+            7
+         ]
+      },
+      {
+         "row": 9,
+         "cols": [
+            8
+         ]
+      },
+      {
+         "row": 10,
+         "cols": [
+            6,
+            8,
+            12
+         ]
+      },
+      {
+         "row": 12,
+         "cols": [
+            6,
+            11
+         ]
+      },
+      {
+         "row": 13,
+         "cols": [
+            6,
+            8,
+            10,
+            12,
+            37,
+            38
+         ]
+      },
+      {
+         "row": 14,
+         "cols": [
+            15,
+            16,
+            18
+         ]
+      },
+      {
+         "row": 15,
+         "cols": [
+            19
+         ]
+      },
+      {
+         "row": 20,
+         "cols": [
+            9,
+            13,
+            37,
+            38,
+            40
+         ]
+      },
+      {
+         "row": 22,
+         "cols": [
+            39
+         ]
+      },
+      {
+         "row": 23,
+         "cols": [
+            39
+         ]
+      },
+      {
+         "row": 25,
+         "cols": [
+            32,
+            40
+         ]
+      },
+      {
+         "row": 26,
+         "cols": [
+            33
+         ]
+      },
+      {
+         "row": 27,
+         "cols": [
+            34,
+            40
+         ]
+      },
+      {
+         "row": 28,
+         "cols": [
+            30
+         ]
+      },
+      {
+         "row": 29,
+         "cols": [
+            36
+         ]
+      },
+      {
+         "row": 30,
+         "cols": [
+            40
+         ]
+      },
+      {
+         "row": 31,
+         "cols": [
+            39
+         ]
+      },
+      {
+         "row": 32,
+         "cols": [
+            30,
+            37
+         ]
+      },
+      {
+         "row": 33,
+         "cols": [
+            31
+         ]
+      },
+      {
+         "row": 34,
+         "cols": [
+            30
+         ]
+      },
+      {
+         "row": 35,
+         "cols": [
+            30
+         ]
+      },
+      {
+         "row": 36,
+         "cols": [
+            31
+         ]
+      },
+      {
+         "row": 37,
+         "cols": [
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36
+         ]
+      },
+      {
+         "row": 38,
+         "cols": [
+            39
+         ]
+      },
+      {
+         "row": 40,
+         "cols": [
+            39
+         ]
+      },
+      {
+         "row": 41,
+         "cols": [
+            43
+         ]
+      },
+      {
+         "row": 42,
+         "cols": [
+            41
+         ]
+      },
+      {
+         "row": 43,
+         "cols": [
+            13
+         ]
+      }
+   ],
+   "changeCost": 23.14,
+   "coreSize": 27.273,
+   "firstOrderDensity": 3.461,
+   "moduleAverage": {
+      "methodAverage": {
+         "cyclomatic": 1.976,
+         "cyclomaticDensity": 82.75,
+         "halstead": {
+            "bugs": 0.035,
+            "difficulty": 4.885,
+            "effort": 1256.351,
+            "length": 25.078,
+            "time": 69.797,
+            "vocabulary": 12.03,
+            "volume": 106.421,
+            "operands": {
+               "distinct": 6.962,
+               "total": 13.738
+            },
+            "operators": {
+               "distinct": 5.068,
+               "total": 11.34
+            }
+         },
+         "params": 1.153,
+         "sloc": {
+            "logical": 3.667,
+            "physical": 11.147
+         }
+      },
+      "maintainability": 134.827
+   },
+   "reports": [
+      {
+         "filePath": "./src/ESComplexProject.js",
+         "srcPath": "./src/ESComplexProject.js",
+         "maintainability": 110.612,
+         "methodAverage": {
+            "cyclomatic": 3,
+            "cyclomaticDensity": 50.106,
+            "halstead": {
+               "bugs": 0.076,
+               "difficulty": 7.458,
+               "effort": 2653.64,
+               "length": 46.875,
+               "time": 147.424,
+               "vocabulary": 21,
+               "volume": 227.131,
+               "operands": {
+                  "distinct": 13,
+                  "total": 24.375
+               },
+               "operators": {
+                  "distinct": 8,
+                  "total": 22.5
+               }
+            },
+            "params": 1.875,
+            "sloc": {
+               "logical": 7.75,
+               "physical": 23.75
+            }
+         }
+      },
+      {
+         "filePath": "./src/index.js",
+         "srcPath": "./src/index.js",
+         "maintainability": 171,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 0,
+            "halstead": {
+               "bugs": 0.014,
+               "difficulty": 3.75,
+               "effort": 154.534,
+               "length": 13,
+               "time": 8.585,
+               "vocabulary": 9,
+               "volume": 41.209,
+               "operands": {
+                  "distinct": 4,
+                  "total": 6
+               },
+               "operators": {
+                  "distinct": 5,
+                  "total": 7
+               }
+            },
+            "params": 0,
+            "sloc": {
+               "logical": 0,
+               "physical": 10
+            }
+         }
+      },
+      {
+         "filePath": "./src/Plugins.js",
+         "srcPath": "./src/Plugins.js",
+         "maintainability": 120.055,
+         "methodAverage": {
+            "cyclomatic": 2.75,
+            "cyclomaticDensity": 55.208,
+            "halstead": {
+               "bugs": 0.052,
+               "difficulty": 8.199,
+               "effort": 1715.375,
+               "length": 36,
+               "time": 95.299,
+               "vocabulary": 18.25,
+               "volume": 156.919,
+               "operands": {
+                  "distinct": 10,
+                  "total": 20.25
+               },
+               "operators": {
+                  "distinct": 8.25,
+                  "total": 15.75
+               }
+            },
+            "params": 1.5,
+            "sloc": {
+               "logical": 4.75,
+               "physical": 10
+            }
+         }
+      },
+      {
+         "filePath": "./test/fixture/testImportNPMAlias.js",
+         "srcPath": "./test/fixture/testImportNPMAlias.js",
+         "maintainability": 171,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 0,
+            "halstead": {
+               "bugs": 0.003,
+               "difficulty": 1,
+               "effort": 8,
+               "length": 4,
+               "time": 0.444,
+               "vocabulary": 4,
+               "volume": 8,
+               "operands": {
+                  "distinct": 2,
+                  "total": 2
+               },
+               "operators": {
+                  "distinct": 2,
+                  "total": 2
+               }
+            },
+            "params": 0,
+            "sloc": {
+               "logical": 0,
+               "physical": 4
+            }
+         }
+      },
+      {
+         "filePath": "./test/fixture/testRequireNPMAlias.js",
+         "srcPath": "./test/fixture/testRequireNPMAlias.js",
+         "maintainability": 160.237,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 100,
+            "halstead": {
+               "bugs": 0.005,
+               "difficulty": 1.5,
+               "effort": 23.265,
+               "length": 6,
+               "time": 1.292,
+               "vocabulary": 6,
+               "volume": 15.51,
+               "operands": {
+                  "distinct": 3,
+                  "total": 3
+               },
+               "operators": {
+                  "distinct": 3,
+                  "total": 3
+               }
+            },
+            "params": 0,
+            "sloc": {
+               "logical": 1,
+               "physical": 4
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/plugin/syntax/AbstractSyntaxLoader.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/plugin/syntax/AbstractSyntaxLoader.js",
+         "maintainability": 122.136,
+         "methodAverage": {
+            "cyclomatic": 3.333,
+            "cyclomaticDensity": 82.222,
+            "halstead": {
+               "bugs": 0.047,
+               "difficulty": 8.594,
+               "effort": 1423.457,
+               "length": 32.667,
+               "time": 79.081,
+               "vocabulary": 18.667,
+               "volume": 141.762,
+               "operands": {
+                  "distinct": 9,
+                  "total": 16
+               },
+               "operators": {
+                  "distinct": 9.667,
+                  "total": 16.667
+               }
+            },
+            "params": 1,
+            "sloc": {
+               "logical": 4.333,
+               "physical": 7.667
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/report/AbstractReport.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/report/AbstractReport.js",
+         "maintainability": 148.376,
+         "methodAverage": {
+            "cyclomatic": 1.25,
+            "cyclomaticDensity": 95.833,
+            "halstead": {
+               "bugs": 0.014,
+               "difficulty": 2.314,
+               "effort": 107.712,
+               "length": 13.25,
+               "time": 5.984,
+               "vocabulary": 8.25,
+               "volume": 42.433,
+               "operands": {
+                  "distinct": 5.25,
+                  "total": 7.875
+               },
+               "operators": {
+                  "distinct": 3,
+                  "total": 5.375
+               }
+            },
+            "params": 1.25,
+            "sloc": {
+               "logical": 1.5,
+               "physical": 5.5
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/report/averages/HalsteadAverage.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/report/averages/HalsteadAverage.js",
+         "maintainability": 105.249,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 7.692,
+            "halstead": {
+               "bugs": 0.078,
+               "difficulty": 5.077,
+               "effort": 1182.849,
+               "length": 57,
+               "time": 65.714,
+               "vocabulary": 17,
+               "volume": 232.985,
+               "operands": {
+                  "distinct": 13,
+                  "total": 33
+               },
+               "operators": {
+                  "distinct": 4,
+                  "total": 24
+               }
+            },
+            "params": 0,
+            "sloc": {
+               "logical": 13,
+               "physical": 57
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/report/averages/MethodAverage.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/report/averages/MethodAverage.js",
+         "maintainability": 117.819,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 14.286,
+            "halstead": {
+               "bugs": 0.042,
+               "difficulty": 4.5,
+               "effort": 562.592,
+               "length": 32,
+               "time": 31.255,
+               "vocabulary": 15,
+               "volume": 125.02,
+               "operands": {
+                  "distinct": 10,
+                  "total": 18
+               },
+               "operators": {
+                  "distinct": 5,
+                  "total": 14
+               }
+            },
+            "params": 0,
+            "sloc": {
+               "logical": 7,
+               "physical": 32
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/report/averages/ModuleAverage.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/report/averages/ModuleAverage.js",
+         "maintainability": 145.803,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 50,
+            "halstead": {
+               "bugs": 0.011,
+               "difficulty": 1.8,
+               "effort": 59.4,
+               "length": 11,
+               "time": 3.3,
+               "vocabulary": 8,
+               "volume": 33,
+               "operands": {
+                  "distinct": 5,
+                  "total": 6
+               },
+               "operators": {
+                  "distinct": 3,
+                  "total": 5
+               }
+            },
+            "params": 0,
+            "sloc": {
+               "logical": 2,
+               "physical": 10
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/report/ClassReport.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/report/ClassReport.js",
+         "maintainability": 126.121,
+         "methodAverage": {
+            "cyclomatic": 1.4,
+            "cyclomaticDensity": 58.095,
+            "halstead": {
+               "bugs": 0.035,
+               "difficulty": 4.734,
+               "effort": 876.615,
+               "length": 25.4,
+               "time": 48.701,
+               "vocabulary": 12.6,
+               "volume": 104.763,
+               "operands": {
+                  "distinct": 7.4,
+                  "total": 14.2
+               },
+               "operators": {
+                  "distinct": 5.2,
+                  "total": 11.2
+               }
+            },
+            "params": 1.2,
+            "sloc": {
+               "logical": 3.8,
+               "physical": 13.4
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/report/HalsteadData.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/report/HalsteadData.js",
+         "maintainability": 110.635,
+         "methodAverage": {
+            "cyclomatic": 1.667,
+            "cyclomaticDensity": 41.616,
+            "halstead": {
+               "bugs": 0.055,
+               "difficulty": 6.292,
+               "effort": 1137.029,
+               "length": 39.667,
+               "time": 63.168,
+               "vocabulary": 16.333,
+               "volume": 165.899,
+               "operands": {
+                  "distinct": 10,
+                  "total": 21.333
+               },
+               "operators": {
+                  "distinct": 6.333,
+                  "total": 18.333
+               }
+            },
+            "params": 0.667,
+            "sloc": {
+               "logical": 9.333,
+               "physical": 23.333
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/report/MethodReport.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/report/MethodReport.js",
+         "maintainability": 120.143,
+         "methodAverage": {
+            "cyclomatic": 1.333,
+            "cyclomaticDensity": 41.919,
+            "halstead": {
+               "bugs": 0.041,
+               "difficulty": 5.381,
+               "effort": 1013.972,
+               "length": 28.333,
+               "time": 56.332,
+               "vocabulary": 15,
+               "volume": 121.839,
+               "operands": {
+                  "distinct": 8.667,
+                  "total": 16.667
+               },
+               "operators": {
+                  "distinct": 6.333,
+                  "total": 11.667
+               }
+            },
+            "params": 1.667,
+            "sloc": {
+               "logical": 5.333,
+               "physical": 21.667
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/report/ModuleReport.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/report/ModuleReport.js",
+         "maintainability": 122.063,
+         "methodAverage": {
+            "cyclomatic": 2.13,
+            "cyclomaticDensity": 88.64,
+            "halstead": {
+               "bugs": 0.04,
+               "difficulty": 5.585,
+               "effort": 1225.156,
+               "length": 28.478,
+               "time": 68.064,
+               "vocabulary": 13.391,
+               "volume": 120.993,
+               "operands": {
+                  "distinct": 7.652,
+                  "total": 15.348
+               },
+               "operators": {
+                  "distinct": 5.739,
+                  "total": 13.13
+               }
+            },
+            "params": 1.217,
+            "sloc": {
+               "logical": 4.522,
+               "physical": 12.565
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/actualize.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/traits/actualize.js",
+         "maintainability": 111.799,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 12.5,
+            "halstead": {
+               "bugs": 0.098,
+               "difficulty": 5.921,
+               "effort": 1737.459,
+               "length": 64,
+               "time": 96.526,
+               "vocabulary": 24,
+               "volume": 293.438,
+               "operands": {
+                  "distinct": 19,
+                  "total": 45
+               },
+               "operators": {
+                  "distinct": 5,
+                  "total": 19
+               }
+            },
+            "params": 7,
+            "sloc": {
+               "logical": 8,
+               "physical": 13
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/HalsteadArray.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/traits/HalsteadArray.js",
+         "maintainability": 139.397,
+         "methodAverage": {
+            "cyclomatic": 1.636,
+            "cyclomaticDensity": 100.758,
+            "halstead": {
+               "bugs": 0.019,
+               "difficulty": 4.215,
+               "effort": 374.012,
+               "length": 15.364,
+               "time": 20.778,
+               "vocabulary": 10.545,
+               "volume": 57.055,
+               "operands": {
+                  "distinct": 5.091,
+                  "total": 7.545
+               },
+               "operators": {
+                  "distinct": 5.455,
+                  "total": 7.818
+               }
+            },
+            "params": 0.909,
+            "sloc": {
+               "logical": 2,
+               "physical": 8.455
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/safeArray.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/traits/safeArray.js",
+         "maintainability": 148.682,
+         "methodAverage": {
+            "cyclomatic": 4,
+            "cyclomaticDensity": 400,
+            "halstead": {
+               "bugs": 0.026,
+               "difficulty": 8,
+               "effort": 621.674,
+               "length": 21,
+               "time": 34.537,
+               "vocabulary": 13,
+               "volume": 77.709,
+               "operands": {
+                  "distinct": 5,
+                  "total": 10
+               },
+               "operators": {
+                  "distinct": 8,
+                  "total": 11
+               }
+            },
+            "params": 1,
+            "sloc": {
+               "logical": 1,
+               "physical": 4
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/safeName.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/traits/safeName.js",
+         "maintainability": 119.451,
+         "methodAverage": {
+            "cyclomatic": 7,
+            "cyclomaticDensity": 140,
+            "halstead": {
+               "bugs": 0.055,
+               "difficulty": 9.188,
+               "effort": 1507.571,
+               "length": 42,
+               "time": 83.754,
+               "vocabulary": 15,
+               "volume": 164.089,
+               "operands": {
+                  "distinct": 8,
+                  "total": 21
+               },
+               "operators": {
+                  "distinct": 7,
+                  "total": 21
+               }
+            },
+            "params": 2,
+            "sloc": {
+               "logical": 5,
+               "physical": 11
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/Trait.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/traits/Trait.js",
+         "maintainability": 138.638,
+         "methodAverage": {
+            "cyclomatic": 1.8,
+            "cyclomaticDensity": 110,
+            "halstead": {
+               "bugs": 0.019,
+               "difficulty": 5.036,
+               "effort": 463.874,
+               "length": 15.4,
+               "time": 25.771,
+               "vocabulary": 10,
+               "volume": 56.551,
+               "operands": {
+                  "distinct": 4.4,
+                  "total": 7.6
+               },
+               "operators": {
+                  "distinct": 5.6,
+                  "total": 7.8
+               }
+            },
+            "params": 0.8,
+            "sloc": {
+               "logical": 2,
+               "physical": 6.2
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/TraitHalstead.js",
+         "srcPath": "typhonjs-escomplex-commons/src/module/traits/TraitHalstead.js",
+         "maintainability": 128.1,
+         "methodAverage": {
+            "cyclomatic": 2.857,
+            "cyclomaticDensity": 130.22,
+            "halstead": {
+               "bugs": 0.038,
+               "difficulty": 6.267,
+               "effort": 1151.662,
+               "length": 26.571,
+               "time": 63.981,
+               "vocabulary": 13.286,
+               "volume": 112.932,
+               "operands": {
+                  "distinct": 6.714,
+                  "total": 12.857
+               },
+               "operators": {
+                  "distinct": 6.571,
+                  "total": 13.714
+               }
+            },
+            "params": 1,
+            "sloc": {
+               "logical": 3.143,
+               "physical": 11.286
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/project/result/ProjectResult.js",
+         "srcPath": "typhonjs-escomplex-commons/src/project/result/ProjectResult.js",
+         "maintainability": 123.631,
+         "methodAverage": {
+            "cyclomatic": 2.231,
+            "cyclomaticDensity": 82.83,
+            "halstead": {
+               "bugs": 0.039,
+               "difficulty": 5.859,
+               "effort": 1261.282,
+               "length": 26.923,
+               "time": 70.071,
+               "vocabulary": 14.385,
+               "volume": 117.658,
+               "operands": {
+                  "distinct": 7.769,
+                  "total": 14.077
+               },
+               "operators": {
+                  "distinct": 6.615,
+                  "total": 12.846
+               }
+            },
+            "params": 1.154,
+            "sloc": {
+               "logical": 4.077,
+               "physical": 12.692
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/json/FormatJSON.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/json/FormatJSON.js",
+         "maintainability": 150.518,
+         "methodAverage": {
+            "cyclomatic": 1.8,
+            "cyclomaticDensity": 180,
+            "halstead": {
+               "bugs": 0.017,
+               "difficulty": 3.322,
+               "effort": 383.55,
+               "length": 13.6,
+               "time": 21.308,
+               "vocabulary": 8,
+               "volume": 51.885,
+               "operands": {
+                  "distinct": 4.2,
+                  "total": 7.4
+               },
+               "operators": {
+                  "distinct": 3.8,
+                  "total": 6.2
+               }
+            },
+            "params": 0.8,
+            "sloc": {
+               "logical": 1,
+               "physical": 4.4
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONCheckstyle.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONCheckstyle.js",
+         "maintainability": 103.409,
+         "methodAverage": {
+            "cyclomatic": 3.889,
+            "cyclomaticDensity": 73.349,
+            "halstead": {
+               "bugs": 0.104,
+               "difficulty": 9.659,
+               "effort": 7522.501,
+               "length": 58.556,
+               "time": 417.917,
+               "vocabulary": 21.111,
+               "volume": 310.797,
+               "operands": {
+                  "distinct": 13.222,
+                  "total": 31.778
+               },
+               "operators": {
+                  "distinct": 7.889,
+                  "total": 26.778
+               }
+            },
+            "params": 1.444,
+            "sloc": {
+               "logical": 9.667,
+               "physical": 18.889
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONMinimal.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONMinimal.js",
+         "maintainability": 120.465,
+         "methodAverage": {
+            "cyclomatic": 2.4,
+            "cyclomaticDensity": 67.992,
+            "halstead": {
+               "bugs": 0.045,
+               "difficulty": 5.801,
+               "effort": 1669.907,
+               "length": 31.333,
+               "time": 92.773,
+               "vocabulary": 13.6,
+               "volume": 136.459,
+               "operands": {
+                  "distinct": 7.933,
+                  "total": 16.733
+               },
+               "operators": {
+                  "distinct": 5.667,
+                  "total": 14.6
+               }
+            },
+            "params": 1.2,
+            "sloc": {
+               "logical": 4.667,
+               "physical": 12.4
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONModules.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONModules.js",
+         "maintainability": 124.142,
+         "methodAverage": {
+            "cyclomatic": 2.667,
+            "cyclomaticDensity": 83.333,
+            "halstead": {
+               "bugs": 0.039,
+               "difficulty": 6.122,
+               "effort": 1436.718,
+               "length": 27.333,
+               "time": 79.818,
+               "vocabulary": 11.667,
+               "volume": 116.771,
+               "operands": {
+                  "distinct": 6.167,
+                  "total": 14.167
+               },
+               "operators": {
+                  "distinct": 5.5,
+                  "total": 13.167
+               }
+            },
+            "params": 0.833,
+            "sloc": {
+               "logical": 3.833,
+               "physical": 8.5
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdown.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdown.js",
+         "maintainability": 157.355,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 100,
+            "halstead": {
+               "bugs": 0.008,
+               "difficulty": 0.975,
+               "effort": 54.036,
+               "length": 7.5,
+               "time": 3.002,
+               "vocabulary": 4.75,
+               "volume": 23.703,
+               "operands": {
+                  "distinct": 3.25,
+                  "total": 4.75
+               },
+               "operators": {
+                  "distinct": 1.5,
+                  "total": 2.75
+               }
+            },
+            "params": 1,
+            "sloc": {
+               "logical": 1,
+               "physical": 4.5
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownAdjacency.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownAdjacency.js",
+         "maintainability": 157.745,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 100,
+            "halstead": {
+               "bugs": 0.007,
+               "difficulty": 1.167,
+               "effort": 48.216,
+               "length": 7.333,
+               "time": 2.679,
+               "vocabulary": 4.333,
+               "volume": 20.353,
+               "operands": {
+                  "distinct": 2.667,
+                  "total": 4
+               },
+               "operators": {
+                  "distinct": 1.667,
+                  "total": 3.333
+               }
+            },
+            "params": 0.667,
+            "sloc": {
+               "logical": 1,
+               "physical": 4
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownMinimal.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownMinimal.js",
+         "maintainability": 157.745,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 100,
+            "halstead": {
+               "bugs": 0.007,
+               "difficulty": 1.167,
+               "effort": 48.216,
+               "length": 7.333,
+               "time": 2.679,
+               "vocabulary": 4.333,
+               "volume": 20.353,
+               "operands": {
+                  "distinct": 2.667,
+                  "total": 4
+               },
+               "operators": {
+                  "distinct": 1.667,
+                  "total": 3.333
+               }
+            },
+            "params": 0.667,
+            "sloc": {
+               "logical": 1,
+               "physical": 4
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownModules.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownModules.js",
+         "maintainability": 158.705,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 100,
+            "halstead": {
+               "bugs": 0.005,
+               "difficulty": 1,
+               "effort": 36.412,
+               "length": 6,
+               "time": 2.023,
+               "vocabulary": 3.75,
+               "volume": 15.765,
+               "operands": {
+                  "distinct": 2.25,
+                  "total": 3.25
+               },
+               "operators": {
+                  "distinct": 1.5,
+                  "total": 2.75
+               }
+            },
+            "params": 0.5,
+            "sloc": {
+               "logical": 1,
+               "physical": 4
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownVisibility.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownVisibility.js",
+         "maintainability": 157.745,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 100,
+            "halstead": {
+               "bugs": 0.007,
+               "difficulty": 1.167,
+               "effort": 48.216,
+               "length": 7.333,
+               "time": 2.679,
+               "vocabulary": 4.333,
+               "volume": 20.353,
+               "operands": {
+                  "distinct": 2.667,
+                  "total": 4
+               },
+               "operators": {
+                  "distinct": 1.667,
+                  "total": 3.333
+               }
+            },
+            "params": 0.667,
+            "sloc": {
+               "logical": 1,
+               "physical": 4
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/text/AbstractFormatText.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/AbstractFormatText.js",
+         "maintainability": 119.155,
+         "methodAverage": {
+            "cyclomatic": 2.786,
+            "cyclomaticDensity": 70.34,
+            "halstead": {
+               "bugs": 0.068,
+               "difficulty": 8.287,
+               "effort": 2310.863,
+               "length": 44.286,
+               "time": 128.381,
+               "vocabulary": 20.571,
+               "volume": 202.879,
+               "operands": {
+                  "distinct": 12.357,
+                  "total": 24.786
+               },
+               "operators": {
+                  "distinct": 8.214,
+                  "total": 19.5
+               }
+            },
+            "params": 2.571,
+            "sloc": {
+               "logical": 4.714,
+               "physical": 14.357
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/text/AbstractTextMatrix.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/AbstractTextMatrix.js",
+         "maintainability": 118.086,
+         "methodAverage": {
+            "cyclomatic": 2.5,
+            "cyclomaticDensity": 65.377,
+            "halstead": {
+               "bugs": 0.068,
+               "difficulty": 5.834,
+               "effort": 2408.558,
+               "length": 42.167,
+               "time": 133.809,
+               "vocabulary": 20,
+               "volume": 204.696,
+               "operands": {
+                  "distinct": 13.5,
+                  "total": 23.333
+               },
+               "operators": {
+                  "distinct": 6.5,
+                  "total": 18.833
+               }
+            },
+            "params": 1.5,
+            "sloc": {
+               "logical": 5,
+               "physical": 15.5
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/text/FormatText.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/FormatText.js",
+         "maintainability": 125.777,
+         "methodAverage": {
+            "cyclomatic": 2.2,
+            "cyclomaticDensity": 80.667,
+            "halstead": {
+               "bugs": 0.047,
+               "difficulty": 4.784,
+               "effort": 2122.521,
+               "length": 30.6,
+               "time": 117.918,
+               "vocabulary": 11.4,
+               "volume": 142.16,
+               "operands": {
+                  "distinct": 7.4,
+                  "total": 17.2
+               },
+               "operators": {
+                  "distinct": 4,
+                  "total": 13.4
+               }
+            },
+            "params": 1.2,
+            "sloc": {
+               "logical": 3.2,
+               "physical": 9
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/text/FormatTextAdjacency.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/FormatTextAdjacency.js",
+         "maintainability": 156.212,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 100,
+            "halstead": {
+               "bugs": 0.008,
+               "difficulty": 1.179,
+               "effort": 75.493,
+               "length": 8.5,
+               "time": 4.194,
+               "vocabulary": 4,
+               "volume": 24.753,
+               "operands": {
+                  "distinct": 2.5,
+                  "total": 4.5
+               },
+               "operators": {
+                  "distinct": 1.5,
+                  "total": 4
+               }
+            },
+            "params": 0.5,
+            "sloc": {
+               "logical": 1,
+               "physical": 4.25
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/text/FormatTextMinimal.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/FormatTextMinimal.js",
+         "maintainability": 156.212,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 100,
+            "halstead": {
+               "bugs": 0.008,
+               "difficulty": 1.179,
+               "effort": 75.493,
+               "length": 8.5,
+               "time": 4.194,
+               "vocabulary": 4,
+               "volume": 24.753,
+               "operands": {
+                  "distinct": 2.5,
+                  "total": 4.5
+               },
+               "operators": {
+                  "distinct": 1.5,
+                  "total": 4
+               }
+            },
+            "params": 0.5,
+            "sloc": {
+               "logical": 1,
+               "physical": 4.25
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/text/FormatTextModules.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/FormatTextModules.js",
+         "maintainability": 158.705,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 100,
+            "halstead": {
+               "bugs": 0.005,
+               "difficulty": 1,
+               "effort": 36.412,
+               "length": 6,
+               "time": 2.023,
+               "vocabulary": 3.75,
+               "volume": 15.765,
+               "operands": {
+                  "distinct": 2.25,
+                  "total": 3.25
+               },
+               "operators": {
+                  "distinct": 1.5,
+                  "total": 2.75
+               }
+            },
+            "params": 0.5,
+            "sloc": {
+               "logical": 1,
+               "physical": 4
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/text/FormatTextVisibility.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/FormatTextVisibility.js",
+         "maintainability": 156.212,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 100,
+            "halstead": {
+               "bugs": 0.008,
+               "difficulty": 1.179,
+               "effort": 75.493,
+               "length": 8.5,
+               "time": 4.194,
+               "vocabulary": 4,
+               "volume": 24.753,
+               "operands": {
+                  "distinct": 2.5,
+                  "total": 4.5
+               },
+               "operators": {
+                  "distinct": 1.5,
+                  "total": 4
+               }
+            },
+            "params": 0.5,
+            "sloc": {
+               "logical": 1,
+               "physical": 4.25
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/TransformFormat.js",
+         "srcPath": "typhonjs-escomplex-commons/src/transform/TransformFormat.js",
+         "maintainability": 130.284,
+         "methodAverage": {
+            "cyclomatic": 2.083,
+            "cyclomaticDensity": 85.043,
+            "halstead": {
+               "bugs": 0.028,
+               "difficulty": 3.587,
+               "effort": 599.274,
+               "length": 20.75,
+               "time": 33.293,
+               "vocabulary": 11.25,
+               "volume": 83.929,
+               "operands": {
+                  "distinct": 6.75,
+                  "total": 11.083
+               },
+               "operators": {
+                  "distinct": 4.5,
+                  "total": 9.667
+               }
+            },
+            "params": 1.333,
+            "sloc": {
+               "logical": 3.167,
+               "physical": 7.917
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/utils/MathUtil.js",
+         "srcPath": "typhonjs-escomplex-commons/src/utils/MathUtil.js",
+         "maintainability": 128.142,
+         "methodAverage": {
+            "cyclomatic": 2,
+            "cyclomaticDensity": 106.296,
+            "halstead": {
+               "bugs": 0.028,
+               "difficulty": 7.698,
+               "effort": 1035.45,
+               "length": 22.444,
+               "time": 57.525,
+               "vocabulary": 11.889,
+               "volume": 84.605,
+               "operands": {
+                  "distinct": 5.444,
+                  "total": 12.222
+               },
+               "operators": {
+                  "distinct": 6.444,
+                  "total": 10.222
+               }
+            },
+            "params": 1.667,
+            "sloc": {
+               "logical": 3.222,
+               "physical": 6.667
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/utils/ObjectUtil.js",
+         "srcPath": "typhonjs-escomplex-commons/src/utils/ObjectUtil.js",
+         "maintainability": 102.252,
+         "methodAverage": {
+            "cyclomatic": 4.857,
+            "cyclomaticDensity": 70.23,
+            "halstead": {
+               "bugs": 0.089,
+               "difficulty": 14.767,
+               "effort": 6803.483,
+               "length": 54.429,
+               "time": 377.971,
+               "vocabulary": 23.429,
+               "volume": 266.575,
+               "operands": {
+                  "distinct": 11.571,
+                  "total": 28
+               },
+               "operators": {
+                  "distinct": 11.857,
+                  "total": 26.429
+               }
+            },
+            "params": 2,
+            "sloc": {
+               "logical": 10.571,
+               "physical": 18.571
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/utils/StringUtil.js",
+         "srcPath": "typhonjs-escomplex-commons/src/utils/StringUtil.js",
+         "maintainability": 113.509,
+         "methodAverage": {
+            "cyclomatic": 3,
+            "cyclomaticDensity": 89.532,
+            "halstead": {
+               "bugs": 0.074,
+               "difficulty": 9.819,
+               "effort": 7198.907,
+               "length": 43.75,
+               "time": 399.939,
+               "vocabulary": 18.125,
+               "volume": 220.56,
+               "operands": {
+                  "distinct": 10.25,
+                  "total": 25
+               },
+               "operators": {
+                  "distinct": 7.875,
+                  "total": 18.75
+               }
+            },
+            "params": 2.75,
+            "sloc": {
+               "logical": 5.25,
+               "physical": 11.625
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-module/src/ESComplexModule.js",
+         "srcPath": "typhonjs-escomplex-module/src/ESComplexModule.js",
+         "maintainability": 126.029,
+         "methodAverage": {
+            "cyclomatic": 1.667,
+            "cyclomaticDensity": 70.833,
+            "halstead": {
+               "bugs": 0.036,
+               "difficulty": 4.389,
+               "effort": 1054.2,
+               "length": 24.667,
+               "time": 58.567,
+               "vocabulary": 14.333,
+               "volume": 108.359,
+               "operands": {
+                  "distinct": 8.5,
+                  "total": 13.167
+               },
+               "operators": {
+                  "distinct": 5.833,
+                  "total": 11.5
+               }
+            },
+            "params": 1.833,
+            "sloc": {
+               "logical": 3.667,
+               "physical": 9
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-module/src/index.js",
+         "srcPath": "typhonjs-escomplex-module/src/index.js",
+         "srcPathAlias": "typhonjs-escomplex-module",
+         "maintainability": 171,
+         "methodAverage": {
+            "cyclomatic": 1,
+            "cyclomaticDensity": 0,
+            "halstead": {
+               "bugs": 0.007,
+               "difficulty": 3.75,
+               "effort": 84.221,
+               "length": 8,
+               "time": 4.679,
+               "vocabulary": 7,
+               "volume": 22.459,
+               "operands": {
+                  "distinct": 2,
+                  "total": 3
+               },
+               "operators": {
+                  "distinct": 5,
+                  "total": 5
+               }
+            },
+            "params": 0,
+            "sloc": {
+               "logical": 0,
+               "physical": 8
+            }
+         }
+      },
+      {
+         "filePath": "./node_modules/typhonjs-escomplex-module/src/Plugins.js",
+         "srcPath": "typhonjs-escomplex-module/src/Plugins.js",
+         "maintainability": 122.046,
+         "methodAverage": {
+            "cyclomatic": 1.714,
+            "cyclomaticDensity": 36.088,
+            "halstead": {
+               "bugs": 0.041,
+               "difficulty": 6.416,
+               "effort": 890.183,
+               "length": 29.571,
+               "time": 49.455,
+               "vocabulary": 17,
+               "volume": 122.942,
+               "operands": {
+                  "distinct": 9.857,
+                  "total": 17.714
+               },
+               "operators": {
+                  "distinct": 7.143,
+                  "total": 11.857
+               }
+            },
+            "params": 1.857,
+            "sloc": {
+               "logical": 4.857,
+               "physical": 6.857
+            }
+         }
+      }
+   ],
+   "visibilityList": [
+      {
+         "row": 0,
+         "cols": [
+            0,
+            2,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            43
+         ]
+      },
+      {
+         "row": 1,
+         "cols": [
+            0,
+            1,
+            2,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            43
+         ]
+      },
+      {
+         "row": 2,
+         "cols": [
+            2
+         ]
+      },
+      {
+         "row": 3,
+         "cols": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 4,
+         "cols": [
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 5,
+         "cols": [
+            5
+         ]
+      },
+      {
+         "row": 6,
+         "cols": [
+            6
+         ]
+      },
+      {
+         "row": 7,
+         "cols": [
+            7
+         ]
+      },
+      {
+         "row": 8,
+         "cols": [
+            7,
+            8
+         ]
+      },
+      {
+         "row": 9,
+         "cols": [
+            7,
+            8,
+            9
+         ]
+      },
+      {
+         "row": 10,
+         "cols": [
+            6,
+            7,
+            8,
+            10,
+            11,
+            12
+         ]
+      },
+      {
+         "row": 11,
+         "cols": [
+            11
+         ]
+      },
+      {
+         "row": 12,
+         "cols": [
+            6,
+            11,
+            12
+         ]
+      },
+      {
+         "row": 13,
+         "cols": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 14,
+         "cols": [
+            14,
+            15,
+            16,
+            18,
+            19
+         ]
+      },
+      {
+         "row": 15,
+         "cols": [
+            15,
+            19
+         ]
+      },
+      {
+         "row": 16,
+         "cols": [
+            16
+         ]
+      },
+      {
+         "row": 17,
+         "cols": [
+            17
+         ]
+      },
+      {
+         "row": 18,
+         "cols": [
+            18
+         ]
+      },
+      {
+         "row": 19,
+         "cols": [
+            19
+         ]
+      },
+      {
+         "row": 20,
+         "cols": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 21,
+         "cols": [
+            21
+         ]
+      },
+      {
+         "row": 22,
+         "cols": [
+            22,
+            39
+         ]
+      },
+      {
+         "row": 23,
+         "cols": [
+            23,
+            39
+         ]
+      },
+      {
+         "row": 24,
+         "cols": [
+            24
+         ]
+      },
+      {
+         "row": 25,
+         "cols": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 26,
+         "cols": [
+            26,
+            31,
+            33,
+            39
+         ]
+      },
+      {
+         "row": 27,
+         "cols": [
+            27,
+            30,
+            34,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 28,
+         "cols": [
+            28,
+            30,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 29,
+         "cols": [
+            29,
+            31,
+            36,
+            39
+         ]
+      },
+      {
+         "row": 30,
+         "cols": [
+            30,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 31,
+         "cols": [
+            31,
+            39
+         ]
+      },
+      {
+         "row": 32,
+         "cols": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 33,
+         "cols": [
+            31,
+            33,
+            39
+         ]
+      },
+      {
+         "row": 34,
+         "cols": [
+            30,
+            34,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 35,
+         "cols": [
+            30,
+            35,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 36,
+         "cols": [
+            31,
+            36,
+            39
+         ]
+      },
+      {
+         "row": 37,
+         "cols": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 38,
+         "cols": [
+            38,
+            39
+         ]
+      },
+      {
+         "row": 39,
+         "cols": [
+            39
+         ]
+      },
+      {
+         "row": 40,
+         "cols": [
+            39,
+            40
+         ]
+      },
+      {
+         "row": 41,
+         "cols": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            43
+         ]
+      },
+      {
+         "row": 42,
+         "cols": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 43,
+         "cols": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            43
+         ]
+      }
+   ]
+}
