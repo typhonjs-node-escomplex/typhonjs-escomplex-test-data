@@ -10,8 +10,13 @@ This repo is included in devDependencies linked directly to GitHub such as:
 
 The following files are available:
 
-`./files/large-project/results.json`: A serialized ProjectResult of typhonjs-escomplex-project and dependencies. 
-`./files/large-project/results-no-reports.json`: A serialized ProjectResult of typhonjs-escomplex-project and dependencies without ModuleReports serialized. 
+`./files/large-project/results/results.json`: A serialized ProjectResult of typhonjs-escomplex-project and dependencies. 
+
+`./files/large-project/results/results-no-reports.json`: A serialized ProjectResult of typhonjs-escomplex-project and dependencies without ModuleReports serialized. 
+
+`./files/large-module/report/report.json`: A serialized ModuleReport of `backbone-es6`-> `Collection.js`. 
+
+`./files/large-module/src/Collection.js`: The JS source that generated large-module `report.json`. 
 
 An examples follows on how to load and parse files for use:
 ```
@@ -19,10 +24,10 @@ import ProjectResult    from 'typhonjs-escomplex-commons/src/project/result/Proj
 
 // You can either use `fs`.
 // const largeProjectJSON = 
-//  JSON.parse(fs.readFileSync('./node_modules/typhonjs-escomplex-test-data/files/large-project/results.json', 'utf8'));
+//  JSON.parse(fs.readFileSync('./node_modules/typhonjs-escomplex-test-data/files/large-project/results/results.json', 'utf8'));
 
 // Or for JSON files simply `require` it.
-const largeProjectJSON = require('typhonjs-escomplex-test-data/files/large-project/results');
+const largeProjectJSON = require('typhonjs-escomplex-test-data/files/large-project/results/results');
 
 const projectResult = ProjectResult.parse(largeProjectJSON);
 
