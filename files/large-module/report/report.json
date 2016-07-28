@@ -1,12 +1,4 @@
 {
-   "settings": {
-      "commonjs": false,
-      "forin": false,
-      "logicalor": true,
-      "switchcase": true,
-      "trycatch": false,
-      "newmi": false
-   },
    "aggregate": {
       "cyclomatic": 105,
       "cyclomaticDensity": 28.767,
@@ -304,14 +296,19 @@
             ]
          }
       },
-      "lineEnd": 1120,
-      "lineStart": 1,
-      "name": "",
       "params": 54,
       "sloc": {
          "logical": 365,
          "physical": 1120
       }
+   },
+   "settings": {
+      "commonjs": false,
+      "forin": false,
+      "logicalor": true,
+      "switchcase": true,
+      "trycatch": false,
+      "newmi": false
    },
    "classes": [
       {
@@ -524,15 +521,13 @@
                   ]
                }
             },
-            "lineEnd": 945,
-            "lineStart": 90,
-            "name": "",
             "params": 40,
             "sloc": {
                "logical": 236,
                "physical": 856
             }
          },
+         "errors": [],
          "lineEnd": 945,
          "lineStart": 90,
          "methods": [
@@ -596,14 +591,15 @@
                      ]
                   }
                },
-               "lineEnd": 145,
-               "lineStart": 105,
-               "name": "constructor",
                "params": 2,
                "sloc": {
                   "logical": 18,
                   "physical": 41
-               }
+               },
+               "errors": [],
+               "lineEnd": 145,
+               "lineStart": 105,
+               "name": "constructor"
             },
             {
                "cyclomatic": 1,
@@ -643,14 +639,15 @@
                      ]
                   }
                },
-               "lineEnd": 178,
-               "lineStart": 175,
-               "name": "add",
                "params": 2,
                "sloc": {
                   "logical": 2,
                   "physical": 4
-               }
+               },
+               "errors": [],
+               "lineEnd": 178,
+               "lineStart": 175,
+               "name": "add"
             },
             {
                "cyclomatic": 2,
@@ -686,14 +683,15 @@
                      ]
                   }
                },
-               "lineEnd": 194,
-               "lineStart": 190,
-               "name": "at",
                "params": 1,
                "sloc": {
                   "logical": 3,
                   "physical": 5
-               }
+               },
+               "errors": [],
+               "lineEnd": 194,
+               "lineStart": 190,
+               "name": "at"
             },
             {
                "cyclomatic": 1,
@@ -729,14 +727,15 @@
                      ]
                   }
                },
-               "lineEnd": 209,
-               "lineStart": 203,
-               "name": "clone",
                "params": 0,
                "sloc": {
                   "logical": 3,
                   "physical": 7
-               }
+               },
+               "errors": [],
+               "lineEnd": 209,
+               "lineStart": 203,
+               "name": "clone"
             },
             {
                "cyclomatic": 4,
@@ -786,14 +785,15 @@
                      ]
                   }
                },
-               "lineEnd": 262,
-               "lineStart": 241,
-               "name": "create",
                "params": 2,
                "sloc": {
                   "logical": 12,
                   "physical": 22
-               }
+               },
+               "errors": [],
+               "lineEnd": 262,
+               "lineStart": 241,
+               "name": "create"
             },
             {
                "cyclomatic": 3,
@@ -831,14 +831,15 @@
                      ]
                   }
                },
-               "lineEnd": 257,
-               "lineStart": 253,
-               "name": "<anonymous>",
                "params": 3,
                "sloc": {
                   "logical": 4,
                   "physical": 5
-               }
+               },
+               "errors": [],
+               "lineEnd": 257,
+               "lineStart": 253,
+               "name": "<anonymous>"
             },
             {
                "cyclomatic": 1,
@@ -883,14 +884,15 @@
                      ]
                   }
                },
-               "lineEnd": 317,
-               "lineStart": 298,
-               "name": "fetch",
                "params": 1,
                "sloc": {
                   "logical": 6,
                   "physical": 20
-               }
+               },
+               "errors": [],
+               "lineEnd": 317,
+               "lineStart": 298,
+               "name": "fetch"
             },
             {
                "cyclomatic": 3,
@@ -938,14 +940,15 @@
                      ]
                   }
                },
-               "lineEnd": 312,
-               "lineStart": 303,
-               "name": "<anonymous>",
                "params": 1,
                "sloc": {
                   "logical": 6,
                   "physical": 10
-               }
+               },
+               "errors": [],
+               "lineEnd": 312,
+               "lineStart": 303,
+               "name": "<anonymous>"
             },
             {
                "cyclomatic": 1,
@@ -978,14 +981,15 @@
                      ]
                   }
                },
-               "lineEnd": 331,
-               "lineStart": 328,
-               "name": "findWhere",
                "params": 1,
                "sloc": {
                   "logical": 1,
                   "physical": 4
-               }
+               },
+               "errors": [],
+               "lineEnd": 331,
+               "lineStart": 328,
+               "name": "findWhere"
             },
             {
                "cyclomatic": 6,
@@ -1033,14 +1037,15 @@
                      ]
                   }
                },
-               "lineEnd": 354,
-               "lineStart": 345,
-               "name": "get",
                "params": 1,
                "sloc": {
                   "logical": 5,
                   "physical": 10
-               }
+               },
+               "errors": [],
+               "lineEnd": 354,
+               "lineStart": 345,
+               "name": "get"
             },
             {
                "cyclomatic": 1,
@@ -1075,14 +1080,15 @@
                      ]
                   }
                },
-               "lineEnd": 365,
-               "lineStart": 362,
-               "name": "has",
                "params": 1,
                "sloc": {
                   "logical": 1,
                   "physical": 4
-               }
+               },
+               "errors": [],
+               "lineEnd": 365,
+               "lineStart": 362,
+               "name": "has"
             },
             {
                "cyclomatic": 1,
@@ -1106,14 +1112,15 @@
                      "identifiers": []
                   }
                },
-               "lineEnd": 375,
-               "lineStart": 373,
-               "name": "initialize",
                "params": 0,
                "sloc": {
                   "logical": 0,
                   "physical": 3
-               }
+               },
+               "errors": [],
+               "lineEnd": 375,
+               "lineStart": 373,
+               "name": "initialize"
             },
             {
                "cyclomatic": 2,
@@ -1156,14 +1163,15 @@
                      ]
                   }
                },
-               "lineEnd": 412,
-               "lineStart": 406,
-               "name": "modelId",
                "params": 1,
                "sloc": {
                   "logical": 3,
                   "physical": 7
-               }
+               },
+               "errors": [],
+               "lineEnd": 412,
+               "lineStart": 406,
+               "name": "modelId"
             },
             {
                "cyclomatic": 1,
@@ -1192,14 +1200,15 @@
                      ]
                   }
                },
-               "lineEnd": 439,
-               "lineStart": 435,
-               "name": "parse",
                "params": 2,
                "sloc": {
                   "logical": 1,
                   "physical": 5
-               }
+               },
+               "errors": [],
+               "lineEnd": 439,
+               "lineStart": 435,
+               "name": "parse"
             },
             {
                "cyclomatic": 1,
@@ -1231,14 +1240,15 @@
                      ]
                   }
                },
-               "lineEnd": 464,
-               "lineStart": 461,
-               "name": "pluck",
                "params": 1,
                "sloc": {
                   "logical": 1,
                   "physical": 4
-               }
+               },
+               "errors": [],
+               "lineEnd": 464,
+               "lineStart": 461,
+               "name": "pluck"
             },
             {
                "cyclomatic": 1,
@@ -1277,14 +1287,15 @@
                      ]
                   }
                },
-               "lineEnd": 478,
-               "lineStart": 474,
-               "name": "pop",
                "params": 1,
                "sloc": {
                   "logical": 2,
                   "physical": 5
-               }
+               },
+               "errors": [],
+               "lineEnd": 478,
+               "lineStart": 474,
+               "name": "pop"
             },
             {
                "cyclomatic": 5,
@@ -1339,14 +1350,15 @@
                      ]
                   }
                },
-               "lineEnd": 509,
-               "lineStart": 488,
-               "name": "_prepareModel",
                "params": 2,
                "sloc": {
                   "logical": 13,
                   "physical": 22
-               }
+               },
+               "errors": [],
+               "lineEnd": 509,
+               "lineStart": 488,
+               "name": "_prepareModel"
             },
             {
                "cyclomatic": 1,
@@ -1385,14 +1397,15 @@
                      ]
                   }
                },
-               "lineEnd": 523,
-               "lineStart": 520,
-               "name": "push",
                "params": 2,
                "sloc": {
                   "logical": 2,
                   "physical": 4
-               }
+               },
+               "errors": [],
+               "lineEnd": 523,
+               "lineStart": 520,
+               "name": "push"
             },
             {
                "cyclomatic": 5,
@@ -1448,14 +1461,15 @@
                      ]
                   }
                },
-               "lineEnd": 551,
-               "lineStart": 537,
-               "name": "remove",
                "params": 2,
                "sloc": {
                   "logical": 11,
                   "physical": 15
-               }
+               },
+               "errors": [],
+               "lineEnd": 551,
+               "lineStart": 537,
+               "name": "remove"
             },
             {
                "cyclomatic": 1,
@@ -1490,14 +1504,15 @@
                      ]
                   }
                },
-               "lineEnd": 572,
-               "lineStart": 557,
-               "name": "_reset",
                "params": 0,
                "sloc": {
                   "logical": 3,
                   "physical": 16
-               }
+               },
+               "errors": [],
+               "lineEnd": 572,
+               "lineStart": 557,
+               "name": "_reset"
             },
             {
                "cyclomatic": 4,
@@ -1553,14 +1568,15 @@
                      ]
                   }
                },
-               "lineEnd": 612,
-               "lineStart": 597,
-               "name": "reset",
                "params": 2,
                "sloc": {
                   "logical": 11,
                   "physical": 16
-               }
+               },
+               "errors": [],
+               "lineEnd": 612,
+               "lineStart": 597,
+               "name": "reset"
             },
             {
                "cyclomatic": 45,
@@ -1686,14 +1702,15 @@
                      ]
                   }
                },
-               "lineEnd": 805,
-               "lineStart": 637,
-               "name": "set",
                "params": 2,
                "sloc": {
                   "logical": 104,
                   "physical": 169
-               }
+               },
+               "errors": [],
+               "lineEnd": 805,
+               "lineStart": 637,
+               "name": "set"
             },
             {
                "cyclomatic": 1,
@@ -1725,14 +1742,15 @@
                      ]
                   }
                },
-               "lineEnd": 752,
-               "lineStart": 749,
-               "name": "<anonymous>",
                "params": 2,
                "sloc": {
                   "logical": 1,
                   "physical": 4
-               }
+               },
+               "errors": [],
+               "lineEnd": 752,
+               "lineStart": 749,
+               "name": "<anonymous>"
             },
             {
                "cyclomatic": 1,
@@ -1769,14 +1787,15 @@
                      ]
                   }
                },
-               "lineEnd": 819,
-               "lineStart": 815,
-               "name": "shift",
                "params": 1,
                "sloc": {
                   "logical": 2,
                   "physical": 5
-               }
+               },
+               "errors": [],
+               "lineEnd": 819,
+               "lineStart": 815,
+               "name": "shift"
             },
             {
                "cyclomatic": 1,
@@ -1812,14 +1831,15 @@
                      ]
                   }
                },
-               "lineEnd": 831,
-               "lineStart": 828,
-               "name": "slice",
                "params": 0,
                "sloc": {
                   "logical": 1,
                   "physical": 4
-               }
+               },
+               "errors": [],
+               "lineEnd": 831,
+               "lineStart": 828,
+               "name": "slice"
             },
             {
                "cyclomatic": 6,
@@ -1876,14 +1896,15 @@
                      ]
                   }
                },
-               "lineEnd": 866,
-               "lineStart": 843,
-               "name": "sort",
                "params": 1,
                "sloc": {
                   "logical": 13,
                   "physical": 24
-               }
+               },
+               "errors": [],
+               "lineEnd": 866,
+               "lineStart": 843,
+               "name": "sort"
             },
             {
                "cyclomatic": 1,
@@ -1922,14 +1943,15 @@
                      ]
                   }
                },
-               "lineEnd": 879,
-               "lineStart": 875,
-               "name": "sync",
                "params": 0,
                "sloc": {
                   "logical": 2,
                   "physical": 5
-               }
+               },
+               "errors": [],
+               "lineEnd": 879,
+               "lineStart": 875,
+               "name": "sync"
             },
             {
                "cyclomatic": 1,
@@ -1962,14 +1984,15 @@
                      ]
                   }
                },
-               "lineEnd": 903,
-               "lineStart": 900,
-               "name": "toJSON",
                "params": 1,
                "sloc": {
                   "logical": 1,
                   "physical": 4
-               }
+               },
+               "errors": [],
+               "lineEnd": 903,
+               "lineStart": 900,
+               "name": "toJSON"
             },
             {
                "cyclomatic": 1,
@@ -2001,14 +2024,15 @@
                      ]
                   }
                },
-               "lineEnd": 902,
-               "lineStart": 902,
-               "name": "<anonymous>",
                "params": 1,
                "sloc": {
                   "logical": 1,
                   "physical": 1
-               }
+               },
+               "errors": [],
+               "lineEnd": 902,
+               "lineStart": 902,
+               "name": "<anonymous>"
             },
             {
                "cyclomatic": 1,
@@ -2047,14 +2071,15 @@
                      ]
                   }
                },
-               "lineEnd": 917,
-               "lineStart": 914,
-               "name": "unshift",
                "params": 2,
                "sloc": {
                   "logical": 2,
                   "physical": 4
-               }
+               },
+               "errors": [],
+               "lineEnd": 917,
+               "lineStart": 914,
+               "name": "unshift"
             },
             {
                "cyclomatic": 2,
@@ -2089,14 +2114,15 @@
                      ]
                   }
                },
-               "lineEnd": 944,
-               "lineStart": 941,
-               "name": "where",
                "params": 2,
                "sloc": {
                   "logical": 1,
                   "physical": 4
-               }
+               },
+               "errors": [],
+               "lineEnd": 944,
+               "lineStart": 941,
+               "name": "where"
             }
          ],
          "methodAverage": {
@@ -2161,6 +2187,7 @@
          "type": "esm"
       }
    ],
+   "errors": [],
    "lineEnd": 1120,
    "lineStart": 1,
    "maintainability": 105.333,
@@ -2212,14 +2239,15 @@
                ]
             }
          },
-         "lineEnd": 993,
-         "lineStart": 984,
-         "name": "<anonymous>",
          "params": 2,
          "sloc": {
             "logical": 6,
             "physical": 10
-         }
+         },
+         "errors": [],
+         "lineEnd": 993,
+         "lineStart": 984,
+         "name": "<anonymous>"
       },
       {
          "cyclomatic": 10,
@@ -2284,14 +2312,15 @@
                ]
             }
          },
-         "lineEnd": 1031,
-         "lineStart": 1007,
-         "name": "<anonymous>",
          "params": 4,
          "sloc": {
             "logical": 16,
             "physical": 25
-         }
+         },
+         "errors": [],
+         "lineEnd": 1031,
+         "lineStart": 1007,
+         "name": "<anonymous>"
       },
       {
          "cyclomatic": 5,
@@ -2364,14 +2393,15 @@
                ]
             }
          },
-         "lineEnd": 1078,
-         "lineStart": 1041,
-         "name": "<anonymous>",
          "params": 3,
          "sloc": {
             "logical": 22,
             "physical": 38
-         }
+         },
+         "errors": [],
+         "lineEnd": 1078,
+         "lineStart": 1041,
+         "name": "<anonymous>"
       },
       {
          "cyclomatic": 3,
@@ -2421,14 +2451,15 @@
                ]
             }
          },
-         "lineEnd": 1096,
-         "lineStart": 1086,
-         "name": "<anonymous>",
          "params": 2,
          "sloc": {
             "logical": 8,
             "physical": 11
-         }
+         },
+         "errors": [],
+         "lineEnd": 1096,
+         "lineStart": 1086,
+         "name": "<anonymous>"
       },
       {
          "cyclomatic": 4,
@@ -2476,14 +2507,15 @@
                ]
             }
          },
-         "lineEnd": 1114,
-         "lineStart": 1105,
-         "name": "<anonymous>",
          "params": 3,
          "sloc": {
             "logical": 12,
             "physical": 10
-         }
+         },
+         "errors": [],
+         "lineEnd": 1114,
+         "lineStart": 1105,
+         "name": "<anonymous>"
       }
    ],
    "methodAverage": {
