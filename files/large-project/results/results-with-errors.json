@@ -535,10 +535,12 @@
                },
                "errors": [
                   {
-                     "line": 11,
+                     "lineStart": 11,
+                     "lineEnd": 240,
                      "severity": "info",
                      "message": "maintainability: 110.612 < 115",
-                     "source": "Class - ESComplexProject"
+                     "name": "ESComplexProject",
+                     "type": "Class"
                   }
                ],
                "lineEnd": 240,
@@ -609,10 +611,12 @@
                      },
                      "errors": [
                         {
-                           "line": 44,
+                           "lineStart": 44,
+                           "lineEnd": 103,
                            "severity": "warning",
                            "message": "cyclomatic: 8 > 7",
-                           "source": "Class (ESComplexProject) / method - constructor"
+                           "name": "constructor",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 103,
@@ -685,16 +689,20 @@
                      },
                      "errors": [
                         {
-                           "line": 115,
+                           "lineStart": 115,
+                           "lineEnd": 162,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (ESComplexProject) / method - analyze"
+                           "name": "analyze",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 115,
+                           "lineStart": 115,
+                           "lineEnd": 162,
                            "severity": "warning",
                            "message": "halstead.difficulty: 13.333 > 13",
-                           "source": "Class (ESComplexProject) / method - analyze"
+                           "name": "analyze",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 162,
@@ -762,10 +770,12 @@
                      },
                      "errors": [
                         {
-                           "line": 126,
+                           "lineStart": 126,
+                           "lineEnd": 153,
                            "severity": "warning",
                            "message": "halstead.difficulty: 14.912 > 13",
-                           "source": "Class (ESComplexProject) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 153,
@@ -838,16 +848,20 @@
                      },
                      "errors": [
                         {
-                           "line": 174,
+                           "lineStart": 174,
+                           "lineEnd": 201,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "source": "Class (ESComplexProject) / method - processResults"
+                           "name": "processResults",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 174,
+                           "lineStart": 174,
+                           "lineEnd": 201,
                            "severity": "warning",
                            "message": "halstead.difficulty: 15.75 > 13",
-                           "source": "Class (ESComplexProject) / method - processResults"
+                           "name": "processResults",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 201,
@@ -1079,10 +1093,12 @@
          ],
          "errors": [
             {
-               "line": 1,
+               "lineStart": 1,
+               "lineEnd": 241,
                "severity": "info",
                "message": "maintainability: 110.612 < 115",
-               "source": "Module - ./src/ESComplexProject.js"
+               "name": "./src/ESComplexProject.js",
+               "type": "Module"
             }
          ],
          "filePath": "./src/ESComplexProject.js",
@@ -1435,10 +1451,12 @@
                      },
                      "errors": [
                         {
-                           "line": 23,
+                           "lineStart": 23,
+                           "lineEnd": 37,
                            "severity": "info",
                            "message": "halstead.difficulty: 8.938 > 8",
-                           "source": "Class (Plugins) / method - constructor"
+                           "name": "constructor",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 37,
@@ -1502,16 +1520,20 @@
                      },
                      "errors": [
                         {
-                           "line": 47,
+                           "lineStart": 47,
+                           "lineEnd": 64,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "source": "Class (Plugins) / method - onConfigure"
+                           "name": "onConfigure",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 47,
+                           "lineStart": 47,
+                           "lineEnd": 64,
                            "severity": "warning",
                            "message": "halstead.difficulty: 14.3 > 13",
-                           "source": "Class (Plugins) / method - onConfigure"
+                           "name": "onConfigure",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 64,
@@ -2497,16 +2519,20 @@
                      },
                      "errors": [
                         {
-                           "line": 13,
+                           "lineStart": 13,
+                           "lineEnd": 22,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (AbstractSyntaxLoader) / method - onLoadSyntax"
+                           "name": "onLoadSyntax",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 13,
+                           "lineStart": 13,
+                           "lineEnd": 22,
                            "severity": "info",
                            "message": "halstead.difficulty: 10.083 > 8",
-                           "source": "Class (AbstractSyntaxLoader) / method - onLoadSyntax"
+                           "name": "onLoadSyntax",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 22,
@@ -2605,16 +2631,20 @@
                },
                "errors": [
                   {
-                     "line": 33,
+                     "lineStart": 33,
+                     "lineEnd": 44,
                      "severity": "info",
                      "message": "cyclomatic: 4 > 3",
-                     "source": "Module method - <anonymous>"
+                     "name": "<anonymous>",
+                     "type": "Module Method"
                   },
                   {
-                     "line": 33,
+                     "lineStart": 33,
+                     "lineEnd": 44,
                      "severity": "info",
                      "message": "halstead.difficulty: 11.7 > 8",
-                     "source": "Module method - <anonymous>"
+                     "name": "<anonymous>",
+                     "type": "Module Method"
                   }
                ],
                "lineEnd": 44,
@@ -3673,10 +3703,12 @@
                },
                "errors": [
                   {
-                     "line": 5,
+                     "lineStart": 5,
+                     "lineEnd": 67,
                      "severity": "info",
                      "message": "maintainability: 105.249 < 115",
-                     "source": "Class - HalsteadAverage"
+                     "name": "HalsteadAverage",
+                     "type": "Class"
                   }
                ],
                "lineEnd": 67,
@@ -3767,10 +3799,12 @@
          "dependencies": [],
          "errors": [
             {
-               "line": 1,
+               "lineStart": 1,
+               "lineEnd": 68,
                "severity": "info",
                "message": "maintainability: 105.249 < 115",
-               "source": "Module - typhonjs-escomplex-commons/src/module/report/averages/HalsteadAverage.js"
+               "name": "typhonjs-escomplex-commons/src/module/report/averages/HalsteadAverage.js",
+               "type": "Module"
             }
          ],
          "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/report/averages/HalsteadAverage.js",
@@ -4736,16 +4770,20 @@
                      },
                      "errors": [
                         {
-                           "line": 103,
+                           "lineStart": 103,
+                           "lineEnd": 121,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (ClassReport) / method - parse"
+                           "name": "parse",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 103,
+                           "lineStart": 103,
+                           "lineEnd": 121,
                            "severity": "warning",
                            "message": "halstead.difficulty: 13.385 > 13",
-                           "source": "Class (ClassReport) / method - parse"
+                           "name": "parse",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 121,
@@ -5074,10 +5112,12 @@
                },
                "errors": [
                   {
-                     "line": 5,
+                     "lineStart": 5,
+                     "lineEnd": 87,
                      "severity": "info",
                      "message": "maintainability: 110.635 < 115",
-                     "source": "Class - HalsteadData"
+                     "name": "HalsteadData",
+                     "type": "Class"
                   }
                ],
                "lineEnd": 87,
@@ -5188,10 +5228,12 @@
                      },
                      "errors": [
                         {
-                           "line": 75,
+                           "lineStart": 75,
+                           "lineEnd": 86,
                            "severity": "info",
                            "message": "halstead.difficulty: 8.25 > 8",
-                           "source": "Class (HalsteadData) / method - reset"
+                           "name": "reset",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 86,
@@ -5275,10 +5317,12 @@
          "dependencies": [],
          "errors": [
             {
-               "line": 1,
+               "lineStart": 1,
+               "lineEnd": 88,
                "severity": "info",
                "message": "maintainability: 110.635 < 115",
-               "source": "Module - typhonjs-escomplex-commons/src/module/report/HalsteadData.js"
+               "name": "typhonjs-escomplex-commons/src/module/report/HalsteadData.js",
+               "type": "Module"
             }
          ],
          "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/report/HalsteadData.js",
@@ -5665,10 +5709,12 @@
                      },
                      "errors": [
                         {
-                           "line": 77,
+                           "lineStart": 77,
+                           "lineEnd": 90,
                            "severity": "info",
                            "message": "halstead.difficulty: 10 > 8",
-                           "source": "Class (MethodReport) / method - parse"
+                           "name": "parse",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 90,
@@ -6214,10 +6260,12 @@
                      },
                      "errors": [
                         {
-                           "line": 30,
+                           "lineStart": 30,
+                           "lineEnd": 120,
                            "severity": "info",
                            "message": "halstead.difficulty: 11.75 > 8",
-                           "source": "Class (ModuleReport) / method - constructor"
+                           "name": "constructor",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 120,
@@ -6463,16 +6511,20 @@
                      },
                      "errors": [
                         {
-                           "line": 163,
+                           "lineStart": 163,
+                           "lineEnd": 206,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (ModuleReport) / method - createScope"
+                           "name": "createScope",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 163,
+                           "lineStart": 163,
+                           "lineEnd": 206,
                            "severity": "warning",
                            "message": "halstead.difficulty: 17.208 > 13",
-                           "source": "Class (ModuleReport) / method - createScope"
+                           "name": "createScope",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 206,
@@ -6915,16 +6967,20 @@
                      },
                      "errors": [
                         {
-                           "line": 300,
+                           "lineStart": 300,
+                           "lineEnd": 310,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "source": "Class (ModuleReport) / method - getSetting"
+                           "name": "getSetting",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 300,
+                           "lineStart": 300,
+                           "lineEnd": 310,
                            "severity": "info",
                            "message": "halstead.difficulty: 10 > 8",
-                           "source": "Class (ModuleReport) / method - getSetting"
+                           "name": "getSetting",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 310,
@@ -7132,16 +7188,20 @@
                      },
                      "errors": [
                         {
-                           "line": 371,
+                           "lineStart": 371,
+                           "lineEnd": 394,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "source": "Class (ModuleReport) / method - parse"
+                           "name": "parse",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 371,
+                           "lineStart": 371,
+                           "lineEnd": 394,
                            "severity": "warning",
                            "message": "halstead.difficulty: 16.286 > 13",
-                           "source": "Class (ModuleReport) / method - parse"
+                           "name": "parse",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 394,
@@ -7456,10 +7516,12 @@
                      },
                      "errors": [
                         {
-                           "line": 441,
+                           "lineStart": 441,
+                           "lineEnd": 456,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (ModuleReport) / method - setSetting"
+                           "name": "setSetting",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 456,
@@ -7708,10 +7770,12 @@
          ],
          "errors": [
             {
-               "line": 1,
+               "lineStart": 1,
+               "lineEnd": 32,
                "severity": "info",
                "message": "maintainability: 111.799 < 115",
-               "source": "Module - typhonjs-escomplex-commons/src/module/traits/actualize.js"
+               "name": "typhonjs-escomplex-commons/src/module/traits/actualize.js",
+               "type": "Module"
             }
          ],
          "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/actualize.js",
@@ -8110,10 +8174,12 @@
                      },
                      "errors": [
                         {
-                           "line": 28,
+                           "lineStart": 28,
+                           "lineEnd": 32,
                            "severity": "info",
                            "message": "halstead.difficulty: 10.8 > 8",
-                           "source": "Class (HalsteadArray) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 32,
@@ -8685,10 +8751,12 @@
                },
                "errors": [
                   {
-                     "line": 8,
+                     "lineStart": 8,
+                     "lineEnd": 11,
                      "severity": "info",
                      "message": "cyclomatic: 4 > 3",
-                     "source": "Module method - <anonymous>"
+                     "name": "<anonymous>",
+                     "type": "Module Method"
                   }
                ],
                "lineEnd": 11,
@@ -8836,16 +8904,20 @@
                },
                "errors": [
                   {
-                     "line": 9,
+                     "lineStart": 9,
+                     "lineEnd": 19,
                      "severity": "info",
                      "message": "cyclomatic: 7 > 3",
-                     "source": "Module method - <anonymous>"
+                     "name": "<anonymous>",
+                     "type": "Module Method"
                   },
                   {
-                     "line": 9,
+                     "lineStart": 9,
+                     "lineEnd": 19,
                      "severity": "info",
                      "message": "halstead.difficulty: 9.188 > 8",
-                     "source": "Module method - <anonymous>"
+                     "name": "<anonymous>",
+                     "type": "Module Method"
                   }
                ],
                "lineEnd": 19,
@@ -9201,10 +9273,12 @@
                      },
                      "errors": [
                         {
-                           "line": 56,
+                           "lineStart": 56,
+                           "lineEnd": 64,
                            "severity": "info",
                            "message": "halstead.difficulty: 11.429 > 8",
-                           "source": "Class (Trait) / method - valueOf"
+                           "name": "valueOf",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 64,
@@ -9557,16 +9631,20 @@
                      },
                      "errors": [
                         {
-                           "line": 13,
+                           "lineStart": 13,
+                           "lineEnd": 61,
                            "severity": "warning",
                            "message": "cyclomatic: 8 > 7",
-                           "source": "Class (TraitHalstead) / method - constructor"
+                           "name": "constructor",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 13,
+                           "lineStart": 13,
+                           "lineEnd": 61,
                            "severity": "info",
                            "message": "halstead.difficulty: 11.289 > 8",
-                           "source": "Class (TraitHalstead) / method - constructor"
+                           "name": "constructor",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 61,
@@ -9794,10 +9872,12 @@
                      },
                      "errors": [
                         {
-                           "line": 100,
+                           "lineStart": 100,
+                           "lineEnd": 111,
                            "severity": "warning",
                            "message": "halstead.difficulty: 13.125 > 13",
-                           "source": "Class (TraitHalstead) / method - valueOf"
+                           "name": "valueOf",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 111,
@@ -10270,10 +10350,12 @@
                      },
                      "errors": [
                         {
-                           "line": 25,
+                           "lineStart": 25,
+                           "lineEnd": 90,
                            "severity": "info",
                            "message": "halstead.difficulty: 12.316 > 8",
-                           "source": "Class (ProjectResult) / method - constructor"
+                           "name": "constructor",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 90,
@@ -10469,16 +10551,20 @@
                      },
                      "errors": [
                         {
-                           "line": 119,
+                           "lineStart": 119,
+                           "lineEnd": 152,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "source": "Class (ProjectResult) / method - finalize"
+                           "name": "finalize",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 119,
+                           "lineStart": 119,
+                           "lineEnd": 152,
                            "severity": "warning",
                            "message": "halstead.difficulty: 15.167 > 13",
-                           "source": "Class (ProjectResult) / method - finalize"
+                           "name": "finalize",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 152,
@@ -10569,10 +10655,12 @@
                      },
                      "errors": [
                         {
-                           "line": 136,
+                           "lineStart": 136,
+                           "lineEnd": 148,
                            "severity": "info",
                            "message": "halstead.difficulty: 9.188 > 8",
-                           "source": "Class (ProjectResult) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 148,
@@ -10840,16 +10928,20 @@
                      },
                      "errors": [
                         {
-                           "line": 211,
+                           "lineStart": 211,
+                           "lineEnd": 221,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "source": "Class (ProjectResult) / method - getSetting"
+                           "name": "getSetting",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 211,
+                           "lineStart": 211,
+                           "lineEnd": 221,
                            "severity": "info",
                            "message": "halstead.difficulty: 10 > 8",
-                           "source": "Class (ProjectResult) / method - getSetting"
+                           "name": "getSetting",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 221,
@@ -10911,10 +11003,12 @@
                      },
                      "errors": [
                         {
-                           "line": 230,
+                           "lineStart": 230,
+                           "lineEnd": 243,
                            "severity": "info",
                            "message": "halstead.difficulty: 10 > 8",
-                           "source": "Class (ProjectResult) / method - parse"
+                           "name": "parse",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 243,
@@ -11013,10 +11107,12 @@
                      },
                      "errors": [
                         {
-                           "line": 253,
+                           "lineStart": 253,
+                           "lineEnd": 268,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (ProjectResult) / method - setSetting"
+                           "name": "setSetting",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 268,
@@ -11896,10 +11992,12 @@
                },
                "errors": [
                   {
-                     "line": 17,
+                     "lineStart": 17,
+                     "lineEnd": 240,
                      "severity": "info",
                      "message": "maintainability: 103.409 < 115",
-                     "source": "Class - FormatJSONCheckstyle"
+                     "name": "FormatJSONCheckstyle",
+                     "type": "Class"
                   }
                ],
                "lineEnd": 240,
@@ -12010,10 +12108,12 @@
                      },
                      "errors": [
                         {
-                           "line": 35,
+                           "lineStart": 35,
+                           "lineEnd": 46,
                            "severity": "info",
                            "message": "halstead.difficulty: 12.071 > 8",
-                           "source": "Class (FormatJSONCheckstyle) / method - formatReport"
+                           "name": "formatReport",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 46,
@@ -12089,10 +12189,12 @@
                      },
                      "errors": [
                         {
-                           "line": 59,
+                           "lineStart": 59,
+                           "lineEnd": 75,
                            "severity": "info",
                            "message": "halstead.difficulty: 11.375 > 8",
-                           "source": "Class (FormatJSONCheckstyle) / method - formatResult"
+                           "name": "formatResult",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 75,
@@ -12322,16 +12424,20 @@
                      },
                      "errors": [
                         {
-                           "line": 118,
+                           "lineStart": 118,
+                           "lineEnd": 162,
                            "severity": "warning",
                            "message": "cyclomatic: 10 > 7",
-                           "source": "Class (FormatJSONCheckstyle) / method - _formatModule"
+                           "name": "_formatModule",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 118,
+                           "lineStart": 118,
+                           "lineEnd": 162,
                            "severity": "error",
                            "message": "halstead.difficulty: 27.9 > 20",
-                           "source": "Class (FormatJSONCheckstyle) / method - _formatModule"
+                           "name": "_formatModule",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 162,
@@ -12425,16 +12531,20 @@
                      },
                      "errors": [
                         {
-                           "line": 164,
+                           "lineStart": 164,
+                           "lineEnd": 239,
                            "severity": "error",
                            "message": "cyclomatic: 14 > 12",
-                           "source": "Class (FormatJSONCheckstyle) / method - _parseErrors"
+                           "name": "_parseErrors",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 164,
+                           "lineStart": 164,
+                           "lineEnd": 239,
                            "severity": "error",
                            "message": "halstead.difficulty: 31.706 > 20",
-                           "source": "Class (FormatJSONCheckstyle) / method - _parseErrors"
+                           "name": "_parseErrors",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 239,
@@ -12481,10 +12591,12 @@
          ],
          "errors": [
             {
-               "line": 1,
+               "lineStart": 1,
+               "lineEnd": 272,
                "severity": "info",
                "message": "maintainability: 103.409 < 115",
-               "source": "Module - typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONCheckstyle.js"
+               "name": "typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONCheckstyle.js",
+               "type": "Module"
             }
          ],
          "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONCheckstyle.js",
@@ -12859,10 +12971,12 @@
                      },
                      "errors": [
                         {
-                           "line": 26,
+                           "lineStart": 26,
+                           "lineEnd": 35,
                            "severity": "info",
                            "message": "halstead.difficulty: 10.676 > 8",
-                           "source": "Class (FormatJSONMinimal) / method - formatReport"
+                           "name": "formatReport",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 35,
@@ -12936,10 +13050,12 @@
                      },
                      "errors": [
                         {
-                           "line": 49,
+                           "lineStart": 49,
+                           "lineEnd": 65,
                            "severity": "info",
                            "message": "halstead.difficulty: 11.773 > 8",
-                           "source": "Class (FormatJSONMinimal) / method - formatResult"
+                           "name": "formatResult",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 65,
@@ -13194,16 +13310,20 @@
                      },
                      "errors": [
                         {
-                           "line": 112,
+                           "lineStart": 112,
+                           "lineEnd": 131,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (FormatJSONMinimal) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 112,
+                           "lineStart": 112,
+                           "lineEnd": 131,
                            "severity": "info",
                            "message": "halstead.difficulty: 8.346 > 8",
-                           "source": "Class (FormatJSONMinimal) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 131,
@@ -13348,16 +13468,20 @@
                      },
                      "errors": [
                         {
-                           "line": 150,
+                           "lineStart": 150,
+                           "lineEnd": 167,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (FormatJSONMinimal) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 150,
+                           "lineStart": 150,
+                           "lineEnd": 167,
                            "severity": "info",
                            "message": "halstead.difficulty: 8.4 > 8",
-                           "source": "Class (FormatJSONMinimal) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 167,
@@ -13466,16 +13590,20 @@
                      },
                      "errors": [
                         {
-                           "line": 186,
+                           "lineStart": 186,
+                           "lineEnd": 219,
                            "severity": "warning",
                            "message": "cyclomatic: 9 > 7",
-                           "source": "Class (FormatJSONMinimal) / method - _formatModule"
+                           "name": "_formatModule",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 186,
+                           "lineStart": 186,
+                           "lineEnd": 219,
                            "severity": "error",
                            "message": "halstead.difficulty: 20.938 > 20",
-                           "source": "Class (FormatJSONMinimal) / method - _formatModule"
+                           "name": "_formatModule",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 219,
@@ -13820,16 +13948,20 @@
                      },
                      "errors": [
                         {
-                           "line": 18,
+                           "lineStart": 18,
+                           "lineEnd": 28,
                            "severity": "info",
                            "message": "cyclomatic: 6 > 3",
-                           "source": "Class (FormatJSONModules) / method - formatReport"
+                           "name": "formatReport",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 18,
+                           "lineStart": 18,
+                           "lineEnd": 28,
                            "severity": "warning",
                            "message": "halstead.difficulty: 15.231 > 13",
-                           "source": "Class (FormatJSONModules) / method - formatReport"
+                           "name": "formatReport",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 28,
@@ -13893,10 +14025,12 @@
                      },
                      "errors": [
                         {
-                           "line": 40,
+                           "lineStart": 40,
+                           "lineEnd": 57,
                            "severity": "info",
                            "message": "halstead.difficulty: 11 > 8",
-                           "source": "Class (FormatJSONModules) / method - formatResult"
+                           "name": "formatResult",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 57,
@@ -13948,16 +14082,20 @@
                      },
                      "errors": [
                         {
-                           "line": 44,
+                           "lineStart": 44,
+                           "lineEnd": 53,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (FormatJSONModules) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 44,
+                           "lineStart": 44,
+                           "lineEnd": 53,
                            "severity": "info",
                            "message": "halstead.difficulty: 9 > 8",
-                           "source": "Class (FormatJSONModules) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 53,
@@ -16328,16 +16466,20 @@
                      },
                      "errors": [
                         {
-                           "line": 113,
+                           "lineStart": 113,
+                           "lineEnd": 124,
                            "severity": "info",
                            "message": "cyclomatic: 6 > 3",
-                           "source": "Class (AbstractFormatText) / method - _formatClass"
+                           "name": "_formatClass",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 113,
+                           "lineStart": 113,
+                           "lineEnd": 124,
                            "severity": "warning",
                            "message": "halstead.difficulty: 14.526 > 13",
-                           "source": "Class (AbstractFormatText) / method - _formatClass"
+                           "name": "_formatClass",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 124,
@@ -16489,10 +16631,12 @@
                      },
                      "errors": [
                         {
-                           "line": 162,
+                           "lineStart": 162,
+                           "lineEnd": 187,
                            "severity": "info",
                            "message": "halstead.difficulty: 10.5 > 8",
-                           "source": "Class (AbstractFormatText) / method - _formatEntries"
+                           "name": "_formatEntries",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 187,
@@ -16556,16 +16700,20 @@
                      },
                      "errors": [
                         {
-                           "line": 170,
+                           "lineStart": 170,
+                           "lineEnd": 184,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "source": "Class (AbstractFormatText) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 170,
+                           "lineStart": 170,
+                           "lineEnd": 184,
                            "severity": "info",
                            "message": "halstead.difficulty: 9.688 > 8",
-                           "source": "Class (AbstractFormatText) / method - <anonymous>"
+                           "name": "<anonymous>",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 184,
@@ -16634,16 +16782,20 @@
                      },
                      "errors": [
                         {
-                           "line": 204,
+                           "lineStart": 204,
+                           "lineEnd": 215,
                            "severity": "info",
                            "message": "cyclomatic: 6 > 3",
-                           "source": "Class (AbstractFormatText) / method - _formatMethod"
+                           "name": "_formatMethod",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 204,
+                           "lineStart": 204,
+                           "lineEnd": 215,
                            "severity": "warning",
                            "message": "halstead.difficulty: 15.167 > 13",
-                           "source": "Class (AbstractFormatText) / method - _formatMethod"
+                           "name": "_formatMethod",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 215,
@@ -16806,16 +16958,20 @@
                      },
                      "errors": [
                         {
-                           "line": 257,
+                           "lineStart": 257,
+                           "lineEnd": 277,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "source": "Class (AbstractFormatText) / method - _formatModule"
+                           "name": "_formatModule",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 257,
+                           "lineStart": 257,
+                           "lineEnd": 277,
                            "severity": "warning",
                            "message": "halstead.difficulty: 16.763 > 13",
-                           "source": "Class (AbstractFormatText) / method - _formatModule"
+                           "name": "_formatModule",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 277,
@@ -16878,16 +17034,20 @@
                      },
                      "errors": [
                         {
-                           "line": 290,
+                           "lineStart": 290,
+                           "lineEnd": 301,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (AbstractFormatText) / method - _formatProject"
+                           "name": "_formatProject",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 290,
+                           "lineStart": 290,
+                           "lineEnd": 301,
                            "severity": "info",
                            "message": "halstead.difficulty: 12.923 > 8",
-                           "source": "Class (AbstractFormatText) / method - _formatProject"
+                           "name": "_formatProject",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 301,
@@ -17342,16 +17502,20 @@
                      },
                      "errors": [
                         {
-                           "line": 50,
+                           "lineStart": 50,
+                           "lineEnd": 89,
                            "severity": "info",
                            "message": "cyclomatic: 6 > 3",
-                           "source": "Class (AbstractTextMatrix) / method - formatResult"
+                           "name": "formatResult",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 50,
+                           "lineStart": 50,
+                           "lineEnd": 89,
                            "severity": "warning",
                            "message": "halstead.difficulty: 16.944 > 13",
-                           "source": "Class (AbstractTextMatrix) / method - formatResult"
+                           "name": "formatResult",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 89,
@@ -17419,16 +17583,20 @@
                      },
                      "errors": [
                         {
-                           "line": 106,
+                           "lineStart": 106,
+                           "lineEnd": 131,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "source": "Class (AbstractTextMatrix) / method - _formatMatrixList"
+                           "name": "_formatMatrixList",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 106,
+                           "lineStart": 106,
+                           "lineEnd": 131,
                            "severity": "info",
                            "message": "halstead.difficulty: 9.263 > 8",
-                           "source": "Class (AbstractTextMatrix) / method - _formatMatrixList"
+                           "name": "_formatMatrixList",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 131,
@@ -18001,16 +18169,20 @@
                      },
                      "errors": [
                         {
-                           "line": 31,
+                           "lineStart": 31,
+                           "lineEnd": 54,
                            "severity": "info",
                            "message": "cyclomatic: 7 > 3",
-                           "source": "Class (FormatText) / method - formatResult"
+                           "name": "formatResult",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 31,
+                           "lineStart": 31,
+                           "lineEnd": 54,
                            "severity": "warning",
                            "message": "halstead.difficulty: 18.85 > 13",
-                           "source": "Class (FormatText) / method - formatResult"
+                           "name": "formatResult",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 54,
@@ -19970,10 +20142,12 @@
                      },
                      "errors": [
                         {
-                           "line": 33,
+                           "lineStart": 33,
+                           "lineEnd": 63,
                            "severity": "info",
                            "message": "cyclomatic: 7 > 3",
-                           "source": "Class (TransformFormat) / method - addFormat"
+                           "name": "addFormat",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 63,
@@ -20179,16 +20353,20 @@
                      },
                      "errors": [
                         {
-                           "line": 119,
+                           "lineStart": 119,
+                           "lineEnd": 142,
                            "severity": "info",
                            "message": "cyclomatic: 6 > 3",
-                           "source": "Class (TransformFormat) / method - format"
+                           "name": "format",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 119,
+                           "lineStart": 119,
+                           "lineEnd": 142,
                            "severity": "info",
                            "message": "halstead.difficulty: 12.235 > 8",
-                           "source": "Class (TransformFormat) / method - format"
+                           "name": "format",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 142,
@@ -21033,16 +21211,20 @@
                      },
                      "errors": [
                         {
-                           "line": 43,
+                           "lineStart": 43,
+                           "lineEnd": 55,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (MathUtil) / method - create2DArray"
+                           "name": "create2DArray",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 43,
+                           "lineStart": 43,
+                           "lineEnd": 55,
                            "severity": "warning",
                            "message": "halstead.difficulty: 17.438 > 13",
-                           "source": "Class (MathUtil) / method - create2DArray"
+                           "name": "create2DArray",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 55,
@@ -21094,10 +21276,12 @@
                      },
                      "errors": [
                         {
-                           "line": 65,
+                           "lineStart": 65,
+                           "lineEnd": 74,
                            "severity": "warning",
                            "message": "halstead.difficulty: 18.9 > 13",
-                           "source": "Class (MathUtil) / method - getMedian"
+                           "name": "getMedian",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 74,
@@ -21275,10 +21459,12 @@
                      },
                      "errors": [
                         {
-                           "line": 111,
+                           "lineStart": 111,
+                           "lineEnd": 114,
                            "severity": "info",
                            "message": "halstead.difficulty: 8.571 > 8",
-                           "source": "Class (MathUtil) / method - toFixed"
+                           "name": "toFixed",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 114,
@@ -21582,10 +21768,12 @@
                },
                "errors": [
                   {
-                     "line": 4,
+                     "lineStart": 4,
+                     "lineEnd": 132,
                      "severity": "warning",
                      "message": "maintainability: 98.302 < 100",
-                     "source": "Class - ObjectUtil"
+                     "name": "ObjectUtil",
+                     "type": "Class"
                   }
                ],
                "lineEnd": 132,
@@ -21745,16 +21933,20 @@
                      },
                      "errors": [
                         {
-                           "line": 51,
+                           "lineStart": 51,
+                           "lineEnd": 68,
                            "severity": "info",
                            "message": "cyclomatic: 6 > 3",
-                           "source": "Class (ObjectUtil) / method - safeAccess"
+                           "name": "safeAccess",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 51,
+                           "lineStart": 51,
+                           "lineEnd": 68,
                            "severity": "warning",
                            "message": "halstead.difficulty: 17 > 13",
-                           "source": "Class (ObjectUtil) / method - safeAccess"
+                           "name": "safeAccess",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 68,
@@ -21843,16 +22035,20 @@
                      },
                      "errors": [
                         {
-                           "line": 83,
+                           "lineStart": 83,
+                           "lineEnd": 131,
                            "severity": "error",
                            "message": "cyclomatic: 13 > 12",
-                           "source": "Class (ObjectUtil) / method - safeSet"
+                           "name": "safeSet",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 83,
+                           "lineStart": 83,
+                           "lineEnd": 131,
                            "severity": "error",
                            "message": "halstead.difficulty: 38.48 > 20",
-                           "source": "Class (ObjectUtil) / method - safeSet"
+                           "name": "safeSet",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 131,
@@ -21893,10 +22089,12 @@
          "dependencies": [],
          "errors": [
             {
-               "line": 1,
+               "lineStart": 1,
+               "lineEnd": 199,
                "severity": "info",
                "message": "maintainability: 102.252 < 115",
-               "source": "Module - typhonjs-escomplex-commons/src/utils/ObjectUtil.js"
+               "name": "typhonjs-escomplex-commons/src/utils/ObjectUtil.js",
+               "type": "Module"
             }
          ],
          "filePath": "./node_modules/typhonjs-escomplex-commons/src/utils/ObjectUtil.js",
@@ -21960,16 +22158,20 @@
                },
                "errors": [
                   {
-                     "line": 146,
+                     "lineStart": 146,
+                     "lineEnd": 162,
                      "severity": "info",
                      "message": "cyclomatic: 5 > 3",
-                     "source": "Module method - _depthTraverse"
+                     "name": "_depthTraverse",
+                     "type": "Module Method"
                   },
                   {
-                     "line": 146,
+                     "lineStart": 146,
+                     "lineEnd": 162,
                      "severity": "error",
                      "message": "halstead.difficulty: 21.636 > 20",
-                     "source": "Module method - _depthTraverse"
+                     "name": "_depthTraverse",
+                     "type": "Module Method"
                   }
                ],
                "lineEnd": 162,
@@ -22028,10 +22230,12 @@
                },
                "errors": [
                   {
-                     "line": 173,
+                     "lineStart": 173,
+                     "lineEnd": 198,
                      "severity": "warning",
                      "message": "halstead.difficulty: 13.333 > 13",
-                     "source": "Module method - _getAccessorList"
+                     "name": "_getAccessorList",
+                     "type": "Module Method"
                   }
                ],
                "lineEnd": 198,
@@ -22387,10 +22591,12 @@
                },
                "errors": [
                   {
-                     "line": 6,
+                     "lineStart": 6,
+                     "lineEnd": 192,
                      "severity": "info",
                      "message": "maintainability: 113.509 < 115",
-                     "source": "Class - StringUtil"
+                     "name": "StringUtil",
+                     "type": "Class"
                   }
                ],
                "lineEnd": 192,
@@ -22586,16 +22792,20 @@
                      },
                      "errors": [
                         {
-                           "line": 61,
+                           "lineStart": 61,
+                           "lineEnd": 74,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "source": "Class (StringUtil) / method - safeStringObject"
+                           "name": "safeStringObject",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 61,
+                           "lineStart": 61,
+                           "lineEnd": 74,
                            "severity": "warning",
                            "message": "halstead.difficulty: 16.667 > 13",
-                           "source": "Class (StringUtil) / method - safeStringObject"
+                           "name": "safeStringObject",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 74,
@@ -22731,16 +22941,20 @@
                      },
                      "errors": [
                         {
-                           "line": 124,
+                           "lineStart": 124,
+                           "lineEnd": 175,
                            "severity": "error",
                            "message": "cyclomatic: 13 > 12",
-                           "source": "Class (StringUtil) / method - safeStringsPrependObject"
+                           "name": "safeStringsPrependObject",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 124,
+                           "lineStart": 124,
+                           "lineEnd": 175,
                            "severity": "error",
                            "message": "halstead.difficulty: 44.4 > 20",
-                           "source": "Class (StringUtil) / method - safeStringsPrependObject"
+                           "name": "safeStringsPrependObject",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 175,
@@ -22879,10 +23093,12 @@
          ],
          "errors": [
             {
-               "line": 1,
+               "lineStart": 1,
+               "lineEnd": 192,
                "severity": "info",
                "message": "maintainability: 113.509 < 115",
-               "source": "Module - typhonjs-escomplex-commons/src/utils/StringUtil.js"
+               "name": "typhonjs-escomplex-commons/src/utils/StringUtil.js",
+               "type": "Module"
             }
          ],
          "filePath": "./node_modules/typhonjs-escomplex-commons/src/utils/StringUtil.js",
@@ -23220,16 +23436,20 @@
                      },
                      "errors": [
                         {
-                           "line": 40,
+                           "lineStart": 40,
+                           "lineEnd": 66,
                            "severity": "info",
                            "message": "cyclomatic: 4 > 3",
-                           "source": "Class (ESComplexModule) / method - analyze"
+                           "name": "analyze",
+                           "type": "Class Method"
                         },
                         {
-                           "line": 40,
+                           "lineStart": 40,
+                           "lineEnd": 66,
                            "severity": "warning",
                            "message": "halstead.difficulty: 13.045 > 13",
-                           "source": "Class (ESComplexModule) / method - analyze"
+                           "name": "analyze",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 66,
@@ -23824,10 +24044,12 @@
                      },
                      "errors": [
                         {
-                           "line": 27,
+                           "lineStart": 27,
+                           "lineEnd": 42,
                            "severity": "info",
                            "message": "halstead.difficulty: 10.389 > 8",
-                           "source": "Class (Plugins) / method - constructor"
+                           "name": "constructor",
+                           "type": "Class Method"
                         }
                      ],
                      "lineEnd": 42,

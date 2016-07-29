@@ -529,10 +529,12 @@
          },
          "errors": [
             {
-               "line": 90,
+               "lineStart": 90,
+               "lineEnd": 945,
                "severity": "info",
                "message": "maintainability: 106.722 < 115",
-               "source": "Class - Collection"
+               "name": "Collection",
+               "type": "Class"
             }
          ],
          "lineEnd": 945,
@@ -605,16 +607,20 @@
                },
                "errors": [
                   {
-                     "line": 105,
+                     "lineStart": 105,
+                     "lineEnd": 145,
                      "severity": "warning",
                      "message": "cyclomatic: 11 > 7",
-                     "source": "Class (Collection) / method - constructor"
+                     "name": "constructor",
+                     "type": "Class Method"
                   },
                   {
-                     "line": 105,
+                     "lineStart": 105,
+                     "lineEnd": 145,
                      "severity": "warning",
                      "message": "halstead.difficulty: 18.455 > 13",
-                     "source": "Class (Collection) / method - constructor"
+                     "name": "constructor",
+                     "type": "Class Method"
                   }
                ],
                "lineEnd": 145,
@@ -812,16 +818,20 @@
                },
                "errors": [
                   {
-                     "line": 241,
+                     "lineStart": 241,
+                     "lineEnd": 262,
                      "severity": "info",
                      "message": "cyclomatic: 4 > 3",
-                     "source": "Class (Collection) / method - create"
+                     "name": "create",
+                     "type": "Class Method"
                   },
                   {
-                     "line": 241,
+                     "lineStart": 241,
+                     "lineEnd": 262,
                      "severity": "info",
                      "message": "halstead.difficulty: 12.143 > 8",
-                     "source": "Class (Collection) / method - create"
+                     "name": "create",
+                     "type": "Class Method"
                   }
                ],
                "lineEnd": 262,
@@ -1077,16 +1087,20 @@
                },
                "errors": [
                   {
-                     "line": 345,
+                     "lineStart": 345,
+                     "lineEnd": 354,
                      "severity": "info",
                      "message": "cyclomatic: 6 > 3",
-                     "source": "Class (Collection) / method - get"
+                     "name": "get",
+                     "type": "Class Method"
                   },
                   {
-                     "line": 345,
+                     "lineStart": 345,
+                     "lineEnd": 354,
                      "severity": "info",
                      "message": "halstead.difficulty: 9.346 > 8",
-                     "source": "Class (Collection) / method - get"
+                     "name": "get",
+                     "type": "Class Method"
                   }
                ],
                "lineEnd": 354,
@@ -1403,16 +1417,20 @@
                },
                "errors": [
                   {
-                     "line": 488,
+                     "lineStart": 488,
+                     "lineEnd": 509,
                      "severity": "info",
                      "message": "cyclomatic: 5 > 3",
-                     "source": "Class (Collection) / method - _prepareModel"
+                     "name": "_prepareModel",
+                     "type": "Class Method"
                   },
                   {
-                     "line": 488,
+                     "lineStart": 488,
+                     "lineEnd": 509,
                      "severity": "info",
                      "message": "halstead.difficulty: 11.579 > 8",
-                     "source": "Class (Collection) / method - _prepareModel"
+                     "name": "_prepareModel",
+                     "type": "Class Method"
                   }
                ],
                "lineEnd": 509,
@@ -1527,16 +1545,20 @@
                },
                "errors": [
                   {
-                     "line": 537,
+                     "lineStart": 537,
+                     "lineEnd": 551,
                      "severity": "info",
                      "message": "cyclomatic: 5 > 3",
-                     "source": "Class (Collection) / method - remove"
+                     "name": "remove",
+                     "type": "Class Method"
                   },
                   {
-                     "line": 537,
+                     "lineStart": 537,
+                     "lineEnd": 551,
                      "severity": "info",
                      "message": "halstead.difficulty: 13 > 8",
-                     "source": "Class (Collection) / method - remove"
+                     "name": "remove",
+                     "type": "Class Method"
                   }
                ],
                "lineEnd": 551,
@@ -1647,16 +1669,20 @@
                },
                "errors": [
                   {
-                     "line": 597,
+                     "lineStart": 597,
+                     "lineEnd": 612,
                      "severity": "info",
                      "message": "cyclomatic: 4 > 3",
-                     "source": "Class (Collection) / method - reset"
+                     "name": "reset",
+                     "type": "Class Method"
                   },
                   {
-                     "line": 597,
+                     "lineStart": 597,
+                     "lineEnd": 612,
                      "severity": "warning",
                      "message": "halstead.difficulty: 16.059 > 13",
-                     "source": "Class (Collection) / method - reset"
+                     "name": "reset",
+                     "type": "Class Method"
                   }
                ],
                "lineEnd": 612,
@@ -1794,16 +1820,20 @@
                },
                "errors": [
                   {
-                     "line": 637,
+                     "lineStart": 637,
+                     "lineEnd": 805,
                      "severity": "error",
                      "message": "cyclomatic: 45 > 12",
-                     "source": "Class (Collection) / method - set"
+                     "name": "set",
+                     "type": "Class Method"
                   },
                   {
-                     "line": 637,
+                     "lineStart": 637,
+                     "lineEnd": 805,
                      "severity": "error",
                      "message": "halstead.difficulty: 54.632 > 20",
-                     "source": "Class (Collection) / method - set"
+                     "name": "set",
+                     "type": "Class Method"
                   }
                ],
                "lineEnd": 805,
@@ -2001,16 +2031,20 @@
                },
                "errors": [
                   {
-                     "line": 843,
+                     "lineStart": 843,
+                     "lineEnd": 866,
                      "severity": "info",
                      "message": "cyclomatic: 6 > 3",
-                     "source": "Class (Collection) / method - sort"
+                     "name": "sort",
+                     "type": "Class Method"
                   },
                   {
-                     "line": 843,
+                     "lineStart": 843,
+                     "lineEnd": 866,
                      "severity": "warning",
                      "message": "halstead.difficulty: 16.471 > 13",
-                     "source": "Class (Collection) / method - sort"
+                     "name": "sort",
+                     "type": "Class Method"
                   }
                ],
                "lineEnd": 866,
@@ -2300,10 +2334,12 @@
    ],
    "errors": [
       {
-         "line": 1,
+         "lineStart": 1,
+         "lineEnd": 1120,
          "severity": "info",
          "message": "maintainability: 105.333 < 115",
-         "source": "Module - <unknown>"
+         "name": "",
+         "type": "Module"
       }
    ],
    "lineEnd": 1120,
@@ -2437,16 +2473,20 @@
          },
          "errors": [
             {
-               "line": 1007,
+               "lineStart": 1007,
+               "lineEnd": 1031,
                "severity": "warning",
                "message": "cyclomatic: 10 > 7",
-               "source": "Module method - <anonymous>"
+               "name": "<anonymous>",
+               "type": "Module Method"
             },
             {
-               "line": 1007,
+               "lineStart": 1007,
+               "lineEnd": 1031,
                "severity": "warning",
                "message": "halstead.difficulty: 14.5 > 13",
-               "source": "Module method - <anonymous>"
+               "name": "<anonymous>",
+               "type": "Module Method"
             }
          ],
          "lineEnd": 1031,
@@ -2531,16 +2571,20 @@
          },
          "errors": [
             {
-               "line": 1041,
+               "lineStart": 1041,
+               "lineEnd": 1078,
                "severity": "info",
                "message": "cyclomatic: 5 > 3",
-               "source": "Module method - <anonymous>"
+               "name": "<anonymous>",
+               "type": "Module Method"
             },
             {
-               "line": 1041,
+               "lineStart": 1041,
+               "lineEnd": 1078,
                "severity": "warning",
                "message": "halstead.difficulty: 17.578 > 13",
-               "source": "Module method - <anonymous>"
+               "name": "<anonymous>",
+               "type": "Module Method"
             }
          ],
          "lineEnd": 1078,
@@ -2602,10 +2646,12 @@
          },
          "errors": [
             {
-               "line": 1086,
+               "lineStart": 1086,
+               "lineEnd": 1096,
                "severity": "info",
                "message": "halstead.difficulty: 8.5 > 8",
-               "source": "Module method - <anonymous>"
+               "name": "<anonymous>",
+               "type": "Module Method"
             }
          ],
          "lineEnd": 1096,
@@ -2665,16 +2711,20 @@
          },
          "errors": [
             {
-               "line": 1105,
+               "lineStart": 1105,
+               "lineEnd": 1114,
                "severity": "info",
                "message": "cyclomatic: 4 > 3",
-               "source": "Module method - <anonymous>"
+               "name": "<anonymous>",
+               "type": "Module Method"
             },
             {
-               "line": 1105,
+               "lineStart": 1105,
+               "lineEnd": 1114,
                "severity": "error",
                "message": "halstead.difficulty: 26.5 > 20",
-               "source": "Module method - <anonymous>"
+               "name": "<anonymous>",
+               "type": "Module Method"
             }
          ],
          "lineEnd": 1114,
