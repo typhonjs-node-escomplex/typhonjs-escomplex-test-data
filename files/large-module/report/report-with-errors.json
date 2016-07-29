@@ -534,7 +534,11 @@
                "severity": "info",
                "message": "maintainability: 106.722 < 115",
                "name": "Collection",
-               "type": "Class"
+               "type": {
+                  "description": "Class",
+                  "name": "CLASS",
+                  "ordinal": 0
+               }
             }
          ],
          "lineEnd": 945,
@@ -612,7 +616,11 @@
                      "severity": "warning",
                      "message": "cyclomatic: 11 > 7",
                      "name": "constructor",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   },
                   {
                      "lineStart": 105,
@@ -620,7 +628,11 @@
                      "severity": "warning",
                      "message": "halstead.difficulty: 18.455 > 13",
                      "name": "constructor",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   }
                ],
                "lineEnd": 145,
@@ -823,7 +835,11 @@
                      "severity": "info",
                      "message": "cyclomatic: 4 > 3",
                      "name": "create",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   },
                   {
                      "lineStart": 241,
@@ -831,7 +847,11 @@
                      "severity": "info",
                      "message": "halstead.difficulty: 12.143 > 8",
                      "name": "create",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   }
                ],
                "lineEnd": 262,
@@ -1092,7 +1112,11 @@
                      "severity": "info",
                      "message": "cyclomatic: 6 > 3",
                      "name": "get",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   },
                   {
                      "lineStart": 345,
@@ -1100,7 +1124,11 @@
                      "severity": "info",
                      "message": "halstead.difficulty: 9.346 > 8",
                      "name": "get",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   }
                ],
                "lineEnd": 354,
@@ -1422,7 +1450,11 @@
                      "severity": "info",
                      "message": "cyclomatic: 5 > 3",
                      "name": "_prepareModel",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   },
                   {
                      "lineStart": 488,
@@ -1430,7 +1462,11 @@
                      "severity": "info",
                      "message": "halstead.difficulty: 11.579 > 8",
                      "name": "_prepareModel",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   }
                ],
                "lineEnd": 509,
@@ -1550,7 +1586,11 @@
                      "severity": "info",
                      "message": "cyclomatic: 5 > 3",
                      "name": "remove",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   },
                   {
                      "lineStart": 537,
@@ -1558,7 +1598,11 @@
                      "severity": "info",
                      "message": "halstead.difficulty: 13 > 8",
                      "name": "remove",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   }
                ],
                "lineEnd": 551,
@@ -1674,7 +1718,11 @@
                      "severity": "info",
                      "message": "cyclomatic: 4 > 3",
                      "name": "reset",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   },
                   {
                      "lineStart": 597,
@@ -1682,7 +1730,11 @@
                      "severity": "warning",
                      "message": "halstead.difficulty: 16.059 > 13",
                      "name": "reset",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   }
                ],
                "lineEnd": 612,
@@ -1825,7 +1877,11 @@
                      "severity": "error",
                      "message": "cyclomatic: 45 > 12",
                      "name": "set",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   },
                   {
                      "lineStart": 637,
@@ -1833,7 +1889,11 @@
                      "severity": "error",
                      "message": "halstead.difficulty: 54.632 > 20",
                      "name": "set",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   }
                ],
                "lineEnd": 805,
@@ -2036,7 +2096,11 @@
                      "severity": "info",
                      "message": "cyclomatic: 6 > 3",
                      "name": "sort",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   },
                   {
                      "lineStart": 843,
@@ -2044,7 +2108,11 @@
                      "severity": "warning",
                      "message": "halstead.difficulty: 16.471 > 13",
                      "name": "sort",
-                     "type": "Class Method"
+                     "type": {
+                        "description": "Class Method",
+                        "name": "CLASS_METHOD",
+                        "ordinal": 1
+                     }
                   }
                ],
                "lineEnd": 866,
@@ -2339,7 +2407,11 @@
          "severity": "info",
          "message": "maintainability: 105.333 < 115",
          "name": "",
-         "type": "Module"
+         "type": {
+            "description": "Module",
+            "name": "MODULE",
+            "ordinal": 3
+         }
       }
    ],
    "lineEnd": 1120,
@@ -2478,7 +2550,11 @@
                "severity": "warning",
                "message": "cyclomatic: 10 > 7",
                "name": "<anonymous>",
-               "type": "Module Method"
+               "type": {
+                  "description": "Module Method",
+                  "name": "MODULE_METHOD",
+                  "ordinal": 2
+               }
             },
             {
                "lineStart": 1007,
@@ -2486,7 +2562,11 @@
                "severity": "warning",
                "message": "halstead.difficulty: 14.5 > 13",
                "name": "<anonymous>",
-               "type": "Module Method"
+               "type": {
+                  "description": "Module Method",
+                  "name": "MODULE_METHOD",
+                  "ordinal": 2
+               }
             }
          ],
          "lineEnd": 1031,
@@ -2576,7 +2656,11 @@
                "severity": "info",
                "message": "cyclomatic: 5 > 3",
                "name": "<anonymous>",
-               "type": "Module Method"
+               "type": {
+                  "description": "Module Method",
+                  "name": "MODULE_METHOD",
+                  "ordinal": 2
+               }
             },
             {
                "lineStart": 1041,
@@ -2584,7 +2668,11 @@
                "severity": "warning",
                "message": "halstead.difficulty: 17.578 > 13",
                "name": "<anonymous>",
-               "type": "Module Method"
+               "type": {
+                  "description": "Module Method",
+                  "name": "MODULE_METHOD",
+                  "ordinal": 2
+               }
             }
          ],
          "lineEnd": 1078,
@@ -2651,7 +2739,11 @@
                "severity": "info",
                "message": "halstead.difficulty: 8.5 > 8",
                "name": "<anonymous>",
-               "type": "Module Method"
+               "type": {
+                  "description": "Module Method",
+                  "name": "MODULE_METHOD",
+                  "ordinal": 2
+               }
             }
          ],
          "lineEnd": 1096,
@@ -2716,7 +2808,11 @@
                "severity": "info",
                "message": "cyclomatic: 4 > 3",
                "name": "<anonymous>",
-               "type": "Module Method"
+               "type": {
+                  "description": "Module Method",
+                  "name": "MODULE_METHOD",
+                  "ordinal": 2
+               }
             },
             {
                "lineStart": 1105,
@@ -2724,7 +2820,11 @@
                "severity": "error",
                "message": "halstead.difficulty: 26.5 > 20",
                "name": "<anonymous>",
-               "type": "Module Method"
+               "type": {
+                  "description": "Module Method",
+                  "name": "MODULE_METHOD",
+                  "ordinal": 2
+               }
             }
          ],
          "lineEnd": 1114,
