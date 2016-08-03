@@ -193,7 +193,7 @@
                "+=",
                "new",
                ":?",
-               "arrowfunction",
+               "function=>",
                "||",
                "-",
                "for",
@@ -506,7 +506,7 @@
                   "if",
                   "! (prefix)",
                   "return",
-                  "arrowfunction"
+                  "function=>"
                ]
             }
          },
@@ -629,7 +629,7 @@
                   "{}",
                   ":",
                   "const",
-                  "arrowfunction",
+                  "function=>",
                   "return"
                ]
             }
@@ -1547,7 +1547,7 @@
                   "for",
                   "++ (postfix)",
                   "else",
-                  "arrowfunction",
+                  "function=>",
                   ":"
                ]
             }
@@ -1880,7 +1880,7 @@
                   "return",
                   "()",
                   ".",
-                  "arrowfunction"
+                  "function=>"
                ]
             }
          },

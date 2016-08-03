@@ -10,8 +10,8 @@
          "cols": [
             2,
             15,
-            22,
-            45
+            21,
+            44
          ]
       },
       {
@@ -23,19 +23,19 @@
       {
          "row": 3,
          "cols": [
-            46
+            45
          ]
       },
       {
          "row": 5,
          "cols": [
-            40
+            39
          ]
       },
       {
          "row": 7,
          "cols": [
-            39
+            38
          ]
       },
       {
@@ -64,9 +64,9 @@
             7,
             8,
             10,
+            38,
             39,
-            40,
-            43
+            42
          ]
       },
       {
@@ -84,10 +84,10 @@
             8,
             10,
             12,
+            38,
             39,
-            40,
-            42,
-            43
+            41,
+            42
          ]
       },
       {
@@ -101,129 +101,130 @@
       {
          "row": 17,
          "cols": [
-            21
+            19
          ]
       },
       {
-         "row": 22,
+         "row": 21,
          "cols": [
             11,
             15,
+            38,
             39,
-            40,
+            41,
             42,
-            43,
-            44
+            43
+         ]
+      },
+      {
+         "row": 23,
+         "cols": [
+            39,
+            42
          ]
       },
       {
          "row": 24,
          "cols": [
-            40,
-            43
+            39,
+            42
          ]
       },
       {
          "row": 25,
          "cols": [
-            40,
-            43
+            39
          ]
       },
       {
          "row": 26,
          "cols": [
-            40
+            33,
+            43
          ]
       },
       {
          "row": 27,
          "cols": [
-            34,
-            44
+            34
          ]
       },
       {
          "row": 28,
          "cols": [
-            35
+            35,
+            43
          ]
       },
       {
          "row": 29,
          "cols": [
             36,
-            44
+            43
          ]
       },
       {
          "row": 30,
          "cols": [
-            37,
-            44
+            37
          ]
       },
       {
          "row": 31,
          "cols": [
-            38
+            39,
+            42,
+            43
          ]
       },
       {
          "row": 32,
          "cols": [
-            40,
-            43,
-            44
+            39,
+            42
          ]
       },
       {
          "row": 33,
          "cols": [
-            40,
+            31,
+            38,
+            39,
             43
          ]
       },
       {
          "row": 34,
          "cols": [
-            32,
-            39,
-            40,
-            44
+            32
          ]
       },
       {
          "row": 35,
          "cols": [
-            33
+            31,
+            39,
+            43
          ]
       },
       {
          "row": 36,
          "cols": [
-            32,
-            40,
-            44
+            31,
+            39,
+            43
          ]
       },
       {
          "row": 37,
          "cols": [
-            32,
-            40,
-            44
+            32
          ]
       },
       {
          "row": 38,
          "cols": [
-            33
-         ]
-      },
-      {
-         "row": 39,
-         "cols": [
+            22,
             23,
             24,
             25,
@@ -232,84 +233,83 @@
             28,
             29,
             30,
-            31,
+            33,
             34,
             35,
             36,
             37,
-            38,
+            39
+         ]
+      },
+      {
+         "row": 39,
+         "cols": [
             40
          ]
       },
       {
-         "row": 40,
+         "row": 41,
          "cols": [
-            41
+            42
          ]
       },
       {
-         "row": 42,
+         "row": 43,
          "cols": [
-            43
+            42
          ]
       },
       {
          "row": 44,
          "cols": [
-            43
+            46
          ]
       },
       {
          "row": 45,
          "cols": [
-            47
+            44
          ]
       },
       {
          "row": 46,
          "cols": [
-            45
-         ]
-      },
-      {
-         "row": 47,
-         "cols": [
             15
          ]
       }
    ],
-   "changeCost": 22.96,
-   "coreSize": 27.083,
+   "changeCost": 23.902,
+   "coreSize": 27.66,
    "errors": [],
-   "firstOrderDensity": 3.993,
+   "firstOrderDensity": 4.165,
    "moduleAverage": {
       "methodAverage": {
-         "cyclomatic": 2.013,
-         "cyclomaticDensity": 75.474,
+         "cyclomatic": 2.001,
+         "cyclomaticDensity": 68.847,
          "halstead": {
-            "bugs": 0.037,
-            "difficulty": 4.884,
-            "effort": 1174.866,
-            "length": 25.849,
-            "time": 65.27,
-            "vocabulary": 12.645,
-            "volume": 109.974,
+            "bugs": 0.039,
+            "difficulty": 4.968,
+            "effort": 1311.535,
+            "length": 26.811,
+            "time": 72.863,
+            "vocabulary": 12.834,
+            "volume": 115.508,
             "operands": {
-               "distinct": 7.434,
-               "total": 14.121
+               "distinct": 7.592,
+               "total": 14.634
             },
             "operators": {
-               "distinct": 5.211,
-               "total": 11.728
+               "distinct": 5.242,
+               "total": 12.177
             }
          },
-         "params": 1.13,
+         "params": 1.129,
          "sloc": {
-            "logical": 4.041,
-            "physical": 11.491
+            "logical": 4.179,
+            "physical": 11.876
          }
       },
-      "maintainability": 132.733
+      "maintainability": 132.078
    },
    "modules": [
       {
@@ -317,13 +317,13 @@
             "cyclomatic": 17,
             "cyclomaticDensity": 26.984,
             "halstead": {
-               "bugs": 0.895,
-               "difficulty": 39.188,
-               "effort": 105214.105,
-               "length": 405,
-               "time": 5845.228,
-               "vocabulary": 99,
-               "volume": 2684.889,
+               "bugs": 0.904,
+               "difficulty": 40.639,
+               "effort": 110159.565,
+               "length": 408,
+               "time": 6119.976,
+               "vocabulary": 100,
+               "volume": 2710.693,
                "operands": {
                   "distinct": 72,
                   "total": 209,
@@ -389,22 +389,22 @@
                      "skipCalculation",
                      "onProjectEnd",
                      "finalize",
-                     "processResults",
-                     "\"processResults error: `projectReport` is not an instance of ProjectReport.\"",
-                     "\"processResults error: `options` is not an `object`.\"",
+                     "process",
+                     "\"process error: `projectReport` is not an instance of ProjectReport.\"",
+                     "\"process error: `options` is not an `object`.\"",
                      "length",
                      "0",
-                     "\"processResults error: `projectReport.modules` does not appear to contain `ModuleReport` entries.\"",
+                     "\"process error: `projectReport.modules` does not appear to contain `ModuleReport` entries.\"",
                      "analyzeAsync",
                      "Promise",
                      "reject",
                      "err",
-                     "processResultsAsync"
+                     "processAsync"
                   ]
                },
                "operators": {
-                  "distinct": 27,
-                  "total": 196,
+                  "distinct": 28,
+                  "total": 199,
                   "identifiers": [
                      "import",
                      "from",
@@ -423,10 +423,11 @@
                      "! (prefix)",
                      "()",
                      "const",
-                     "arrowfunction",
+                     "function=>",
                      "let",
                      "||",
                      "===",
+                     "try",
                      "return",
                      "catch",
                      "[]",
@@ -456,13 +457,13 @@
                   "cyclomatic": 17,
                   "cyclomaticDensity": 27.419,
                   "halstead": {
-                     "bugs": 0.835,
-                     "difficulty": 32.515,
-                     "effort": 81477.148,
-                     "length": 386,
-                     "time": 4526.508,
-                     "vocabulary": 90,
-                     "volume": 2505.855,
+                     "bugs": 0.844,
+                     "difficulty": 33.993,
+                     "effort": 86053.478,
+                     "length": 389,
+                     "time": 4780.749,
+                     "vocabulary": 91,
+                     "volume": 2531.532,
                      "operands": {
                         "distinct": 68,
                         "total": 201,
@@ -523,23 +524,23 @@
                            "skipCalculation",
                            "onProjectEnd",
                            "finalize",
-                           "processResults",
-                           "\"processResults error: `projectReport` is not an instance of ProjectReport.\"",
-                           "\"processResults error: `options` is not an `object`.\"",
+                           "process",
+                           "\"process error: `projectReport` is not an instance of ProjectReport.\"",
+                           "\"process error: `options` is not an `object`.\"",
                            "length",
                            "0",
                            "ModuleReport",
-                           "\"processResults error: `projectReport.modules` does not appear to contain `ModuleReport` entries.\"",
+                           "\"process error: `projectReport.modules` does not appear to contain `ModuleReport` entries.\"",
                            "analyzeAsync",
                            "Promise",
                            "reject",
                            "err",
-                           "processResultsAsync"
+                           "processAsync"
                         ]
                      },
                      "operators": {
-                        "distinct": 22,
-                        "total": 185,
+                        "distinct": 23,
+                        "total": 188,
                         "identifiers": [
                            "function",
                            "{}",
@@ -553,10 +554,11 @@
                            "! (prefix)",
                            "()",
                            "const",
-                           "arrowfunction",
+                           "function=>",
                            "let",
                            "||",
                            "===",
+                           "try",
                            "return",
                            "catch",
                            "[]",
@@ -577,7 +579,7 @@
                      "lineStart": 11,
                      "lineEnd": 240,
                      "severity": "info",
-                     "message": "maintainability: 110.612 < 115",
+                     "message": "maintainability: 110.513 < 115",
                      "name": "ESComplexProject",
                      "type": {
                         "description": "Class",
@@ -723,7 +725,7 @@
                               "typeof (prefix)",
                               "const",
                               "=",
-                              "arrowfunction",
+                              "function=>",
                               "[]",
                               "return"
                            ]
@@ -768,13 +770,13 @@
                      "cyclomatic": 3,
                      "cyclomaticDensity": 25,
                      "halstead": {
-                        "bugs": 0.114,
-                        "difficulty": 14.912,
-                        "effort": 5121.928,
-                        "length": 70,
-                        "time": 284.552,
-                        "vocabulary": 30,
-                        "volume": 343.482,
+                        "bugs": 0.117,
+                        "difficulty": 16.059,
+                        "effort": 5648.658,
+                        "length": 71,
+                        "time": 313.814,
+                        "vocabulary": 31,
+                        "volume": 351.748,
                         "operands": {
                            "distinct": 17,
                            "total": 39,
@@ -799,8 +801,8 @@
                            ]
                         },
                         "operators": {
-                           "distinct": 13,
-                           "total": 31,
+                           "distinct": 14,
+                           "total": 32,
                            "identifiers": [
                               "let",
                               "if",
@@ -811,6 +813,7 @@
                               "===",
                               "throw",
                               "new",
+                              "try",
                               "=",
                               "()",
                               "return",
@@ -828,7 +831,7 @@
                            "lineStart": 126,
                            "lineEnd": 153,
                            "severity": "warning",
-                           "message": "halstead.difficulty: 14.912 > 13",
+                           "message": "halstead.difficulty: 16.059 > 13",
                            "name": "<anonymous>",
                            "type": {
                               "description": "Class Method",
@@ -860,14 +863,14 @@
                               "options",
                               "ProjectReport",
                               "TypeError",
-                              "\"processResults error: `projectReport` is not an instance of ProjectReport.\"",
+                              "\"process error: `projectReport` is not an instance of ProjectReport.\"",
                               "\"object\"",
-                              "\"processResults error: `options` is not an `object`.\"",
+                              "\"process error: `options` is not an `object`.\"",
                               "modules",
                               "length",
                               "0",
                               "ModuleReport",
-                              "\"processResults error: `projectReport.modules` does not appear to contain `ModuleReport` entries.\"",
+                              "\"process error: `projectReport.modules` does not appear to contain `ModuleReport` entries.\"",
                               "settings",
                               "this",
                               "_plugins",
@@ -911,7 +914,7 @@
                            "lineEnd": 201,
                            "severity": "info",
                            "message": "cyclomatic: 5 > 3",
-                           "name": "processResults",
+                           "name": "process",
                            "type": {
                               "description": "Class Method",
                               "name": "CLASS_METHOD",
@@ -923,7 +926,7 @@
                            "lineEnd": 201,
                            "severity": "warning",
                            "message": "halstead.difficulty: 15.75 > 13",
-                           "name": "processResults",
+                           "name": "process",
                            "type": {
                               "description": "Class Method",
                               "name": "CLASS_METHOD",
@@ -933,7 +936,7 @@
                      ],
                      "lineEnd": 201,
                      "lineStart": 174,
-                     "name": "processResults"
+                     "name": "process"
                   },
                   {
                      "cyclomatic": 1,
@@ -962,7 +965,7 @@
                               "{}",
                               "return",
                               "new",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -980,13 +983,13 @@
                      "cyclomatic": 1,
                      "cyclomaticDensity": 25,
                      "halstead": {
-                        "bugs": 0.017,
-                        "difficulty": 2.143,
-                        "effort": 106.776,
-                        "length": 15,
-                        "time": 5.932,
-                        "vocabulary": 10,
-                        "volume": 49.829,
+                        "bugs": 0.018,
+                        "difficulty": 2.857,
+                        "effort": 158.145,
+                        "length": 16,
+                        "time": 8.786,
+                        "vocabulary": 11,
+                        "volume": 55.351,
                         "operands": {
                            "distinct": 7,
                            "total": 10,
@@ -1001,9 +1004,10 @@
                            ]
                         },
                         "operators": {
-                           "distinct": 3,
-                           "total": 5,
+                           "distinct": 4,
+                           "total": 6,
                            "identifiers": [
+                              "try",
                               "()",
                               ".",
                               "catch"
@@ -1047,7 +1051,7 @@
                               "{}",
                               "return",
                               "new",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -1059,19 +1063,19 @@
                      "errors": [],
                      "lineEnd": 239,
                      "lineStart": 232,
-                     "name": "processResultsAsync"
+                     "name": "processAsync"
                   },
                   {
                      "cyclomatic": 1,
                      "cyclomaticDensity": 25,
                      "halstead": {
-                        "bugs": 0.017,
-                        "difficulty": 2.143,
-                        "effort": 106.776,
-                        "length": 15,
-                        "time": 5.932,
-                        "vocabulary": 10,
-                        "volume": 49.829,
+                        "bugs": 0.018,
+                        "difficulty": 2.857,
+                        "effort": 158.145,
+                        "length": 16,
+                        "time": 8.786,
+                        "vocabulary": 11,
+                        "volume": 55.351,
                         "operands": {
                            "distinct": 7,
                            "total": 10,
@@ -1079,16 +1083,17 @@
                               "resolve",
                               "reject",
                               "this",
-                              "processResults",
+                              "process",
                               "projectReport",
                               "options",
                               "err"
                            ]
                         },
                         "operators": {
-                           "distinct": 3,
-                           "total": 5,
+                           "distinct": 4,
+                           "total": 6,
                            "identifiers": [
+                              "try",
                               "()",
                               ".",
                               "catch"
@@ -1110,20 +1115,20 @@
                   "cyclomatic": 3,
                   "cyclomaticDensity": 50.106,
                   "halstead": {
-                     "bugs": 0.076,
-                     "difficulty": 7.458,
-                     "effort": 2653.64,
-                     "length": 46.875,
-                     "time": 147.424,
-                     "vocabulary": 21,
-                     "volume": 227.131,
+                     "bugs": 0.077,
+                     "difficulty": 7.78,
+                     "effort": 2732.323,
+                     "length": 47.25,
+                     "time": 151.796,
+                     "vocabulary": 21.375,
+                     "volume": 229.544,
                      "operands": {
                         "distinct": 13,
                         "total": 24.375
                      },
                      "operators": {
-                        "distinct": 8,
-                        "total": 22.5
+                        "distinct": 8.375,
+                        "total": 22.875
                      }
                   },
                   "params": 1.875,
@@ -1133,7 +1138,7 @@
                   }
                },
                "name": "ESComplexProject",
-               "maintainability": 110.612
+               "maintainability": 110.513
             }
          ],
          "dependencies": [
@@ -1163,7 +1168,7 @@
                "lineStart": 1,
                "lineEnd": 241,
                "severity": "info",
-               "message": "maintainability: 110.612 < 115",
+               "message": "maintainability: 110.513 < 115",
                "name": "./src/ESComplexProject.js",
                "type": {
                   "description": "Module",
@@ -1175,26 +1180,26 @@
          "filePath": "./src/ESComplexProject.js",
          "lineEnd": 241,
          "lineStart": 1,
-         "maintainability": 110.612,
+         "maintainability": 110.513,
          "methods": [],
          "methodAverage": {
             "cyclomatic": 3,
             "cyclomaticDensity": 50.106,
             "halstead": {
-               "bugs": 0.076,
-               "difficulty": 7.458,
-               "effort": 2653.64,
-               "length": 46.875,
-               "time": 147.424,
-               "vocabulary": 21,
-               "volume": 227.131,
+               "bugs": 0.077,
+               "difficulty": 7.78,
+               "effort": 2732.323,
+               "length": 47.25,
+               "time": 151.796,
+               "vocabulary": 21.375,
+               "volume": 229.544,
                "operands": {
                   "distinct": 13,
                   "total": 24.375
                },
                "operators": {
-                  "distinct": 8,
-                  "total": 22.5
+                  "distinct": 8.375,
+                  "total": 22.875
                }
             },
             "params": 1.875,
@@ -2459,7 +2464,7 @@
                      "===",
                      "continue",
                      "=",
-                     "arrowfunction",
+                     "function=>",
                      "[]",
                      "dowhile",
                      "- (prefix)",
@@ -2703,7 +2708,7 @@
                         "dowhile",
                         "()",
                         ".",
-                        "arrowfunction",
+                        "function=>",
                         "&&",
                         "!==",
                         "typeof (prefix)",
@@ -4515,7 +4520,7 @@
                      "=",
                      "[]",
                      "if",
-                     "arrowfunction",
+                     "function=>",
                      "{}",
                      ":",
                      "!==",
@@ -4635,7 +4640,7 @@
                            "=",
                            "[]",
                            "if",
-                           "arrowfunction",
+                           "function=>",
                            "{}",
                            ":",
                            "!==",
@@ -4783,7 +4788,7 @@
                               "[]",
                               "if",
                               "()",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -4887,7 +4892,7 @@
                               "let",
                               ":?",
                               "()",
-                              "arrowfunction",
+                              "function=>",
                               "[]",
                               "... (spread)",
                               "else",
@@ -5260,7 +5265,7 @@
                               "()",
                               ".",
                               ">",
-                              "arrowfunction",
+                              "function=>",
                               "return"
                            ]
                         }
@@ -5541,7 +5546,7 @@
                      ":",
                      "[]",
                      "()",
-                     "arrowfunction",
+                     "function=>",
                      "if",
                      "===",
                      "typeof (prefix)",
@@ -5617,7 +5622,7 @@
                            ":",
                            "[]",
                            "()",
-                           "arrowfunction",
+                           "function=>",
                            "if",
                            "===",
                            "typeof (prefix)",
@@ -5736,7 +5741,7 @@
                            "identifiers": [
                               "()",
                               ".",
-                              "arrowfunction",
+                              "function=>",
                               "if",
                               "=",
                               "{}",
@@ -5973,7 +5978,7 @@
                      "new",
                      "return",
                      ":?",
-                     "arrowfunction",
+                     "function=>",
                      "... (spread)",
                      "static",
                      "const",
@@ -6071,7 +6076,7 @@
                            "new",
                            "return",
                            ":?",
-                           "arrowfunction",
+                           "function=>",
                            "... (spread)",
                            "static",
                            "const",
@@ -6221,7 +6226,7 @@
                               "return",
                               ":?",
                               "()",
-                              "arrowfunction",
+                              "function=>",
                               "[]",
                               "... (spread)"
                            ]
@@ -6384,7 +6389,7 @@
                               "()",
                               ".",
                               ">",
-                              "arrowfunction",
+                              "function=>",
                               "return"
                            ]
                         }
@@ -6694,7 +6699,7 @@
                      "void (prefix)",
                      "if",
                      "||",
-                     "arrowfunction",
+                     "function=>",
                      "let",
                      "switch",
                      "case",
@@ -6880,7 +6885,7 @@
                            "void (prefix)",
                            "if",
                            "||",
-                           "arrowfunction",
+                           "function=>",
                            "let",
                            "switch",
                            "case",
@@ -7107,7 +7112,7 @@
                               "[]",
                               "if",
                               "()",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -7521,7 +7526,7 @@
                               "let",
                               ":?",
                               "()",
-                              "arrowfunction",
+                              "function=>",
                               "[]",
                               "... (spread)",
                               "else",
@@ -8209,7 +8214,7 @@
                               "()",
                               ".",
                               ">",
-                              "arrowfunction",
+                              "function=>",
                               "return"
                            ]
                         }
@@ -8474,7 +8479,7 @@
                            "identifiers": [
                               "()",
                               ".",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -8723,23 +8728,23 @@
             "cyclomatic": 1,
             "cyclomaticDensity": 11.111,
             "halstead": {
-               "bugs": 0.135,
-               "difficulty": 11.304,
-               "effort": 4561.887,
-               "length": 80,
-               "time": 253.438,
-               "vocabulary": 33,
-               "volume": 403.552,
+               "bugs": 0.147,
+               "difficulty": 12.604,
+               "effort": 5559.929,
+               "length": 86,
+               "time": 308.885,
+               "vocabulary": 35,
+               "volume": 441.118,
                "operands": {
-                  "distinct": 23,
-                  "total": 52,
+                  "distinct": 24,
+                  "total": 55,
                   "identifiers": [
                      "HalsteadArray",
                      "\"./HalsteadArray\"",
                      "Trait",
                      "\"./Trait\"",
-                     "safeArray",
-                     "\"./safeArray\"",
+                     "TraitUtil",
+                     "\"./TraitUtil\"",
                      "<anonymous>",
                      "lloc",
                      "0",
@@ -8753,6 +8758,7 @@
                      "\"lloc\"",
                      "\"cyclomatic\"",
                      "\"operators\"",
+                     "safeArray",
                      "\"operands\"",
                      "\"ignoreKeys\"",
                      "\"newScope\"",
@@ -8760,8 +8766,8 @@
                   ]
                },
                "operators": {
-                  "distinct": 10,
-                  "total": 28,
+                  "distinct": 11,
+                  "total": 31,
                   "identifiers": [
                      "import",
                      "from",
@@ -8772,14 +8778,15 @@
                      "{}",
                      ":",
                      "new",
-                     "()"
+                     "()",
+                     "."
                   ]
                }
             },
             "params": 7,
             "sloc": {
                "logical": 9,
-               "physical": 32
+               "physical": 31
             }
          },
          "settings": {
@@ -8803,17 +8810,17 @@
                "type": "esm"
             },
             {
-               "line": 4,
-               "path": "./safeArray",
+               "line": 3,
+               "path": "./TraitUtil",
                "type": "esm"
             }
          ],
          "errors": [
             {
                "lineStart": 1,
-               "lineEnd": 32,
+               "lineEnd": 31,
                "severity": "info",
-               "message": "maintainability: 111.799 < 115",
+               "message": "maintainability: 110.739 < 115",
                "name": "typhonjs-escomplex-commons/src/module/traits/actualize.js",
                "type": {
                   "description": "Module",
@@ -8823,24 +8830,24 @@
             }
          ],
          "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/actualize.js",
-         "lineEnd": 32,
+         "lineEnd": 31,
          "lineStart": 1,
-         "maintainability": 111.799,
+         "maintainability": 110.739,
          "methods": [
             {
                "cyclomatic": 1,
                "cyclomaticDensity": 12.5,
                "halstead": {
-                  "bugs": 0.098,
-                  "difficulty": 5.921,
-                  "effort": 1737.459,
-                  "length": 64,
-                  "time": 96.526,
-                  "vocabulary": 24,
-                  "volume": 293.438,
+                  "bugs": 0.11,
+                  "difficulty": 7.2,
+                  "effort": 2369.022,
+                  "length": 70,
+                  "time": 131.612,
+                  "vocabulary": 26,
+                  "volume": 329.031,
                   "operands": {
-                     "distinct": 19,
-                     "total": 45,
+                     "distinct": 20,
+                     "total": 48,
                      "identifiers": [
                         "lloc",
                         "0",
@@ -8856,6 +8863,7 @@
                         "\"cyclomatic\"",
                         "HalsteadArray",
                         "\"operators\"",
+                        "TraitUtil",
                         "safeArray",
                         "\"operands\"",
                         "\"ignoreKeys\"",
@@ -8864,14 +8872,15 @@
                      ]
                   },
                   "operators": {
-                     "distinct": 5,
-                     "total": 19,
+                     "distinct": 6,
+                     "total": 22,
                      "identifiers": [
                         "return",
                         "{}",
                         ":",
                         "new",
-                        "()"
+                        "()",
+                        "."
                      ]
                   }
                },
@@ -8881,8 +8890,8 @@
                   "physical": 13
                },
                "errors": [],
-               "lineEnd": 31,
-               "lineStart": 19,
+               "lineEnd": 30,
+               "lineStart": 18,
                "name": "<anonymous>"
             }
          ],
@@ -8890,20 +8899,20 @@
             "cyclomatic": 1,
             "cyclomaticDensity": 12.5,
             "halstead": {
-               "bugs": 0.098,
-               "difficulty": 5.921,
-               "effort": 1737.459,
-               "length": 64,
-               "time": 96.526,
-               "vocabulary": 24,
-               "volume": 293.438,
+               "bugs": 0.11,
+               "difficulty": 7.2,
+               "effort": 2369.022,
+               "length": 70,
+               "time": 131.612,
+               "vocabulary": 26,
+               "volume": 329.031,
                "operands": {
-                  "distinct": 19,
-                  "total": 45
+                  "distinct": 20,
+                  "total": 48
                },
                "operators": {
-                  "distinct": 5,
-                  "total": 19
+                  "distinct": 6,
+                  "total": 22
                }
             },
             "params": 7,
@@ -8990,7 +8999,7 @@
                      "()",
                      ".",
                      "=",
-                     "arrowfunction",
+                     "function=>",
                      ":?",
                      "&&",
                      "{}",
@@ -9091,7 +9100,7 @@
                            "()",
                            ".",
                            "=",
-                           "arrowfunction",
+                           "function=>",
                            ":?",
                            "&&",
                            "{}",
@@ -9159,7 +9168,7 @@
                               "()",
                               ".",
                               "=",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -9462,7 +9471,7 @@
                               "=",
                               "()",
                               ".",
-                              "arrowfunction",
+                              "function=>",
                               "return",
                               "[]",
                               "... (spread)"
@@ -9692,328 +9701,6 @@
       },
       {
          "methodAggregate": {
-            "cyclomatic": 4,
-            "cyclomaticDensity": 200,
-            "halstead": {
-               "bugs": 0.034,
-               "difficulty": 10.083,
-               "effort": 1030.381,
-               "length": 25,
-               "time": 57.243,
-               "vocabulary": 17,
-               "volume": 102.187,
-               "operands": {
-                  "distinct": 6,
-                  "total": 11,
-                  "identifiers": [
-                     "<anonymous>",
-                     "value",
-                     "\"undefined\"",
-                     "null",
-                     "Array",
-                     "isArray"
-                  ]
-               },
-               "operators": {
-                  "distinct": 11,
-                  "total": 14,
-                  "identifiers": [
-                     "export",
-                     "default",
-                     "function",
-                     "return",
-                     ":?",
-                     "||",
-                     "===",
-                     "typeof (prefix)",
-                     "[]",
-                     "()",
-                     "."
-                  ]
-               }
-            },
-            "params": 1,
-            "sloc": {
-               "logical": 2,
-               "physical": 12
-            }
-         },
-         "settings": {
-            "commonjs": false,
-            "forin": false,
-            "logicalor": true,
-            "switchcase": true,
-            "trycatch": false,
-            "newmi": false
-         },
-         "classes": [],
-         "dependencies": [],
-         "errors": [],
-         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/safeArray.js",
-         "lineEnd": 12,
-         "lineStart": 1,
-         "maintainability": 148.682,
-         "methods": [
-            {
-               "cyclomatic": 4,
-               "cyclomaticDensity": 400,
-               "halstead": {
-                  "bugs": 0.026,
-                  "difficulty": 8,
-                  "effort": 621.674,
-                  "length": 21,
-                  "time": 34.537,
-                  "vocabulary": 13,
-                  "volume": 77.709,
-                  "operands": {
-                     "distinct": 5,
-                     "total": 10,
-                     "identifiers": [
-                        "value",
-                        "\"undefined\"",
-                        "null",
-                        "Array",
-                        "isArray"
-                     ]
-                  },
-                  "operators": {
-                     "distinct": 8,
-                     "total": 11,
-                     "identifiers": [
-                        "return",
-                        ":?",
-                        "||",
-                        "===",
-                        "typeof (prefix)",
-                        "[]",
-                        "()",
-                        "."
-                     ]
-                  }
-               },
-               "params": 1,
-               "sloc": {
-                  "logical": 1,
-                  "physical": 4
-               },
-               "errors": [
-                  {
-                     "lineStart": 8,
-                     "lineEnd": 11,
-                     "severity": "info",
-                     "message": "cyclomatic: 4 > 3",
-                     "name": "<anonymous>",
-                     "type": {
-                        "description": "Module Method",
-                        "name": "MODULE_METHOD",
-                        "ordinal": 2
-                     }
-                  }
-               ],
-               "lineEnd": 11,
-               "lineStart": 8,
-               "name": "<anonymous>"
-            }
-         ],
-         "methodAverage": {
-            "cyclomatic": 4,
-            "cyclomaticDensity": 400,
-            "halstead": {
-               "bugs": 0.026,
-               "difficulty": 8,
-               "effort": 621.674,
-               "length": 21,
-               "time": 34.537,
-               "vocabulary": 13,
-               "volume": 77.709,
-               "operands": {
-                  "distinct": 5,
-                  "total": 10
-               },
-               "operators": {
-                  "distinct": 8,
-                  "total": 11
-               }
-            },
-            "params": 1,
-            "sloc": {
-               "logical": 1,
-               "physical": 4
-            }
-         },
-         "srcPath": "typhonjs-escomplex-commons/src/module/traits/safeArray.js"
-      },
-      {
-         "methodAggregate": {
-            "cyclomatic": 7,
-            "cyclomaticDensity": 116.667,
-            "halstead": {
-               "bugs": 0.065,
-               "difficulty": 12.222,
-               "effort": 2388.279,
-               "length": 46,
-               "time": 132.682,
-               "vocabulary": 19,
-               "volume": 195.405,
-               "operands": {
-                  "distinct": 9,
-                  "total": 22,
-                  "identifiers": [
-                     "<anonymous>",
-                     "object",
-                     "defaultName",
-                     "\"\"",
-                     "null",
-                     "\"object\"",
-                     "name",
-                     "\"string\"",
-                     "\"<anonymous>\""
-                  ]
-               },
-               "operators": {
-                  "distinct": 10,
-                  "total": 24,
-                  "identifiers": [
-                     "export",
-                     "default",
-                     "function",
-                     "if",
-                     "&&",
-                     "!==",
-                     "===",
-                     "typeof (prefix)",
-                     ".",
-                     "return"
-                  ]
-               }
-            },
-            "params": 2,
-            "sloc": {
-               "logical": 6,
-               "physical": 20
-            }
-         },
-         "settings": {
-            "commonjs": false,
-            "forin": false,
-            "logicalor": true,
-            "switchcase": true,
-            "trycatch": false,
-            "newmi": false
-         },
-         "classes": [],
-         "dependencies": [],
-         "errors": [],
-         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/safeName.js",
-         "lineEnd": 20,
-         "lineStart": 1,
-         "maintainability": 119.451,
-         "methods": [
-            {
-               "cyclomatic": 7,
-               "cyclomaticDensity": 140,
-               "halstead": {
-                  "bugs": 0.055,
-                  "difficulty": 9.188,
-                  "effort": 1507.571,
-                  "length": 42,
-                  "time": 83.754,
-                  "vocabulary": 15,
-                  "volume": 164.089,
-                  "operands": {
-                     "distinct": 8,
-                     "total": 21,
-                     "identifiers": [
-                        "object",
-                        "defaultName",
-                        "\"\"",
-                        "null",
-                        "\"object\"",
-                        "name",
-                        "\"string\"",
-                        "\"<anonymous>\""
-                     ]
-                  },
-                  "operators": {
-                     "distinct": 7,
-                     "total": 21,
-                     "identifiers": [
-                        "if",
-                        "&&",
-                        "!==",
-                        "===",
-                        "typeof (prefix)",
-                        ".",
-                        "return"
-                     ]
-                  }
-               },
-               "params": 2,
-               "sloc": {
-                  "logical": 5,
-                  "physical": 11
-               },
-               "errors": [
-                  {
-                     "lineStart": 9,
-                     "lineEnd": 19,
-                     "severity": "info",
-                     "message": "cyclomatic: 7 > 3",
-                     "name": "<anonymous>",
-                     "type": {
-                        "description": "Module Method",
-                        "name": "MODULE_METHOD",
-                        "ordinal": 2
-                     }
-                  },
-                  {
-                     "lineStart": 9,
-                     "lineEnd": 19,
-                     "severity": "info",
-                     "message": "halstead.difficulty: 9.188 > 8",
-                     "name": "<anonymous>",
-                     "type": {
-                        "description": "Module Method",
-                        "name": "MODULE_METHOD",
-                        "ordinal": 2
-                     }
-                  }
-               ],
-               "lineEnd": 19,
-               "lineStart": 9,
-               "name": "<anonymous>"
-            }
-         ],
-         "methodAverage": {
-            "cyclomatic": 7,
-            "cyclomaticDensity": 140,
-            "halstead": {
-               "bugs": 0.055,
-               "difficulty": 9.188,
-               "effort": 1507.571,
-               "length": 42,
-               "time": 83.754,
-               "vocabulary": 15,
-               "volume": 164.089,
-               "operands": {
-                  "distinct": 8,
-                  "total": 21
-               },
-               "operators": {
-                  "distinct": 7,
-                  "total": 21
-               }
-            },
-            "params": 2,
-            "sloc": {
-               "logical": 5,
-               "physical": 11
-            }
-         },
-         "srcPath": "typhonjs-escomplex-commons/src/module/traits/safeName.js"
-      },
-      {
-         "methodAggregate": {
             "cyclomatic": 5,
             "cyclomaticDensity": 50,
             "halstead": {
@@ -10067,7 +9754,7 @@
                      "return",
                      "... (rest)",
                      "()",
-                     "arrowfunction",
+                     "function=>",
                      ":?",
                      "===",
                      "... (spread)"
@@ -10141,7 +9828,7 @@
                            "return",
                            "... (rest)",
                            "()",
-                           "arrowfunction",
+                           "function=>",
                            ":?",
                            "===",
                            "... (spread)"
@@ -10317,7 +10004,7 @@
                               "()",
                               ".",
                               "return",
-                              "arrowfunction",
+                              "function=>",
                               ":?",
                               "===",
                               "typeof (prefix)",
@@ -10521,7 +10208,7 @@
                      "else",
                      "()",
                      ".",
-                     "arrowfunction",
+                     "function=>",
                      "&&",
                      "=",
                      "... (rest)",
@@ -10610,7 +10297,7 @@
                            "else",
                            "()",
                            ".",
-                           "arrowfunction",
+                           "function=>",
                            "&&",
                            "=",
                            "... (rest)",
@@ -10680,7 +10367,7 @@
                               "else",
                               "()",
                               ".",
-                              "arrowfunction",
+                              "function=>",
                               "&&",
                               "="
                            ]
@@ -10927,7 +10614,7 @@
                               "()",
                               ".",
                               "return",
-                              "arrowfunction",
+                              "function=>",
                               ":?",
                               "===",
                               "typeof (prefix)",
@@ -11068,6 +10755,858 @@
       },
       {
          "methodAggregate": {
+            "cyclomatic": 53,
+            "cyclomaticDensity": 88.333,
+            "halstead": {
+               "bugs": 1.128,
+               "difficulty": 72.136,
+               "effort": 244172.774,
+               "length": 558,
+               "time": 13565.154,
+               "vocabulary": 67,
+               "volume": 3384.878,
+               "operands": {
+                  "distinct": 44,
+                  "total": 276,
+                  "identifiers": [
+                     "ASTParser",
+                     "\"../../utils/ast/ASTParser\"",
+                     "TraitUtil",
+                     "safeArray",
+                     "value",
+                     "\"undefined\"",
+                     "null",
+                     "Array",
+                     "isArray",
+                     "safeComputedName",
+                     "node",
+                     "parent",
+                     "name",
+                     "type",
+                     "\"MethodDefinition\"",
+                     "computed",
+                     "\"boolean\"",
+                     "key",
+                     "\"Literal\"",
+                     "safeValue",
+                     "parse",
+                     "source",
+                     "<computed~",
+                     ">",
+                     "safeName",
+                     "\"ClassMethod\"",
+                     "\"StringLiteral\"",
+                     "\"string\"",
+                     "id",
+                     "safeComputedOperands",
+                     "operands",
+                     "push",
+                     "safeNameOrValue",
+                     "length",
+                     "0",
+                     "safeComputedOperators",
+                     "operators",
+                     "object",
+                     "defaultName",
+                     "\"\"",
+                     "\"object\"",
+                     "\"<anonymous>\"",
+                     "defaultNameOrValue",
+                     "defaultValue"
+                  ]
+               },
+               "operators": {
+                  "distinct": 23,
+                  "total": 282,
+                  "identifiers": [
+                     "import",
+                     "from",
+                     "export",
+                     "default",
+                     "class",
+                     "function",
+                     "static",
+                     "return",
+                     ":?",
+                     "||",
+                     "===",
+                     "typeof (prefix)",
+                     "[]",
+                     "()",
+                     ".",
+                     "let",
+                     "if",
+                     "&&",
+                     "else",
+                     "=",
+                     "!==",
+                     "const",
+                     "... (spread)"
+                  ]
+               }
+            },
+            "params": 13,
+            "sloc": {
+               "logical": 60,
+               "physical": 236
+            }
+         },
+         "settings": {
+            "commonjs": false,
+            "forin": false,
+            "logicalor": true,
+            "switchcase": true,
+            "trycatch": false,
+            "newmi": false
+         },
+         "classes": [
+            {
+               "methodAggregate": {
+                  "cyclomatic": 53,
+                  "cyclomaticDensity": 89.831,
+                  "halstead": {
+                     "bugs": 1.089,
+                     "difficulty": 57.349,
+                     "effort": 187406.61,
+                     "length": 551,
+                     "time": 10411.478,
+                     "vocabulary": 61,
+                     "volume": 3267.836,
+                     "operands": {
+                        "distinct": 43,
+                        "total": 274,
+                        "identifiers": [
+                           "TraitUtil",
+                           "safeArray",
+                           "value",
+                           "\"undefined\"",
+                           "null",
+                           "Array",
+                           "isArray",
+                           "safeComputedName",
+                           "node",
+                           "parent",
+                           "name",
+                           "type",
+                           "\"MethodDefinition\"",
+                           "computed",
+                           "\"boolean\"",
+                           "key",
+                           "\"Literal\"",
+                           "safeValue",
+                           "ASTParser",
+                           "parse",
+                           "source",
+                           "<computed~",
+                           ">",
+                           "safeName",
+                           "\"ClassMethod\"",
+                           "\"StringLiteral\"",
+                           "\"string\"",
+                           "id",
+                           "safeComputedOperands",
+                           "operands",
+                           "push",
+                           "safeNameOrValue",
+                           "length",
+                           "0",
+                           "safeComputedOperators",
+                           "operators",
+                           "object",
+                           "defaultName",
+                           "\"\"",
+                           "\"object\"",
+                           "\"<anonymous>\"",
+                           "defaultNameOrValue",
+                           "defaultValue"
+                        ]
+                     },
+                     "operators": {
+                        "distinct": 18,
+                        "total": 277,
+                        "identifiers": [
+                           "function",
+                           "static",
+                           "return",
+                           ":?",
+                           "||",
+                           "===",
+                           "typeof (prefix)",
+                           "[]",
+                           "()",
+                           ".",
+                           "let",
+                           "if",
+                           "&&",
+                           "else",
+                           "=",
+                           "!==",
+                           "const",
+                           "... (spread)"
+                        ]
+                     }
+                  },
+                  "params": 13,
+                  "sloc": {
+                     "logical": 59,
+                     "physical": 233
+                  }
+               },
+               "errors": [
+                  {
+                     "lineStart": 3,
+                     "lineEnd": 235,
+                     "severity": "info",
+                     "message": "maintainability: 105.897 < 115",
+                     "name": "TraitUtil",
+                     "type": {
+                        "description": "Class",
+                        "name": "CLASS",
+                        "ordinal": 0
+                     }
+                  }
+               ],
+               "lineEnd": 235,
+               "lineStart": 3,
+               "methods": [
+                  {
+                     "cyclomatic": 4,
+                     "cyclomaticDensity": 400,
+                     "halstead": {
+                        "bugs": 0.026,
+                        "difficulty": 8,
+                        "effort": 621.674,
+                        "length": 21,
+                        "time": 34.537,
+                        "vocabulary": 13,
+                        "volume": 77.709,
+                        "operands": {
+                           "distinct": 5,
+                           "total": 10,
+                           "identifiers": [
+                              "value",
+                              "\"undefined\"",
+                              "null",
+                              "Array",
+                              "isArray"
+                           ]
+                        },
+                        "operators": {
+                           "distinct": 8,
+                           "total": 11,
+                           "identifiers": [
+                              "return",
+                              ":?",
+                              "||",
+                              "===",
+                              "typeof (prefix)",
+                              "[]",
+                              "()",
+                              "."
+                           ]
+                        }
+                     },
+                     "params": 1,
+                     "sloc": {
+                        "logical": 1,
+                        "physical": 4
+                     },
+                     "errors": [
+                        {
+                           "lineStart": 12,
+                           "lineEnd": 15,
+                           "severity": "info",
+                           "message": "cyclomatic: 4 > 3",
+                           "name": "safeArray",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        }
+                     ],
+                     "lineEnd": 15,
+                     "lineStart": 12,
+                     "name": "safeArray"
+                  },
+                  {
+                     "cyclomatic": 12,
+                     "cyclomaticDensity": 85.714,
+                     "halstead": {
+                        "bugs": 0.231,
+                        "difficulty": 22.286,
+                        "effort": 15419.373,
+                        "length": 136,
+                        "time": 856.632,
+                        "vocabulary": 34,
+                        "volume": 691.895,
+                        "operands": {
+                           "distinct": 21,
+                           "total": 72,
+                           "identifiers": [
+                              "node",
+                              "parent",
+                              "name",
+                              "type",
+                              "\"MethodDefinition\"",
+                              "computed",
+                              "\"boolean\"",
+                              "key",
+                              "\"Literal\"",
+                              "TraitUtil",
+                              "safeValue",
+                              "ASTParser",
+                              "parse",
+                              "source",
+                              "<computed~",
+                              ">",
+                              "safeName",
+                              "\"ClassMethod\"",
+                              "\"StringLiteral\"",
+                              "\"string\"",
+                              "id"
+                           ]
+                        },
+                        "operators": {
+                           "distinct": 13,
+                           "total": 64,
+                           "identifiers": [
+                              "let",
+                              "if",
+                              "&&",
+                              "===",
+                              ".",
+                              "else",
+                              "typeof (prefix)",
+                              "=",
+                              ":?",
+                              "()",
+                              "!==",
+                              "||",
+                              "return"
+                           ]
+                        }
+                     },
+                     "params": 2,
+                     "sloc": {
+                        "logical": 14,
+                        "physical": 42
+                     },
+                     "errors": [
+                        {
+                           "lineStart": 30,
+                           "lineEnd": 71,
+                           "severity": "warning",
+                           "message": "cyclomatic: 12 > 7",
+                           "name": "safeComputedName",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        },
+                        {
+                           "lineStart": 30,
+                           "lineEnd": 71,
+                           "severity": "error",
+                           "message": "halstead.difficulty: 22.286 > 20",
+                           "name": "safeComputedName",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        }
+                     ],
+                     "lineEnd": 71,
+                     "lineStart": 30,
+                     "name": "safeComputedName"
+                  },
+                  {
+                     "cyclomatic": 12,
+                     "cyclomaticDensity": 60,
+                     "halstead": {
+                        "bugs": 0.266,
+                        "difficulty": 24.143,
+                        "effort": 19283.665,
+                        "length": 157,
+                        "time": 1071.315,
+                        "vocabulary": 34,
+                        "volume": 798.732,
+                        "operands": {
+                           "distinct": 21,
+                           "total": 78,
+                           "identifiers": [
+                              "node",
+                              "parent",
+                              "operands",
+                              "type",
+                              "\"MethodDefinition\"",
+                              "computed",
+                              "\"boolean\"",
+                              "key",
+                              "\"Literal\"",
+                              "push",
+                              "TraitUtil",
+                              "safeValue",
+                              "ASTParser",
+                              "parse",
+                              "safeNameOrValue",
+                              "\"ClassMethod\"",
+                              "\"StringLiteral\"",
+                              "length",
+                              "0",
+                              "safeName",
+                              "id"
+                           ]
+                        },
+                        "operators": {
+                           "distinct": 13,
+                           "total": 79,
+                           "identifiers": [
+                              "const",
+                              "=",
+                              "[]",
+                              "if",
+                              "&&",
+                              "===",
+                              ".",
+                              "else",
+                              "typeof (prefix)",
+                              "()",
+                              "... (spread)",
+                              "||",
+                              "return"
+                           ]
+                        }
+                     },
+                     "params": 2,
+                     "sloc": {
+                        "logical": 20,
+                        "physical": 53
+                     },
+                     "errors": [
+                        {
+                           "lineStart": 86,
+                           "lineEnd": 138,
+                           "severity": "warning",
+                           "message": "cyclomatic: 12 > 7",
+                           "name": "safeComputedOperands",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        },
+                        {
+                           "lineStart": 86,
+                           "lineEnd": 138,
+                           "severity": "error",
+                           "message": "halstead.difficulty: 24.143 > 20",
+                           "name": "safeComputedOperands",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        }
+                     ],
+                     "lineEnd": 138,
+                     "lineStart": 86,
+                     "name": "safeComputedOperands"
+                  },
+                  {
+                     "cyclomatic": 8,
+                     "cyclomaticDensity": 133.333,
+                     "halstead": {
+                        "bugs": 0.109,
+                        "difficulty": 16.042,
+                        "effort": 5224.714,
+                        "length": 72,
+                        "time": 290.262,
+                        "vocabulary": 23,
+                        "volume": 325.696,
+                        "operands": {
+                           "distinct": 12,
+                           "total": 35,
+                           "identifiers": [
+                              "node",
+                              "parent",
+                              "operators",
+                              "type",
+                              "\"MethodDefinition\"",
+                              "computed",
+                              "\"boolean\"",
+                              "push",
+                              "ASTParser",
+                              "parse",
+                              "key",
+                              "\"ClassMethod\""
+                           ]
+                        },
+                        "operators": {
+                           "distinct": 11,
+                           "total": 37,
+                           "identifiers": [
+                              "const",
+                              "=",
+                              "[]",
+                              "if",
+                              "&&",
+                              "===",
+                              ".",
+                              "typeof (prefix)",
+                              "()",
+                              "... (spread)",
+                              "return"
+                           ]
+                        }
+                     },
+                     "params": 2,
+                     "sloc": {
+                        "logical": 6,
+                        "physical": 18
+                     },
+                     "errors": [
+                        {
+                           "lineStart": 153,
+                           "lineEnd": 170,
+                           "severity": "warning",
+                           "message": "cyclomatic: 8 > 7",
+                           "name": "safeComputedOperators",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        },
+                        {
+                           "lineStart": 153,
+                           "lineEnd": 170,
+                           "severity": "warning",
+                           "message": "halstead.difficulty: 16.042 > 13",
+                           "name": "safeComputedOperators",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        }
+                     ],
+                     "lineEnd": 170,
+                     "lineStart": 153,
+                     "name": "safeComputedOperators"
+                  },
+                  {
+                     "cyclomatic": 7,
+                     "cyclomaticDensity": 140,
+                     "halstead": {
+                        "bugs": 0.055,
+                        "difficulty": 9.188,
+                        "effort": 1507.571,
+                        "length": 42,
+                        "time": 83.754,
+                        "vocabulary": 15,
+                        "volume": 164.089,
+                        "operands": {
+                           "distinct": 8,
+                           "total": 21,
+                           "identifiers": [
+                              "object",
+                              "defaultName",
+                              "\"\"",
+                              "null",
+                              "\"object\"",
+                              "name",
+                              "\"string\"",
+                              "\"<anonymous>\""
+                           ]
+                        },
+                        "operators": {
+                           "distinct": 7,
+                           "total": 21,
+                           "identifiers": [
+                              "if",
+                              "&&",
+                              "!==",
+                              "===",
+                              "typeof (prefix)",
+                              ".",
+                              "return"
+                           ]
+                        }
+                     },
+                     "params": 2,
+                     "sloc": {
+                        "logical": 5,
+                        "physical": 11
+                     },
+                     "errors": [
+                        {
+                           "lineStart": 180,
+                           "lineEnd": 190,
+                           "severity": "info",
+                           "message": "cyclomatic: 7 > 3",
+                           "name": "safeName",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        },
+                        {
+                           "lineStart": 180,
+                           "lineEnd": 190,
+                           "severity": "info",
+                           "message": "halstead.difficulty: 9.188 > 8",
+                           "name": "safeName",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        }
+                     ],
+                     "lineEnd": 190,
+                     "lineStart": 180,
+                     "name": "safeName"
+                  },
+                  {
+                     "cyclomatic": 9,
+                     "cyclomaticDensity": 112.5,
+                     "halstead": {
+                        "bugs": 0.079,
+                        "difficulty": 11.278,
+                        "effort": 2661.556,
+                        "length": 59,
+                        "time": 147.864,
+                        "vocabulary": 16,
+                        "volume": 236,
+                        "operands": {
+                           "distinct": 9,
+                           "total": 29,
+                           "identifiers": [
+                              "object",
+                              "defaultNameOrValue",
+                              "\"\"",
+                              "null",
+                              "\"object\"",
+                              "name",
+                              "\"string\"",
+                              "value",
+                              "\"<anonymous>\""
+                           ]
+                        },
+                        "operators": {
+                           "distinct": 7,
+                           "total": 30,
+                           "identifiers": [
+                              "if",
+                              "&&",
+                              "!==",
+                              "===",
+                              "typeof (prefix)",
+                              ".",
+                              "return"
+                           ]
+                        }
+                     },
+                     "params": 2,
+                     "sloc": {
+                        "logical": 8,
+                        "physical": 12
+                     },
+                     "errors": [
+                        {
+                           "lineStart": 203,
+                           "lineEnd": 214,
+                           "severity": "warning",
+                           "message": "cyclomatic: 9 > 7",
+                           "name": "safeNameOrValue",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        },
+                        {
+                           "lineStart": 203,
+                           "lineEnd": 214,
+                           "severity": "info",
+                           "message": "halstead.difficulty: 11.278 > 8",
+                           "name": "safeNameOrValue",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        }
+                     ],
+                     "lineEnd": 214,
+                     "lineStart": 203,
+                     "name": "safeNameOrValue"
+                  },
+                  {
+                     "cyclomatic": 7,
+                     "cyclomaticDensity": 140,
+                     "halstead": {
+                        "bugs": 0.055,
+                        "difficulty": 9.188,
+                        "effort": 1507.571,
+                        "length": 42,
+                        "time": 83.754,
+                        "vocabulary": 15,
+                        "volume": 164.089,
+                        "operands": {
+                           "distinct": 8,
+                           "total": 21,
+                           "identifiers": [
+                              "object",
+                              "defaultValue",
+                              "\"\"",
+                              "null",
+                              "\"object\"",
+                              "value",
+                              "\"string\"",
+                              "\"<anonymous>\""
+                           ]
+                        },
+                        "operators": {
+                           "distinct": 7,
+                           "total": 21,
+                           "identifiers": [
+                              "if",
+                              "&&",
+                              "!==",
+                              "===",
+                              "typeof (prefix)",
+                              ".",
+                              "return"
+                           ]
+                        }
+                     },
+                     "params": 2,
+                     "sloc": {
+                        "logical": 5,
+                        "physical": 11
+                     },
+                     "errors": [
+                        {
+                           "lineStart": 224,
+                           "lineEnd": 234,
+                           "severity": "info",
+                           "message": "cyclomatic: 7 > 3",
+                           "name": "safeValue",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        },
+                        {
+                           "lineStart": 224,
+                           "lineEnd": 234,
+                           "severity": "info",
+                           "message": "halstead.difficulty: 9.188 > 8",
+                           "name": "safeValue",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        }
+                     ],
+                     "lineEnd": 234,
+                     "lineStart": 224,
+                     "name": "safeValue"
+                  }
+               ],
+               "methodAverage": {
+                  "cyclomatic": 8.429,
+                  "cyclomaticDensity": 153.078,
+                  "halstead": {
+                     "bugs": 0.117,
+                     "difficulty": 14.303,
+                     "effort": 6603.732,
+                     "length": 75.571,
+                     "time": 366.874,
+                     "vocabulary": 21.429,
+                     "volume": 351.173,
+                     "operands": {
+                        "distinct": 12,
+                        "total": 38
+                     },
+                     "operators": {
+                        "distinct": 9.429,
+                        "total": 37.571
+                     }
+                  },
+                  "params": 1.857,
+                  "sloc": {
+                     "logical": 8.429,
+                     "physical": 21.571
+                  }
+               },
+               "name": "TraitUtil",
+               "maintainability": 105.897
+            }
+         ],
+         "dependencies": [
+            {
+               "line": 1,
+               "path": "../../utils/ast/ASTParser",
+               "type": "esm"
+            }
+         ],
+         "errors": [
+            {
+               "lineStart": 1,
+               "lineEnd": 236,
+               "severity": "info",
+               "message": "maintainability: 105.897 < 115",
+               "name": "typhonjs-escomplex-commons/src/module/traits/TraitUtil.js",
+               "type": {
+                  "description": "Module",
+                  "name": "MODULE",
+                  "ordinal": 3
+               }
+            }
+         ],
+         "filePath": "./node_modules/typhonjs-escomplex-commons/src/module/traits/TraitUtil.js",
+         "lineEnd": 236,
+         "lineStart": 1,
+         "maintainability": 105.897,
+         "methods": [],
+         "methodAverage": {
+            "cyclomatic": 8.429,
+            "cyclomaticDensity": 153.078,
+            "halstead": {
+               "bugs": 0.117,
+               "difficulty": 14.303,
+               "effort": 6603.732,
+               "length": 75.571,
+               "time": 366.874,
+               "vocabulary": 21.429,
+               "volume": 351.173,
+               "operands": {
+                  "distinct": 12,
+                  "total": 38
+               },
+               "operators": {
+                  "distinct": 9.429,
+                  "total": 37.571
+               }
+            },
+            "params": 1.857,
+            "sloc": {
+               "logical": 8.429,
+               "physical": 21.571
+            }
+         },
+         "srcPath": "typhonjs-escomplex-commons/src/module/traits/TraitUtil.js"
+      },
+      {
+         "methodAggregate": {
             "cyclomatic": 24,
             "cyclomaticDensity": 32.877,
             "halstead": {
@@ -11199,7 +11738,7 @@
                      "[]",
                      "new",
                      "()",
-                     "arrowfunction",
+                     "function=>",
                      "if",
                      "!==",
                      "throw",
@@ -11351,7 +11890,7 @@
                            "[]",
                            "new",
                            "()",
-                           "arrowfunction",
+                           "function=>",
                            "if",
                            "!==",
                            "throw",
@@ -11466,7 +12005,7 @@
                               "[]",
                               "new",
                               "()",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -11567,7 +12106,7 @@
                               "[]",
                               "if",
                               "()",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -11667,7 +12206,7 @@
                               ".",
                               "===",
                               "else",
-                              "arrowfunction",
+                              "function=>",
                               "return"
                            ]
                         }
@@ -11837,7 +12376,7 @@
                               "let",
                               ":?",
                               "()",
-                              "arrowfunction",
+                              "function=>",
                               "[]",
                               "... (spread)",
                               "===",
@@ -12215,7 +12754,7 @@
                               "()",
                               ".",
                               ">",
-                              "arrowfunction",
+                              "function=>",
                               "&&",
                               "! (prefix)",
                               "return"
@@ -13072,7 +13611,7 @@
                      "return",
                      "const",
                      ":",
-                     "arrowfunction",
+                     "function=>",
                      ":?",
                      "&&",
                      "===",
@@ -13240,7 +13779,7 @@
                            "return",
                            "const",
                            ":",
-                           "arrowfunction",
+                           "function=>",
                            ":?",
                            "&&",
                            "===",
@@ -13395,7 +13934,7 @@
                               "return",
                               "const",
                               ":",
-                              "arrowfunction",
+                              "function=>",
                               ":?",
                               "&&",
                               "===",
@@ -14067,7 +14606,7 @@
                      "get",
                      "const",
                      "if",
-                     "arrowfunction",
+                     "function=>",
                      "else",
                      "[]",
                      ":"
@@ -14205,7 +14744,7 @@
                            "get",
                            "const",
                            "if",
-                           "arrowfunction",
+                           "function=>",
                            "else",
                            "[]"
                         ]
@@ -14576,7 +15115,7 @@
                               "if",
                               ".",
                               "()",
-                              "arrowfunction",
+                              "function=>",
                               "return"
                            ]
                         }
@@ -14738,7 +15277,7 @@
                               "if",
                               ".",
                               "()",
-                              "arrowfunction",
+                              "function=>",
                               "return"
                            ]
                         }
@@ -14868,7 +15407,7 @@
                               "else",
                               ".",
                               "()",
-                              "arrowfunction",
+                              "function=>",
                               "[]",
                               "return"
                            ]
@@ -15074,7 +15613,7 @@
                               "if",
                               "()",
                               ".",
-                              "arrowfunction",
+                              "function=>",
                               "[]",
                               "return"
                            ]
@@ -15347,7 +15886,7 @@
                      "if",
                      ":",
                      "[]",
-                     "arrowfunction"
+                     "function=>"
                   ]
                }
             },
@@ -15451,7 +15990,7 @@
                            "if",
                            ":",
                            "[]",
-                           "arrowfunction"
+                           "function=>"
                         ]
                      }
                   },
@@ -15818,7 +16357,7 @@
                               "[]",
                               "()",
                               ".",
-                              "arrowfunction",
+                              "function=>",
                               "return"
                            ]
                         }
@@ -17622,13 +18161,13 @@
             "cyclomatic": 36,
             "cyclomaticDensity": 36.735,
             "halstead": {
-               "bugs": 1.95,
-               "difficulty": 78.37,
-               "effort": 458521.071,
-               "length": 828,
-               "time": 25473.393,
-               "vocabulary": 134,
-               "volume": 5850.722,
+               "bugs": 1.966,
+               "difficulty": 82.98,
+               "effort": 489313.899,
+               "length": 832,
+               "time": 27184.105,
+               "vocabulary": 136,
+               "volume": 5896.769,
                "operands": {
                   "distinct": 100,
                   "total": 461,
@@ -17736,8 +18275,8 @@
                   ]
                },
                "operators": {
-                  "distinct": 34,
-                  "total": 367,
+                  "distinct": 36,
+                  "total": 371,
                   "identifiers": [
                      "import",
                      "from",
@@ -17762,7 +18301,7 @@
                      "===",
                      "typeof (prefix)",
                      "... (spread)",
-                     "arrowfunction",
+                     "function=>",
                      "void (prefix)",
                      "[]",
                      "instanceof",
@@ -17771,6 +18310,8 @@
                      "else",
                      "!==",
                      "||",
+                     "try",
+                     "finally",
                      "delete (prefix)",
                      "+"
                   ]
@@ -17796,13 +18337,13 @@
                   "cyclomatic": 36,
                   "cyclomaticDensity": 37.113,
                   "halstead": {
-                     "bugs": 1.894,
-                     "difficulty": 70.361,
-                     "effort": 399776.18,
-                     "length": 813,
-                     "time": 22209.788,
-                     "vocabulary": 127,
-                     "volume": 5681.801,
+                     "bugs": 1.909,
+                     "difficulty": 75.052,
+                     "effort": 429908.217,
+                     "length": 817,
+                     "time": 23883.79,
+                     "vocabulary": 129,
+                     "volume": 5728.173,
                      "operands": {
                         "distinct": 97,
                         "total": 455,
@@ -17907,8 +18448,8 @@
                         ]
                      },
                      "operators": {
-                        "distinct": 30,
-                        "total": 358,
+                        "distinct": 32,
+                        "total": 362,
                         "identifiers": [
                            "function",
                            "{}",
@@ -17929,7 +18470,7 @@
                            "===",
                            "typeof (prefix)",
                            "... (spread)",
-                           "arrowfunction",
+                           "function=>",
                            "void (prefix)",
                            "[]",
                            "instanceof",
@@ -17938,6 +18479,8 @@
                            "else",
                            "!==",
                            "||",
+                           "try",
+                           "finally",
                            "delete (prefix)",
                            "+"
                         ]
@@ -17954,7 +18497,7 @@
                      "lineStart": 8,
                      "lineEnd": 388,
                      "severity": "info",
-                     "message": "maintainability: 114.353 < 115",
+                     "message": "maintainability: 114.287 < 115",
                      "name": "AbstractFormatText",
                      "type": {
                         "description": "Class",
@@ -18228,7 +18771,7 @@
                               "()",
                               ".",
                               "return",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -18335,7 +18878,7 @@
                               "typeof (prefix)",
                               "void (prefix)",
                               "[]",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -18429,7 +18972,7 @@
                               "[]",
                               ">",
                               "{}",
-                              "arrowfunction",
+                              "function=>",
                               "!=="
                            ]
                         }
@@ -18653,7 +19196,7 @@
                               "()",
                               ".",
                               "return",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -18715,13 +19258,13 @@
                      "cyclomatic": 1,
                      "cyclomaticDensity": 12.5,
                      "halstead": {
-                        "bugs": 0.054,
-                        "difficulty": 5.75,
-                        "effort": 935.106,
-                        "length": 39,
-                        "time": 51.95,
-                        "vocabulary": 18,
-                        "volume": 162.627,
+                        "bugs": 0.059,
+                        "difficulty": 7.667,
+                        "effort": 1358.526,
+                        "length": 41,
+                        "time": 75.474,
+                        "vocabulary": 20,
+                        "volume": 177.199,
                         "operands": {
                            "distinct": 12,
                            "total": 23,
@@ -18741,11 +19284,13 @@
                            ]
                         },
                         "operators": {
-                           "distinct": 6,
-                           "total": 16,
+                           "distinct": 8,
+                           "total": 18,
                            "identifiers": [
                               "let",
                               "=",
+                              "try",
+                              "finally",
                               ".",
                               "()",
                               "delete (prefix)",
@@ -18890,7 +19435,7 @@
                               "()",
                               ".",
                               "return",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -18908,13 +19453,13 @@
                      "cyclomatic": 1,
                      "cyclomaticDensity": 12.5,
                      "halstead": {
-                        "bugs": 0.055,
-                        "difficulty": 7,
-                        "effort": 1159.684,
-                        "length": 39,
-                        "time": 64.427,
-                        "vocabulary": 19,
-                        "volume": 165.669,
+                        "bugs": 0.06,
+                        "difficulty": 9,
+                        "effort": 1620.765,
+                        "length": 41,
+                        "time": 90.043,
+                        "vocabulary": 21,
+                        "volume": 180.085,
                         "operands": {
                            "distinct": 12,
                            "total": 24,
@@ -18934,11 +19479,13 @@
                            ]
                         },
                         "operators": {
-                           "distinct": 7,
-                           "total": 15,
+                           "distinct": 9,
+                           "total": 17,
                            "identifiers": [
                               "let",
                               "=",
+                              "try",
+                              "finally",
                               ".",
                               "+",
                               "()",
@@ -18952,7 +19499,20 @@
                         "logical": 8,
                         "physical": 20
                      },
-                     "errors": [],
+                     "errors": [
+                        {
+                           "lineStart": 343,
+                           "lineEnd": 362,
+                           "severity": "info",
+                           "message": "halstead.difficulty: 9 > 8",
+                           "name": "<anonymous>",
+                           "type": {
+                              "description": "Class Method",
+                              "name": "CLASS_METHOD",
+                              "ordinal": 1
+                           }
+                        }
+                     ],
                      "lineEnd": 362,
                      "lineStart": 343,
                      "name": "<anonymous>"
@@ -19046,20 +19606,20 @@
                   "cyclomatic": 3.188,
                   "cyclomaticDensity": 67.761,
                   "halstead": {
-                     "bugs": 0.078,
-                     "difficulty": 8.661,
-                     "effort": 2832.711,
-                     "length": 49.375,
-                     "time": 157.373,
-                     "vocabulary": 22.25,
-                     "volume": 233.873,
+                     "bugs": 0.079,
+                     "difficulty": 8.906,
+                     "effort": 2887.992,
+                     "length": 49.625,
+                     "time": 160.444,
+                     "vocabulary": 22.5,
+                     "volume": 235.684,
                      "operands": {
                         "distinct": 13.688,
                         "total": 27.688
                      },
                      "operators": {
-                        "distinct": 8.563,
-                        "total": 21.688
+                        "distinct": 8.813,
+                        "total": 21.938
                      }
                   },
                   "params": 2.563,
@@ -19069,7 +19629,7 @@
                   }
                },
                "name": "AbstractFormatText",
-               "maintainability": 114.353
+               "maintainability": 114.287
             }
          ],
          "dependencies": [
@@ -19094,7 +19654,7 @@
                "lineStart": 1,
                "lineEnd": 388,
                "severity": "info",
-               "message": "maintainability: 114.353 < 115",
+               "message": "maintainability: 114.287 < 115",
                "name": "typhonjs-escomplex-commons/src/transform/formats/text/AbstractFormatText.js",
                "type": {
                   "description": "Module",
@@ -19106,26 +19666,26 @@
          "filePath": "./node_modules/typhonjs-escomplex-commons/src/transform/formats/text/AbstractFormatText.js",
          "lineEnd": 388,
          "lineStart": 1,
-         "maintainability": 114.353,
+         "maintainability": 114.287,
          "methods": [],
          "methodAverage": {
             "cyclomatic": 3.188,
             "cyclomaticDensity": 67.761,
             "halstead": {
-               "bugs": 0.078,
-               "difficulty": 8.661,
-               "effort": 2832.711,
-               "length": 49.375,
-               "time": 157.373,
-               "vocabulary": 22.25,
-               "volume": 233.873,
+               "bugs": 0.079,
+               "difficulty": 8.906,
+               "effort": 2887.992,
+               "length": 49.625,
+               "time": 160.444,
+               "vocabulary": 22.5,
+               "volume": 235.684,
                "operands": {
                   "distinct": 13.688,
                   "total": 27.688
                },
                "operators": {
-                  "distinct": 8.563,
-                  "total": 21.688
+                  "distinct": 8.813,
+                  "total": 21.938
                }
             },
             "params": 2.563,
@@ -19250,7 +19810,7 @@
                      "+=",
                      ":?",
                      "&&",
-                     "arrowfunction",
+                     "function=>",
                      "+"
                   ]
                }
@@ -19378,7 +19938,7 @@
                            "+=",
                            ":?",
                            "&&",
-                           "arrowfunction",
+                           "function=>",
                            "+"
                         ]
                      }
@@ -19684,7 +20244,7 @@
                               "typeof (prefix)",
                               ".",
                               "()",
-                              "arrowfunction",
+                              "function=>",
                               "return"
                            ]
                         }
@@ -19766,7 +20326,7 @@
                               "+",
                               ".",
                               "()",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -22384,7 +22944,7 @@
                      "return",
                      "! (prefix)",
                      "instanceof",
-                     "arrowfunction"
+                     "function=>"
                   ]
                }
             },
@@ -22499,7 +23059,7 @@
                            "default",
                            "! (prefix)",
                            "instanceof",
-                           "arrowfunction"
+                           "function=>"
                         ]
                      }
                   },
@@ -22877,7 +23437,7 @@
                               "instanceof",
                               "throw",
                               "new",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -23399,16 +23959,16 @@
             "cyclomatic": 5,
             "cyclomaticDensity": 11.628,
             "halstead": {
-               "bugs": 0.531,
-               "difficulty": 31.245,
-               "effort": 49735.11,
-               "length": 254,
-               "time": 2763.062,
-               "vocabulary": 77,
-               "volume": 1591.764,
+               "bugs": 0.533,
+               "difficulty": 32.077,
+               "effort": 51306.058,
+               "length": 256,
+               "time": 2850.337,
+               "vocabulary": 76,
+               "volume": 1599.469,
                "operands": {
-                  "distinct": 53,
-                  "total": 138,
+                  "distinct": 52,
+                  "total": 139,
                   "identifiers": [
                      "Enum",
                      "constructor",
@@ -23453,7 +24013,6 @@
                      "enumValueOf",
                      "find",
                      "x",
-                     "<anonymous>",
                      "Symbol",
                      "iterator",
                      "toString",
@@ -23467,7 +24026,7 @@
                },
                "operators": {
                   "distinct": 24,
-                  "total": 116,
+                  "total": 117,
                   "identifiers": [
                      "export",
                      "default",
@@ -23492,7 +24051,7 @@
                      "return",
                      "forof",
                      "const",
-                     "arrowfunction"
+                     "function=>"
                   ]
                }
             },
@@ -23516,16 +24075,16 @@
                   "cyclomatic": 5,
                   "cyclomaticDensity": 14.286,
                   "halstead": {
-                     "bugs": 0.44,
-                     "difficulty": 25.813,
-                     "effort": 34058.078,
-                     "length": 216,
-                     "time": 1892.115,
-                     "vocabulary": 69,
-                     "volume": 1319.441,
+                     "bugs": 0.442,
+                     "difficulty": 26.585,
+                     "effort": 35280.215,
+                     "length": 218,
+                     "time": 1960.012,
+                     "vocabulary": 68,
+                     "volume": 1327.067,
                      "operands": {
-                        "distinct": 48,
-                        "total": 118,
+                        "distinct": 47,
+                        "total": 119,
                         "identifiers": [
                            "Enum",
                            "constructor",
@@ -23570,7 +24129,6 @@
                            "enumValueOf",
                            "find",
                            "x",
-                           "<anonymous>",
                            "Symbol",
                            "iterator",
                            "toString",
@@ -23579,7 +24137,7 @@
                      },
                      "operators": {
                         "distinct": 21,
-                        "total": 98,
+                        "total": 99,
                         "identifiers": [
                            "function",
                            "void (prefix)",
@@ -23601,7 +24159,7 @@
                            "return",
                            "forof",
                            "const",
-                           "arrowfunction"
+                           "function=>"
                         ]
                      }
                   },
@@ -23918,7 +24476,7 @@
                               "return",
                               "()",
                               ".",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -24009,7 +24567,7 @@
                      "errors": [],
                      "lineEnd": 116,
                      "lineStart": 113,
-                     "name": "<anonymous>"
+                     "name": "<computed~Symbol.iterator>"
                   },
                   {
                      "cyclomatic": 1,
@@ -24244,7 +24802,7 @@
                      "[]",
                      "()",
                      ".",
-                     "arrowfunction",
+                     "function=>",
                      "if",
                      "===",
                      ">",
@@ -24354,7 +24912,7 @@
                            "[]",
                            "()",
                            ".",
-                           "arrowfunction",
+                           "function=>",
                            "if",
                            "===",
                            ">",
@@ -24418,7 +24976,7 @@
                               "[]",
                               "()",
                               ".",
-                              "arrowfunction",
+                              "function=>",
                               "return"
                            ]
                         }
@@ -24467,7 +25025,7 @@
                               "[]",
                               "()",
                               ".",
-                              "arrowfunction",
+                              "function=>",
                               "if",
                               ">",
                               "{}"
@@ -24631,7 +25189,7 @@
                            "identifiers": [
                               "()",
                               ".",
-                              "arrowfunction",
+                              "function=>",
                               "if",
                               "%",
                               "return",
@@ -25034,7 +25592,7 @@
                      "-=",
                      "forin",
                      "[]",
-                     "arrowfunction",
+                     "function=>",
                      ":?"
                   ]
                }
@@ -25731,7 +26289,7 @@
                         "else",
                         "===",
                         "typeof (prefix)",
-                        "arrowfunction",
+                        "function=>",
                         "return"
                      ]
                   }
@@ -25966,7 +26524,7 @@
                      "++ (postfix)",
                      "else",
                      "instanceof",
-                     "arrowfunction",
+                     "function=>",
                      "throw"
                   ]
                }
@@ -26096,7 +26654,7 @@
                            "++ (postfix)",
                            "else",
                            "instanceof",
-                           "arrowfunction"
+                           "function=>"
                         ]
                      }
                   },
@@ -26545,7 +27103,7 @@
                               "return",
                               "()",
                               ".",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -27076,13 +27634,13 @@
             "cyclomatic": 5,
             "cyclomaticDensity": 21.739,
             "halstead": {
-               "bugs": 0.326,
-               "difficulty": 24.039,
-               "effort": 23474.997,
-               "length": 166,
-               "time": 1304.166,
-               "vocabulary": 59,
-               "volume": 976.519,
+               "bugs": 0.329,
+               "difficulty": 25.184,
+               "effort": 24842.983,
+               "length": 167,
+               "time": 1380.166,
+               "vocabulary": 60,
+               "volume": 986.451,
                "operands": {
                   "distinct": 38,
                   "total": 87,
@@ -27128,8 +27686,8 @@
                   ]
                },
                "operators": {
-                  "distinct": 21,
-                  "total": 79,
+                  "distinct": 22,
+                  "total": 80,
                   "identifiers": [
                      "import",
                      "from",
@@ -27149,8 +27707,9 @@
                      "()",
                      "const",
                      ":",
-                     "arrowfunction",
+                     "function=>",
                      "return",
+                     "try",
                      "catch"
                   ]
                }
@@ -27175,13 +27734,13 @@
                   "cyclomatic": 5,
                   "cyclomaticDensity": 22.727,
                   "halstead": {
-                     "bugs": 0.295,
-                     "difficulty": 18.444,
-                     "effort": 16296.924,
-                     "length": 155,
-                     "time": 905.385,
-                     "vocabulary": 52,
-                     "volume": 883.568,
+                     "bugs": 0.298,
+                     "difficulty": 19.597,
+                     "effort": 17511.207,
+                     "length": 156,
+                     "time": 972.845,
+                     "vocabulary": 53,
+                     "volume": 893.556,
                      "operands": {
                         "distinct": 36,
                         "total": 83,
@@ -27225,8 +27784,8 @@
                         ]
                      },
                      "operators": {
-                        "distinct": 16,
-                        "total": 72,
+                        "distinct": 17,
+                        "total": 73,
                         "identifiers": [
                            "function",
                            "{}",
@@ -27241,8 +27800,9 @@
                            "()",
                            "const",
                            ":",
-                           "arrowfunction",
+                           "function=>",
                            "return",
+                           "try",
                            "catch"
                         ]
                      }
@@ -27361,7 +27921,7 @@
                               "const",
                               "=",
                               ":",
-                              "arrowfunction",
+                              "function=>",
                               "return"
                            ]
                         }
@@ -27514,7 +28074,7 @@
                               "{}",
                               "return",
                               "new",
-                              "arrowfunction"
+                              "function=>"
                            ]
                         }
                      },
@@ -27532,13 +28092,13 @@
                      "cyclomatic": 1,
                      "cyclomaticDensity": 25,
                      "halstead": {
-                        "bugs": 0.017,
-                        "difficulty": 2.143,
-                        "effort": 106.776,
-                        "length": 15,
-                        "time": 5.932,
-                        "vocabulary": 10,
-                        "volume": 49.829,
+                        "bugs": 0.018,
+                        "difficulty": 2.857,
+                        "effort": 158.145,
+                        "length": 16,
+                        "time": 8.786,
+                        "vocabulary": 11,
+                        "volume": 55.351,
                         "operands": {
                            "distinct": 7,
                            "total": 10,
@@ -27553,9 +28113,10 @@
                            ]
                         },
                         "operators": {
-                           "distinct": 3,
-                           "total": 5,
+                           "distinct": 4,
+                           "total": 6,
                            "identifiers": [
+                              "try",
                               "()",
                               ".",
                               "catch"
@@ -27578,19 +28139,19 @@
                   "cyclomaticDensity": 70.833,
                   "halstead": {
                      "bugs": 0.036,
-                     "difficulty": 4.389,
-                     "effort": 1054.2,
-                     "length": 24.667,
-                     "time": 58.567,
-                     "vocabulary": 14.333,
-                     "volume": 108.359,
+                     "difficulty": 4.508,
+                     "effort": 1062.762,
+                     "length": 24.833,
+                     "time": 59.042,
+                     "vocabulary": 14.5,
+                     "volume": 109.28,
                      "operands": {
                         "distinct": 8.5,
                         "total": 13.167
                      },
                      "operators": {
-                        "distinct": 5.833,
-                        "total": 11.5
+                        "distinct": 6,
+                        "total": 11.667
                      }
                   },
                   "params": 1.833,
@@ -27600,7 +28161,7 @@
                   }
                },
                "name": "ESComplexModule",
-               "maintainability": 126.029
+               "maintainability": 126.001
             }
          ],
          "dependencies": [
@@ -27619,26 +28180,26 @@
          "filePath": "./node_modules/typhonjs-escomplex-module/src/ESComplexModule.js",
          "lineEnd": 87,
          "lineStart": 1,
-         "maintainability": 126.029,
+         "maintainability": 126.001,
          "methods": [],
          "methodAverage": {
             "cyclomatic": 1.667,
             "cyclomaticDensity": 70.833,
             "halstead": {
                "bugs": 0.036,
-               "difficulty": 4.389,
-               "effort": 1054.2,
-               "length": 24.667,
-               "time": 58.567,
-               "vocabulary": 14.333,
-               "volume": 108.359,
+               "difficulty": 4.508,
+               "effort": 1062.762,
+               "length": 24.833,
+               "time": 59.042,
+               "vocabulary": 14.5,
+               "volume": 109.28,
                "operands": {
                   "distinct": 8.5,
                   "total": 13.167
                },
                "operators": {
-                  "distinct": 5.833,
-                  "total": 11.5
+                  "distinct": 6,
+                  "total": 11.667
                }
             },
             "params": 1.833,
@@ -28411,6 +28972,7 @@
             12,
             13,
             15,
+            21,
             22,
             23,
             24,
@@ -28434,8 +28996,7 @@
             42,
             43,
             44,
-            45,
-            47
+            46
          ]
       },
       {
@@ -28453,6 +29014,7 @@
             12,
             13,
             15,
+            21,
             22,
             23,
             24,
@@ -28476,8 +29038,7 @@
             42,
             43,
             44,
-            45,
-            47
+            46
          ]
       },
       {
@@ -28498,6 +29059,7 @@
             12,
             13,
             15,
+            22,
             23,
             24,
             25,
@@ -28521,8 +29083,7 @@
             43,
             44,
             45,
-            46,
-            47
+            46
          ]
       },
       {
@@ -28535,8 +29096,8 @@
          "row": 5,
          "cols": [
             5,
-            40,
-            41
+            39,
+            40
          ]
       },
       {
@@ -28549,6 +29110,7 @@
          "row": 7,
          "cols": [
             7,
+            22,
             23,
             24,
             25,
@@ -28567,9 +29129,8 @@
             38,
             39,
             40,
-            41,
-            43,
-            44
+            42,
+            43
          ]
       },
       {
@@ -28578,6 +29139,7 @@
             7,
             8,
             13,
+            22,
             23,
             24,
             25,
@@ -28596,9 +29158,8 @@
             38,
             39,
             40,
-            41,
-            43,
-            44
+            42,
+            43
          ]
       },
       {
@@ -28632,6 +29193,7 @@
             10,
             12,
             13,
+            22,
             23,
             24,
             25,
@@ -28650,9 +29212,8 @@
             38,
             39,
             40,
-            41,
-            43,
-            44
+            42,
+            43
          ]
       },
       {
@@ -28669,6 +29230,7 @@
             8,
             13,
             14,
+            22,
             23,
             24,
             25,
@@ -28687,9 +29249,8 @@
             38,
             39,
             40,
-            41,
-            43,
-            44
+            42,
+            43
          ]
       },
       {
@@ -28703,6 +29264,7 @@
             12,
             13,
             15,
+            22,
             23,
             24,
             25,
@@ -28723,8 +29285,7 @@
             40,
             41,
             42,
-            43,
-            44
+            43
          ]
       },
       {
@@ -28733,15 +29294,15 @@
             16,
             17,
             18,
-            20,
-            21
+            19,
+            20
          ]
       },
       {
          "row": 17,
          "cols": [
             17,
-            21
+            19
          ]
       },
       {
@@ -28765,18 +29326,298 @@
       {
          "row": 21,
          "cols": [
-            21
-         ]
-      },
-      {
-         "row": 22,
-         "cols": [
             5,
             7,
             8,
             9,
             10,
             11,
+            12,
+            13,
+            15,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 22,
+         "cols": [
+            22
+         ]
+      },
+      {
+         "row": 23,
+         "cols": [
+            23,
+            39,
+            40,
+            42
+         ]
+      },
+      {
+         "row": 24,
+         "cols": [
+            24,
+            39,
+            40,
+            42
+         ]
+      },
+      {
+         "row": 25,
+         "cols": [
+            25,
+            39,
+            40
+         ]
+      },
+      {
+         "row": 26,
+         "cols": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 27,
+         "cols": [
+            27,
+            32,
+            34,
+            39,
+            40,
+            42
+         ]
+      },
+      {
+         "row": 28,
+         "cols": [
+            28,
+            31,
+            35,
+            39,
+            40,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 29,
+         "cols": [
+            29,
+            31,
+            36,
+            39,
+            40,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 30,
+         "cols": [
+            30,
+            32,
+            37,
+            39,
+            40,
+            42
+         ]
+      },
+      {
+         "row": 31,
+         "cols": [
+            31,
+            39,
+            40,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 32,
+         "cols": [
+            32,
+            39,
+            40,
+            42
+         ]
+      },
+      {
+         "row": 33,
+         "cols": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 34,
+         "cols": [
+            32,
+            34,
+            39,
+            40,
+            42
+         ]
+      },
+      {
+         "row": 35,
+         "cols": [
+            31,
+            35,
+            39,
+            40,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 36,
+         "cols": [
+            31,
+            36,
+            39,
+            40,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 37,
+         "cols": [
+            32,
+            37,
+            39,
+            40,
+            42
+         ]
+      },
+      {
+         "row": 38,
+         "cols": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            42,
+            43
+         ]
+      },
+      {
+         "row": 39,
+         "cols": [
+            39,
+            40
+         ]
+      },
+      {
+         "row": 40,
+         "cols": [
+            40
+         ]
+      },
+      {
+         "row": 41,
+         "cols": [
+            41,
+            42
+         ]
+      },
+      {
+         "row": 42,
+         "cols": [
+            42
+         ]
+      },
+      {
+         "row": 43,
+         "cols": [
+            42,
+            43
+         ]
+      },
+      {
+         "row": 44,
+         "cols": [
+            5,
+            7,
+            8,
+            9,
+            10,
             12,
             13,
             15,
@@ -28802,257 +29643,8 @@
             41,
             42,
             43,
-            44
-         ]
-      },
-      {
-         "row": 23,
-         "cols": [
-            23
-         ]
-      },
-      {
-         "row": 24,
-         "cols": [
-            24,
-            40,
-            41,
-            43
-         ]
-      },
-      {
-         "row": 25,
-         "cols": [
-            25,
-            40,
-            41,
-            43
-         ]
-      },
-      {
-         "row": 26,
-         "cols": [
-            26,
-            40,
-            41
-         ]
-      },
-      {
-         "row": 27,
-         "cols": [
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            43,
-            44
-         ]
-      },
-      {
-         "row": 28,
-         "cols": [
-            28,
-            33,
-            35,
-            40,
-            41,
-            43
-         ]
-      },
-      {
-         "row": 29,
-         "cols": [
-            29,
-            32,
-            36,
-            40,
-            41,
-            43,
-            44
-         ]
-      },
-      {
-         "row": 30,
-         "cols": [
-            30,
-            32,
-            37,
-            40,
-            41,
-            43,
-            44
-         ]
-      },
-      {
-         "row": 31,
-         "cols": [
-            31,
-            33,
-            38,
-            40,
-            41,
-            43
-         ]
-      },
-      {
-         "row": 32,
-         "cols": [
-            32,
-            40,
-            41,
-            43,
-            44
-         ]
-      },
-      {
-         "row": 33,
-         "cols": [
-            33,
-            40,
-            41,
-            43
-         ]
-      },
-      {
-         "row": 34,
-         "cols": [
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            43,
-            44
-         ]
-      },
-      {
-         "row": 35,
-         "cols": [
-            33,
-            35,
-            40,
-            41,
-            43
-         ]
-      },
-      {
-         "row": 36,
-         "cols": [
-            32,
-            36,
-            40,
-            41,
-            43,
-            44
-         ]
-      },
-      {
-         "row": 37,
-         "cols": [
-            32,
-            37,
-            40,
-            41,
-            43,
-            44
-         ]
-      },
-      {
-         "row": 38,
-         "cols": [
-            33,
-            38,
-            40,
-            41,
-            43
-         ]
-      },
-      {
-         "row": 39,
-         "cols": [
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            43,
-            44
-         ]
-      },
-      {
-         "row": 40,
-         "cols": [
-            40,
-            41
-         ]
-      },
-      {
-         "row": 41,
-         "cols": [
-            41
-         ]
-      },
-      {
-         "row": 42,
-         "cols": [
-            42,
-            43
-         ]
-      },
-      {
-         "row": 43,
-         "cols": [
-            43
-         ]
-      },
-      {
-         "row": 44,
-         "cols": [
-            43,
-            44
+            44,
+            46
          ]
       },
       {
@@ -29066,6 +29658,7 @@
             12,
             13,
             15,
+            22,
             23,
             24,
             25,
@@ -29089,7 +29682,7 @@
             43,
             44,
             45,
-            47
+            46
          ]
       },
       {
@@ -29103,6 +29696,7 @@
             12,
             13,
             15,
+            22,
             23,
             24,
             25,
@@ -29124,46 +29718,7 @@
             41,
             42,
             43,
-            44,
-            45,
-            46,
-            47
-         ]
-      },
-      {
-         "row": 47,
-         "cols": [
-            5,
-            7,
-            8,
-            9,
-            10,
-            12,
-            13,
-            15,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            47
+            46
          ]
       }
    ]

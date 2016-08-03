@@ -117,7 +117,7 @@
             "for",
             "++ (postfix)",
             "else",
-            "arrowfunction",
+            "function=>",
             ":"
          ]
       }
