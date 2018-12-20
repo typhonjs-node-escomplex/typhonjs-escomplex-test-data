@@ -39,7 +39,7 @@
    },
    "modules": [
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 17,
             "cyclomaticDensity": 26.984,
             "halstead": {
@@ -179,7 +179,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 17,
                   "cyclomaticDensity": 27.419,
                   "halstead": {
@@ -835,7 +835,7 @@
          "srcPath": "./src/ESComplexProject.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 0,
             "halstead": {
@@ -930,7 +930,7 @@
          "srcPath": "./src/index.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 7,
             "cyclomaticDensity": 36.842,
             "halstead": {
@@ -1021,7 +1021,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 7,
                   "cyclomaticDensity": 38.889,
                   "halstead": {
@@ -1385,7 +1385,7 @@
          "srcPath": "./src/Plugins.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 0,
             "halstead": {
@@ -1470,7 +1470,7 @@
          "srcPath": "./test/fixture/testImportNPMAlias.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 100,
             "halstead": {
@@ -1551,7 +1551,7 @@
          "srcPath": "./test/fixture/testRequireNPMAlias.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 7,
             "cyclomaticDensity": 53.846,
             "halstead": {
@@ -1645,7 +1645,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 7,
                   "cyclomaticDensity": 58.333,
                   "halstead": {
@@ -1964,7 +1964,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/analyze/AnalyzeError.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 8,
             "cyclomaticDensity": 53.333,
             "halstead": {
@@ -2052,7 +2052,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 4,
                   "cyclomaticDensity": 80,
                   "halstead": {
@@ -2338,7 +2338,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/plugin/syntax/AbstractSyntaxLoader.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 3,
             "cyclomaticDensity": 25,
             "halstead": {
@@ -2360,7 +2360,7 @@
                      "aggregateMethodReport",
                      "0",
                      "this",
-                     "methodAggregate",
+                     "aggregate",
                      "\"undefined\"",
                      "incrementDistinctHalsteadItems",
                      "metric",
@@ -2427,7 +2427,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 3,
                   "cyclomaticDensity": 27.273,
                   "halstead": {
@@ -2447,7 +2447,7 @@
                            "aggregateMethodReport",
                            "0",
                            "this",
-                           "methodAggregate",
+                           "aggregate",
                            "\"undefined\"",
                            "incrementDistinctHalsteadItems",
                            "metric",
@@ -2522,7 +2522,7 @@
                               "aggregateMethodReport",
                               "0",
                               "this",
-                              "methodAggregate"
+                              "aggregate"
                            ]
                         },
                         "operators": {
@@ -2561,7 +2561,7 @@
                            "total": 6,
                            "identifiers": [
                               "this",
-                              "methodAggregate",
+                              "aggregate",
                               "\"undefined\""
                            ]
                         },
@@ -2922,7 +2922,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/report/AbstractReport.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 11.111,
             "halstead": {
@@ -2995,7 +2995,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 12.5,
                   "halstead": {
@@ -3189,7 +3189,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/report/AggregateMethodReport.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 7.143,
             "halstead": {
@@ -3252,7 +3252,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 7.692,
                   "halstead": {
@@ -3424,7 +3424,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/report/averages/HalsteadAverage.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 12.5,
             "halstead": {
@@ -3488,7 +3488,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 14.286,
                   "halstead": {
@@ -3662,7 +3662,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/report/averages/MethodAverage.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 33.333,
             "halstead": {
@@ -3719,7 +3719,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 50,
                   "halstead": {
@@ -3879,7 +3879,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/report/averages/ModuleAverage.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 11,
             "cyclomaticDensity": 22.917,
             "halstead": {
@@ -4012,7 +4012,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 11,
                   "cyclomaticDensity": 23.404,
                   "halstead": {
@@ -4900,7 +4900,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/report/ClassReport.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 3,
             "cyclomaticDensity": 10.345,
             "halstead": {
@@ -4979,7 +4979,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 3,
                   "cyclomaticDensity": 10.714,
                   "halstead": {
@@ -5267,7 +5267,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/report/HalsteadData.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 6,
             "cyclomaticDensity": 23.077,
             "halstead": {
@@ -5372,7 +5372,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 6,
                   "cyclomaticDensity": 24,
                   "halstead": {
@@ -5866,7 +5866,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/report/MethodReport.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 42,
             "cyclomaticDensity": 29.167,
             "halstead": {
@@ -5986,7 +5986,7 @@
                      "incrementHalsteadItems",
                      "incrementCyclomatic",
                      "amount",
-                     "methodAggregate",
+                     "aggregate",
                      "cyclomatic",
                      "incrementLogicalSloc",
                      "sloc",
@@ -6068,7 +6068,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 42,
                   "cyclomaticDensity": 29.371,
                   "halstead": {
@@ -6176,7 +6176,7 @@
                            "incrementHalsteadItems",
                            "incrementCyclomatic",
                            "amount",
-                           "methodAggregate",
+                           "aggregate",
                            "cyclomatic",
                            "incrementLogicalSloc",
                            "sloc",
@@ -7311,7 +7311,7 @@
                               "getCurrentClassReport",
                               "currentMethodReport",
                               "getCurrentMethodReport",
-                              "methodAggregate",
+                              "aggregate",
                               "cyclomatic"
                            ]
                         },
@@ -7359,7 +7359,7 @@
                               "getCurrentClassReport",
                               "currentMethodReport",
                               "getCurrentMethodReport",
-                              "methodAggregate",
+                              "aggregate",
                               "sloc",
                               "logical"
                            ]
@@ -7879,7 +7879,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/report/ModuleReport.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 11.111,
             "halstead": {
@@ -8066,7 +8066,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/traits/actualize.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 8,
             "cyclomaticDensity": 38.095,
             "halstead": {
@@ -8173,7 +8173,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 8,
                   "cyclomaticDensity": 40,
                   "halstead": {
@@ -8829,7 +8829,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/traits/HalsteadArray.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 5,
             "cyclomaticDensity": 50,
             "halstead": {
@@ -8906,7 +8906,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 5,
                   "cyclomaticDensity": 55.556,
                   "halstead": {
@@ -9260,7 +9260,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/traits/Trait.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 14,
             "cyclomaticDensity": 63.636,
             "halstead": {
@@ -9352,7 +9352,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 14,
                   "cyclomaticDensity": 66.667,
                   "halstead": {
@@ -9832,7 +9832,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/traits/TraitHalstead.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 53,
             "cyclomaticDensity": 88.333,
             "halstead": {
@@ -9939,7 +9939,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 53,
                   "cyclomaticDensity": 89.831,
                   "halstead": {
@@ -10495,7 +10495,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/module/traits/TraitUtil.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 24,
             "cyclomaticDensity": 32.877,
             "halstead": {
@@ -10659,7 +10659,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 24,
                   "cyclomaticDensity": 33.333,
                   "halstead": {
@@ -11812,7 +11812,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/project/report/ProjectReport.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 3,
             "cyclomaticDensity": 50,
             "halstead": {
@@ -11884,7 +11884,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 3,
                   "cyclomaticDensity": 60,
                   "halstead": {
@@ -12210,7 +12210,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/json/FormatJSON.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 29,
             "cyclomaticDensity": 23.577,
             "halstead": {
@@ -12398,7 +12398,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 29,
                   "cyclomaticDensity": 29,
                   "halstead": {
@@ -13129,7 +13129,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONCheckstyle.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 38,
             "cyclomaticDensity": 34.234,
             "halstead": {
@@ -13278,7 +13278,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 38,
                   "cyclomaticDensity": 36.19,
                   "halstead": {
@@ -14333,7 +14333,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONMinimal.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 10,
             "cyclomaticDensity": 28.571,
             "halstead": {
@@ -14442,7 +14442,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 10,
                   "cyclomaticDensity": 29.412,
                   "halstead": {
@@ -14973,7 +14973,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/json/FormatJSONModules.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 8.333,
             "halstead": {
@@ -15077,7 +15077,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 33.333,
                   "halstead": {
@@ -15331,7 +15331,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdown.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 12.5,
             "halstead": {
@@ -15405,7 +15405,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 33.333,
                   "halstead": {
@@ -15646,7 +15646,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownAdjacency.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 8.333,
             "halstead": {
@@ -15750,7 +15750,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 33.333,
                   "halstead": {
@@ -15996,7 +15996,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownMinimal.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 16.667,
             "halstead": {
@@ -16082,7 +16082,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 33.333,
                   "halstead": {
@@ -16328,7 +16328,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownModules.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 12.5,
             "halstead": {
@@ -16402,7 +16402,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 33.333,
                   "halstead": {
@@ -16643,7 +16643,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/markdown/FormatMarkdownVisibility.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 36,
             "cyclomaticDensity": 36.735,
             "halstead": {
@@ -16819,7 +16819,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 36,
                   "cyclomaticDensity": 37.113,
                   "halstead": {
@@ -17969,7 +17969,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/AbstractFormatText.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 12,
             "cyclomaticDensity": 29.268,
             "halstead": {
@@ -18103,7 +18103,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 12,
                   "cyclomaticDensity": 30,
                   "halstead": {
@@ -18692,7 +18692,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/AbstractTextMatrix.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 12,
             "cyclomaticDensity": 29.268,
             "halstead": {
@@ -18892,7 +18892,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 12,
                   "cyclomaticDensity": 48,
                   "halstead": {
@@ -19353,7 +19353,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/FormatText.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 9.091,
             "halstead": {
@@ -19431,7 +19431,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 25,
                   "halstead": {
@@ -19712,7 +19712,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/FormatTextAdjacency.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 6,
             "cyclomaticDensity": 23.077,
             "halstead": {
@@ -19834,7 +19834,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 6,
                   "cyclomaticDensity": 46.154,
                   "halstead": {
@@ -20186,7 +20186,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/FormatTextMinimal.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 3,
             "cyclomaticDensity": 23.077,
             "halstead": {
@@ -20283,7 +20283,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 3,
                   "cyclomaticDensity": 30,
                   "halstead": {
@@ -20627,7 +20627,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/FormatTextModules.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 9.091,
             "halstead": {
@@ -20705,7 +20705,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 25,
                   "halstead": {
@@ -20986,7 +20986,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/formats/text/FormatTextVisibility.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 18,
             "cyclomaticDensity": 30,
             "halstead": {
@@ -21135,7 +21135,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 18,
                   "cyclomaticDensity": 40.909,
                   "halstead": {
@@ -21879,7 +21879,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/transform/TransformFormat.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 8.333,
             "halstead": {
@@ -21943,7 +21943,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 1,
                   "cyclomaticDensity": 0,
                   "halstead": {
@@ -22050,7 +22050,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/types/ReportType.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 5,
             "cyclomaticDensity": 11.628,
             "halstead": {
@@ -22166,7 +22166,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 5,
                   "cyclomaticDensity": 14.286,
                   "halstead": {
@@ -22807,7 +22807,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/utils/Enum.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 10,
             "cyclomaticDensity": 33.333,
             "halstead": {
@@ -22923,7 +22923,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 10,
                   "cyclomaticDensity": 34.483,
                   "halstead": {
@@ -23513,7 +23513,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/utils/MathUtil.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 34,
             "cyclomaticDensity": 38.636,
             "halstead": {
@@ -23644,7 +23644,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 27,
                   "cyclomaticDensity": 44.262,
                   "halstead": {
@@ -24285,7 +24285,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/utils/ObjectUtil.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 22,
             "cyclomaticDensity": 39.286,
             "halstead": {
@@ -24437,7 +24437,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 15,
                   "cyclomaticDensity": 44.118,
                   "halstead": {
@@ -25037,7 +25037,7 @@
                "maintainability": 122.189
             },
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 8,
                   "cyclomaticDensity": 40,
                   "halstead": {
@@ -25447,7 +25447,7 @@
          "srcPath": "typhonjs-escomplex-commons/src/utils/StringUtil.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 5,
             "cyclomaticDensity": 21.739,
             "halstead": {
@@ -25547,7 +25547,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 5,
                   "cyclomaticDensity": 22.727,
                   "halstead": {
@@ -26003,7 +26003,7 @@
          "srcPath": "typhonjs-escomplex-module/src/ESComplexModule.js"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 1,
             "cyclomaticDensity": 0,
             "halstead": {
@@ -26092,7 +26092,7 @@
          "srcPathAlias": "typhonjs-escomplex-module"
       },
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 6,
             "cyclomaticDensity": 17.143,
             "halstead": {
@@ -26199,7 +26199,7 @@
          },
          "classes": [
             {
-               "methodAggregate": {
+               "aggregate": {
                   "cyclomatic": 6,
                   "cyclomaticDensity": 17.647,
                   "halstead": {

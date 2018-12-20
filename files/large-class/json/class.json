@@ -1,5 +1,5 @@
 {
-   "methodAggregate": {
+   "aggregate": {
       "cyclomatic": 86,
       "cyclomaticDensity": 36.441,
       "halstead": {

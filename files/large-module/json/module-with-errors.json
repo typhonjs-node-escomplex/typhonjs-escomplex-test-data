@@ -1,5 +1,5 @@
 {
-   "methodAggregate": {
+   "aggregate": {
       "cyclomatic": 105,
       "cyclomaticDensity": 28.767,
       "halstead": {
@@ -312,7 +312,7 @@
    },
    "classes": [
       {
-         "methodAggregate": {
+         "aggregate": {
             "cyclomatic": 86,
             "cyclomaticDensity": 36.441,
             "halstead": {
