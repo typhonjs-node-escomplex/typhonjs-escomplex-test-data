@@ -26,6 +26,7 @@
   ],
   "files": [
     "files",
+    "project",
     "AUTHORS.md"
   ],
   "directories": {},
